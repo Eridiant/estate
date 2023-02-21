@@ -1,0 +1,6 @@
+RewriteEngine on
+# если это папка или файл, открываем его
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# в противном случае перенаправляем на index.php
+RewriteRule . index.php

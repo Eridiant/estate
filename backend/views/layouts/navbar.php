@@ -53,7 +53,7 @@ use yii\helpers\Html;
     </ul>
 
     <!-- SEARCH FORM -->
-    <form class="form-inline ml-3">
+    <!-- <form class="form-inline ml-3">
         <div class="input-group input-group-sm">
             <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
             <div class="input-group-append">
@@ -62,12 +62,12 @@ use yii\helpers\Html;
                 </button>
             </div>
         </div>
-    </form>
+    </form> -->
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
         <!-- Navbar Search -->
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" data-widget="navbar-search" href="#" role="button">
                 <i class="fas fa-search"></i>
             </a>
@@ -86,7 +86,7 @@ use yii\helpers\Html;
                     </div>
                 </form>
             </div>
-        </li>
+        </li> -->
 
         <!-- Messages Dropdown Menu -->
         <li class="nav-item dropdown">

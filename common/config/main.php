@@ -10,7 +10,7 @@ return [
             'class' => \yii\caching\FileCache::class,
         ],
         'mailer' =>[
-            'class' => '\yii\symfonymailer\Mailer',
+            'class' => 'yii\swiftmailer\Mailer',
             'useFileTransport' => false,
         ],
     ],

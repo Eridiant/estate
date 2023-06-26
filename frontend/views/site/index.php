@@ -135,7 +135,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -200,7 +200,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-3.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -265,7 +265,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -330,7 +330,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -395,7 +395,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -460,7 +460,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -525,7 +525,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -590,7 +590,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -655,7 +655,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -720,7 +720,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -785,7 +785,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -850,7 +850,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -915,7 +915,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -980,7 +980,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1045,7 +1045,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1110,7 +1110,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1175,7 +1175,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1240,7 +1240,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1305,7 +1305,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1370,7 +1370,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1435,7 +1435,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1500,7 +1500,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1565,7 +1565,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-23.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1630,7 +1630,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
@@ -1695,7 +1695,7 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>

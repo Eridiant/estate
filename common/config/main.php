@@ -9,5 +9,9 @@ return [
         'cache' => [
             'class' => \yii\caching\FileCache::class,
         ],
+        'mailer' =>[
+            'class' => 'yii\swiftmailer\Mailer',
+            'useFileTransport' => false,
+        ],
     ],
 ];

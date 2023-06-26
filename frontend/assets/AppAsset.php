@@ -13,11 +13,23 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/app.min.css',
     ];
     public $js = [
+        'js/site.js',
+        'js/app.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap5\BootstrapAsset',
+        // 'yii\bootstrap5\BootstrapAsset',
     ];
+    public function init()
+    {
+        parent::init();
+        // resetting BootstrapAsset to not load own css files
+        \Yii::$app->assetManager->bundles['yii\\bootstrap4\\BootstrapAsset'] = [
+            'css' => [],
+            'js' => []
+        ];
+    }
 }

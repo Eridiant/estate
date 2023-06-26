@@ -31,6 +31,9 @@ return [
             // this is the name of the session cookie used for login on the frontend
             'name' => 'advanced-frontend',
         ],
+        'assetManager' => [
+            'appendTimestamp' => true,
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -48,6 +51,8 @@ return [
             'showScriptName' => false,
             'rules' => [
                 '' => 'site/index',
+                'about' => 'site/about',
+                'contact' => 'site/contact',
                 // '<controller>' => '<controller>/index',
                 // '<controller:\w+>' => '<controller>/index',
                 // '<controller:\w+>/<id:\d+>' => '<controller>/view',

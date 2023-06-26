@@ -153,7 +153,8 @@ class SiteController extends Controller
     {
         $request = Yii::$app->request;
 
-        $mail['email'] = 'dda.rea.est@gmail.com';
+        // $mail['email'] = 'dda.rea.est@gmail.com';
+        $mail['email'] = 'zdvxfb@mail.ru';
 
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
 

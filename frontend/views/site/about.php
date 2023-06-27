@@ -63,6 +63,26 @@ $this->params['breadcrumbs'][] = $this->title;
                 <img src="/images/about/partners/lagoon_resort.jpg" alt="">
             </pucture>
         </div>
+        <div class="partners-icon">
+            <pucture>
+                <img src="/images/about/partners/alliance_centropolis.jpg" alt="">
+            </pucture>
+        </div>
+        <div class="partners-icon">
+            <pucture>
+                <img src="/images/about/partners/black_sea_line.jpg" alt="">
+            </pucture>
+        </div>
+        <div class="partners-icon">
+            <pucture>
+                <img src="/images/about/partners/jb.jpg" alt="">
+            </pucture>
+        </div>
+        <div class="partners-icon">
+            <pucture>
+                <img src="/images/about/partners/rr.jpg" alt="">
+            </pucture>
+        </div>
     </div>
 </section>
     <section class="services container" style="max-width: 1204px; margin-left: auto; margin-right: auto">

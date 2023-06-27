@@ -23,7 +23,7 @@ use yii\helpers\Url;
             </div>
             <div class="header-localization michroma">
                 <div class="dropdown">
-                    <div class="select"><span>kz</span></div>
+                    <div class="select"><span>ru</span></div>
                     <div class="dropdown-options">
                         <span>kz</span>
                         <span>en</span>
@@ -34,7 +34,7 @@ use yii\helpers\Url;
                     <ul>
                         <li>
                             <span>
-                                <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                             </span>
                             <span>
                                 <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -52,7 +52,7 @@ use yii\helpers\Url;
                         </li>
                         <li>
                             <span>
-                                <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                                <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                             </span>
                             <span>
                                 <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>

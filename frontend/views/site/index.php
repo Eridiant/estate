@@ -70,10 +70,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-1.jpg" alt="">
+                        <img src="/images/index/projects/projects-1.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -96,8 +96,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -105,8 +105,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -114,8 +114,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -123,7 +123,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -135,10 +135,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -161,8 +161,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -170,8 +170,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -179,8 +179,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -188,7 +188,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -200,10 +200,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-3.jpg" alt="">
+                        <img src="/images/index/projects/projects-3.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -226,8 +226,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -235,8 +235,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -244,8 +244,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -253,7 +253,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -265,10 +265,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -291,8 +291,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -300,8 +300,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -309,8 +309,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -318,7 +318,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -330,10 +330,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -356,8 +356,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -365,8 +365,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -374,8 +374,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -383,7 +383,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -395,10 +395,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -421,8 +421,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -430,8 +430,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -439,8 +439,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -448,7 +448,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -460,10 +460,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -486,8 +486,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -495,8 +495,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -504,8 +504,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -513,7 +513,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -525,10 +525,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -551,8 +551,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -560,8 +560,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -569,8 +569,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -578,7 +578,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -590,10 +590,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -616,8 +616,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -625,8 +625,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -634,8 +634,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -643,7 +643,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -655,10 +655,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -681,8 +681,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -690,8 +690,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -699,8 +699,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -708,7 +708,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -720,10 +720,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -746,8 +746,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -755,8 +755,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -764,8 +764,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -773,7 +773,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -785,10 +785,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -811,8 +811,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -820,8 +820,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -829,8 +829,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -838,7 +838,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -850,10 +850,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -876,8 +876,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -885,8 +885,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -894,8 +894,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -903,7 +903,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -915,10 +915,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -941,8 +941,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -950,8 +950,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -959,8 +959,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -968,7 +968,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -980,10 +980,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1006,8 +1006,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1015,8 +1015,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1024,8 +1024,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1033,7 +1033,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1045,10 +1045,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1071,8 +1071,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1080,8 +1080,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1089,8 +1089,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1098,7 +1098,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1110,10 +1110,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1136,8 +1136,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1145,8 +1145,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1154,8 +1154,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1163,7 +1163,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1175,10 +1175,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1201,8 +1201,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1210,8 +1210,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1219,8 +1219,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1228,7 +1228,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1240,10 +1240,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1266,8 +1266,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1275,8 +1275,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1284,8 +1284,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1293,7 +1293,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1305,10 +1305,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1331,8 +1331,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1340,8 +1340,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1349,8 +1349,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1358,7 +1358,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1370,10 +1370,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1396,8 +1396,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1405,8 +1405,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1414,8 +1414,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1423,7 +1423,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1435,10 +1435,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1461,8 +1461,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1470,8 +1470,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1479,8 +1479,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1488,7 +1488,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1500,10 +1500,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1526,8 +1526,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1535,8 +1535,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1544,8 +1544,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1553,7 +1553,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1565,10 +1565,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-23.jpg" alt="">
+                        <img src="/images/index/projects/projects-23.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1591,8 +1591,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1600,8 +1600,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1609,8 +1609,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1618,7 +1618,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1630,10 +1630,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1656,8 +1656,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1665,8 +1665,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1674,8 +1674,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1683,7 +1683,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -1695,10 +1695,10 @@ $this->title = 'My Application';
             <div class="swiper-slide destination">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
                 </div>
-                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#small-arrow"></use></svg></a>
+                <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
                     <header>
                         <p class="subtitle dn">лофт</p>
@@ -1721,8 +1721,8 @@ $this->title = 'My Application';
                                         <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1730,8 +1730,8 @@ $this->title = 'My Application';
                                         <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1739,8 +1739,8 @@ $this->title = 'My Application';
                                         <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                                     </span>
                                     <span>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
-                                        <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1748,7 +1748,7 @@ $this->title = 'My Application';
                                 <a href="" class="btn-black btn form-target">
                                     <span>
                                         <span>Хочу этот объект</span>
-                                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                     </span>
                                 </a>
                             </div>
@@ -2454,8 +2454,38 @@ $this->title = 'My Application';
     </div>
     <div class="form-wrapper">
         <p class="title">Получите консультацию</p>
-        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону <a href="tel:+77002100685">+7 700 210 06 85</a></p>
-
+        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону</p>
+        <div class="header-localization-links">
+            <ul>
+                <li>
+                    <span>
+                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                    </span>
+                    <span>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                    </span>
+                    <span>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                    </span>
+                    <span>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    </span>
+                </li>
+            </ul>
+        </div>
         <form class="form-form" action="#" method="post">
             <div class="form-inner">
                 <div class="form-inner-fl">
@@ -2501,13 +2531,18 @@ $this->title = 'My Application';
         <p>
             Выбирая нашу Компанию, Вы можете быть уверены, что получите лучший сервис и профессиональную помощь в решении всех вопросов, связанных с недвижимостью. Мы всегда готовы помочь Вам достигнуть ваших целей в сфере недвижимости и обеспечить высококачественный сервис.
         </p>
-        <a href="#" class="company-btn btn">
-            <span>
-                <span>Подробнее</span>
-            </span>
-            <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
-        </a>
     </div>
+    <div class="company-img">
+        <picture>
+            <img src="images/about/about.jpg" alt="">
+        </picture>
+    </div>
+    <a href="#" class="company-btn btn">
+        <span>
+            <span>Подробнее</span>
+        </span>
+        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
+    </a>
     <!-- <div class="company-video">
         <video src="#"></video>
     </div> -->

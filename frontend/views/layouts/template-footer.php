@@ -10,7 +10,7 @@ use yii\helpers\Url;
             <a href="/" class="icon">
                 <img src="/images/logo.png" alt="logo">
             </a>
-            <p>© DDA REAL ESTATE 2007</p>
+            <p>© DDA REAL ESTATE 2007-<?= date('Y'); ?></p>
             <!-- <a href="privacy-policy.html">Политика конфиденциальности </a> -->
         </div>
         <div class="footer-column footer-link">
@@ -19,21 +19,39 @@ use yii\helpers\Url;
                 <li><a href="<?= Url::toRoute('/about'); ?>">About</a></li>
                 <li><a href="<?= Url::toRoute('/contact'); ?>">Contacts</a></li>
             </ul>
+            <a href="mailto:dda.rea.est@gmail.com" class="border dt"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> dda.rea.est@gmail.com</a>
         </div>
         <div class="footer-column">
-            <div class="footer-inner michroma">
-                <a href="https://telegram.com" target="_blank"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                <a href="https://whatsapp.com" target="_blank"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                <div class="phone-link">
-                    <a href="tel:+77002100685">+7 700 210 06 85</a>
-                </div>
-                <div class="country-selection select">
-                    <select>
-                        <option value="kz">kz</option>
-                        <option value="ru">ru</option>
-                        <option value="gr">gr</option>
-                    </select>
-                </div>
+            <div class="header-localization-links footer-inner">
+                <ul>
+                    <li>
+                        <span>
+                            <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                        </span>
+                        <span>
+                            <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                        </span>
+                        <span>
+                            <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                        </span>
+                        <span>
+                            <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                        </span>
+                    </li>
+                </ul>
             </div>
             <div class="footer-inner">
                 Соцсети:
@@ -42,7 +60,7 @@ use yii\helpers\Url;
                 <a href="https://facebook.com" target="_blank"><svg width="24" height="25"><use xlink:href="/images/icons.svg#whatsapp"></use></svg></a>
             </div>
             <div class="footer-inner">
-                <a href="mailto:dda.rea.est@gmail.com" class="border"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> dda.rea.est@gmail.com</a>
+                <a href="mailto:dda.rea.est@gmail.com" class="border mb"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> dda.rea.est@gmail.com</a>
             </div>
         </div>
     </div>
@@ -98,7 +116,38 @@ use yii\helpers\Url;
         <div class="form-inner">
             <div class="form-wrapper">
                 <p class="caption">Получите консультацию</p>
-                <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону <a href="tel:+77002100685">+7 700 210 06 85</a></p>
+                <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону</p>
+                <div class="header-localization-links">
+                    <ul>
+                        <li>
+                            <span>
+                                <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                            </span>
+                            <span>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                            </span>
+                            <span>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                            </span>
+                            <span>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
                 <form id="form" class="form-form" action="#" method="post">
                     <div class="form-inner">
                         <div class="form-inner-fl">
@@ -147,6 +196,13 @@ use yii\helpers\Url;
 </div>
 
 <div class="cont-container" style="max-width: 1600px; margin-left: auto; margin-right: auto">
+    <div class="cont-wrapper cont-wa">
+        <div class="cont-inner">
+            <a href="#" class="cont-wa-link">
+                <svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg>
+            </a>
+        </div>
+    </div>
     <div class="cont-wrapper">
         <div class="cont-inner form-target">
             <svg width="24" height="24"><use xlink:href="/images/icons.svg#contact"></use></svg>

@@ -68,28 +68,28 @@ $this->params['breadcrumbs'][] = $this->title;
                 <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-1.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-3.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-4.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-1.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-5.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-6.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-1.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-7.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-8.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-1.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-9.jpg">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-10.jpg">
             </div>
         </div>
         <div class="swiper-pagination pagination"></div>
@@ -103,8 +103,38 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="form-wrapper">
         <p class="title">Получите консультацию</p>
-        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону <a href="tel:+77002100685">+7 700 210 06 85</a></p>
-
+        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону</p>
+        <div class="header-localization-links">
+            <ul>
+                <li>
+                    <span>
+                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                    </span>
+                    <span>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                    </span>
+                    <span>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                    </span>
+                    <span>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    </span>
+                </li>
+            </ul>
+        </div>
         <form class="form-form" action="#" method="post">
             <div class="form-inner">
                 <div class="form-inner-fl">

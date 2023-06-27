@@ -21,27 +21,45 @@ use yii\helpers\Url;
                     <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg> 15 Luka Asatiani St, Batumi 6010, Грузия
                 </address>
             </div>
-            <div class="header-localization">
-                <div class="language-selection select">
-                    <select>
-                        <option value="kz">kz</option>
-                        <option value="en">en</option>
-                        <option value="ru">ru</option>
-                    </select>
+            <div class="header-localization michroma">
+                <div class="dropdown">
+                    <div class="select"><span>kz</span></div>
+                    <div class="dropdown-options">
+                        <span>kz</span>
+                        <span>en</span>
+                        <span>ru</span>
+                    </div>
                 </div>
-                <div class="social-links">
-                    <a href="https://telegram.com" target="_blank"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                    <a href="https://whatsapp.com" target="_blank"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                </div>
-                <div class="phone-link">
-                    <a href="tel:+77002100685">+7 700 210 06 85</a>
-                </div>
-                <div class="country-selection select">
-                    <select>
-                        <option value="kz">kz</option>
-                        <option value="ru">ru</option>
-                        <option value="gr">gr</option>
-                    </select>
+                <div class="header-localization-links">
+                    <ul>
+                        <li>
+                            <span>
+                                <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                            </span>
+                            <span>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                            </span>
+                            <span>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                            </span>
+                            <span>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="header-localization-mb">

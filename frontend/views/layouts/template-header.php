@@ -13,9 +13,9 @@ use yii\helpers\Url;
             </div>
             <div class="header-nav">
                 <ul>
-                    <li><a href="<?= Url::toRoute('/'); ?>">Home</a></li>
-                    <li><a href="<?= Url::toRoute('/about'); ?>">About</a></li>
-                    <li><a href="<?= Url::toRoute('/contact'); ?>">Contacts</a></li>
+                    <li><a href="<?= Url::toRoute('/'); ?>">Главная</a></li>
+                    <li><a href="<?= Url::toRoute('/about'); ?>">О нас</a></li>
+                    <li><a href="<?= Url::toRoute('/contact'); ?>">Контакты</a></li>
                 </ul>
                 <address class="border">
                     <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg> 15 Luka Asatiani St, Batumi 6010, Грузия

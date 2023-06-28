@@ -15,9 +15,9 @@ use yii\helpers\Url;
         </div>
         <div class="footer-column footer-link">
             <ul>
-                <li><a href="<?= Url::toRoute('/'); ?>">Home</a></li>
-                <li><a href="<?= Url::toRoute('/about'); ?>">About</a></li>
-                <li><a href="<?= Url::toRoute('/contact'); ?>">Contacts</a></li>
+                <li><a href="<?= Url::toRoute('/'); ?>">Главная</a></li>
+                <li><a href="<?= Url::toRoute('/about'); ?>">О нас</a></li>
+                <li><a href="<?= Url::toRoute('/contact'); ?>">Контакты</a></li>
             </ul>
             <a href="mailto:dda.rea.est@gmail.com" class="border dt"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> dda.rea.est@gmail.com</a>
         </div>

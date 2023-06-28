@@ -2,7 +2,7 @@
 
 /** @var yii\web\View $this */
 
-$this->title = 'My Application';
+$this->title = 'Real Estate';
 ?>
 <main>
 <section class="first">

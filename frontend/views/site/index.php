@@ -5,7 +5,7 @@
 $this->title = 'My Application';
 ?>
 <main>
-    <section class="first">
+<section class="first">
     <div class="container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
         <div class="first-bg background">
             <picture>

@@ -32,7 +32,7 @@ $this->title = 'My Application';
                     <a href="#" class="first-consultation border border-white form-target">Консультация&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>
                 </div>
                 <div class="first-switch">
-                    <div class="first-item active" data-item="03">
+                    <div class="first-item" data-item="03">
                         <p class="first-digit michroma">01</p>
                         <p class="first-desc">Выгодные проекты для инвестиций</p>
                     </div>
@@ -56,19 +56,19 @@ $this->title = 'My Application';
 <section class="projects container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Надежные проекты</p>
     <div class="projects-switch">
-        <a href="#" class="active">Все</a>
-        <a href="#">Квартира</a>
-        <a href="#">Виллы</a>
-        <a href="#">Пентхаусы</a>
-        <a href="#">Коммерческая недвижимость</a>
+        <a href="#" class="active" data-type="all">Все</a>
+        <a href="#" data-type="flats">Квартира</a>
+        <a href="#" data-type="villa">Виллы</a>
+        <a href="#" data-type="penthouse">Пентхаусы</a>
+        <a href="#" data-type="commercial">Коммерческая недвижимость</a>
     </div>
     <div class="swiper-buttons">
         <div class="projects-swiper-button-prev">&#8249;</div>
         <div class="projects-swiper-button-next">&#8250;</div>
     </div>
-    <div class="swiper projects-swiper card">
+    <div class="swiper projects-swiper card all">
         <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-1.jpg" alt="">
@@ -133,7 +133,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-2.jpg" alt="">
@@ -198,7 +198,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-3.jpg" alt="">
@@ -263,7 +263,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -328,7 +328,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -393,7 +393,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -458,7 +458,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -523,7 +523,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -588,7 +588,7 @@ $this->title = 'My Application';
                 </div>
             </div>
             
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -653,7 +653,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-10.jpg" alt="">
@@ -718,7 +718,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -783,7 +783,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="villa">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -848,7 +848,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -913,7 +913,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="villa">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -978,7 +978,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1043,7 +1043,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1108,7 +1108,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1173,7 +1173,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1238,7 +1238,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1303,7 +1303,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1368,7 +1368,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1433,7 +1433,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1498,7 +1498,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1563,7 +1563,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-23.jpg" alt="">
@@ -1628,7 +1628,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1693,7 +1693,7 @@ $this->title = 'My Application';
                 </div>
             </div>
 
-            <div class="swiper-slide destination">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">

@@ -32,20 +32,21 @@ $this->title = 'My Application';
                     <a href="#" class="first-consultation border border-white form-target">Консультация&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>
                 </div>
                 <div class="first-switch">
-                    <div class="first-item active">
+                    <div class="first-item active" data-item="03">
                         <p class="first-digit michroma">01</p>
-                        <p class="first-desc">Сэкономьте время
-                            на изучение</p>
+                        <p class="first-desc">Выгодные проекты для инвестиций</p>
                     </div>
-                    <div class="first-item">
+                    <div class="first-item" data-item="02">
                         <p class="first-digit michroma">02</p>
-                        <p class="first-desc">Сэкономьте время
-                            на изучение</p>
+                        <p class="first-desc">Апартаменты с видом на море</p>
                     </div>
-                    <div class="first-item">
+                    <div class="first-item" data-item="06">
                         <p class="first-digit michroma">03</p>
-                        <p class="first-desc">Сэкономьте время
-                            на изучение</p>
+                        <p class="first-desc">Крупные проекты</p>
+                    </div>
+                    <div class="first-item" data-item="07">
+                        <p class="first-digit michroma">04</p>
+                        <p class="first-desc">Загородная недвижимость</p>
                     </div>
                 </div>
             </div>

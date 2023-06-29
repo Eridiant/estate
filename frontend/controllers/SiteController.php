@@ -153,15 +153,15 @@ class SiteController extends Controller
     {
         $request = Yii::$app->request;
 
-        $mail['email'] = 'dda.rea.est@gmail.com';
-        // $mail['email'] = 'zdvxfb@mail.ru';
+        // $mail['email'] = 'dda.rea.est@gmail.com';
+        $mail['email'] = 'zdvxfb@mail.ru';
 
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
 
         try {Yii::$app->mailer->compose()
             // ->setTo($mail['email'])
             ->setTo($mail['email'])
-            ->setFrom('info@syndicate.ge')
+            ->setFrom('info@ddageorgia.com')
             ->setSubject('заявка')
             ->setHtmlBody(
                 "<table style='width: 100%;'>

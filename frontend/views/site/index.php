@@ -1761,80 +1761,8 @@ $this->title = 'Real Estate';
         <div class="swiper-pagination pagination"></div>
     </div>
 </section>
-
-
-<section class="services container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
-    <p class="title">Какие услуги оказываем?</p>
-    <div class="services-items">
-        <div class="services-item">
-            <a href="#" class="caption">
-                Подбор недвижимости&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-            </a>
-            <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-1.jpg" alt="">
-                <a href="#" class="caption over-img">
-                    Подбор недвижимости&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-                </a>
-            </div>
-        </div>
-        <div class="services-item">
-            <a href="#" class="caption">
-                Инвестирование в недвижимость&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-            </a>
-            <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-2.jpg" alt="">
-                <a href="#" class="caption over-img">
-                    Инвестирование в недвижимость&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-                </a>
-            </div>
-        </div>
-        <div class="services-item">
-            <a href="#" class="caption">
-                Продажа недвижимости&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-            </a>
-            <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-3.jpg" alt="">
-                <a href="#" class="caption over-img">
-                    Продажа недвижимости&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-                </a>
-            </div>
-        </div>
-        <div class="services-item">
-            <a href="#" class="caption">
-                Оценка стоимости объектов&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-            </a>
-            <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-4.jpg" alt="">
-                <a href="#" class="caption over-img">
-                    Оценка стоимости объектов&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-                </a>
-            </div>
-        </div>
-        <div class="services-item">
-            <a href="#" class="caption">
-                Продажа коммерческой недвижимости&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-            </a>
-            <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-5.jpg" alt="">
-                <a href="#" class="caption over-img">
-                    Продажа коммерческой недвижимости&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-                </a>
-            </div>
-        </div>
-        <div class="services-item">
-            <a href="#" class="caption">
-                Консалтинг и юридические услуги&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-            </a>
-            <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-6.jpg" alt="">
-                <a href="#" class="caption over-img">
-                    Консалтинг и юридические услуги&nbsp;&nbsp;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="opinion container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
+<?= $this->render('_services') ?>
+<section class="opinion container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="opinion-img main-border-radius">
         <picture>
             <img src="/images/index/opinion/opinion.jpg" alt="">
@@ -1851,7 +1779,7 @@ $this->title = 'Real Estate';
         <canvas class="opinion-chart" id="chart"></canvas>
     </div>
 </section>
-    <section class="districts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
+<section class="districts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Районы</p>
     <div class="swiper-buttons">
         <div class="districts-swiper-button-prev">&#8249;</div>
@@ -2062,7 +1990,7 @@ $this->title = 'Real Estate';
         </div>
     </div>
 </section>
-    <section class="experts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
+<section class="experts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Наши специалисты</p>
     <div class="swiper experts-swiper card">
         <div class="swiper-wrapper text-white">
@@ -2449,76 +2377,8 @@ $this->title = 'Real Estate';
         <div class="swiper-pagination pagination"></div>
     </div>
 </section>
-    <section class="form container text-white" style="max-width: 1204px; margin-left: auto; margin-right: auto">
-    <div class="form-background background main-border-radius">
-        <picture>
-            <img src="/images/contacts/form.jpg" alt="">
-        </picture>
-    </div>
-    <div class="form-wrapper">
-        <p class="title">Получите консультацию</p>
-        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону</p>
-        <div class="header-localization-links">
-            <ul>
-                <li>
-                    <span>
-                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
-                    </span>
-                    <span>
-                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
-                    </span>
-                    <span>
-                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
-                    </span>
-                    <span>
-                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                        <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                    </span>
-                </li>
-            </ul>
-        </div>
-        <form class="form-form" action="#" method="post">
-            <div class="form-inner">
-                <div class="form-inner-fl">
-                    <div class="form-inner-container">
-                        <input type="text" id="name" name="name" placeholder="Имя" required>
-                        <label for="name">Имя:</label>
-                    </div>
-
-                    <div class="form-inner-container">
-                        <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
-                        <label for="phone">Телефон:</label>
-                    </div>
-                </div>
-                <div class="form-inner-container">
-                    <textarea id="message" name="message" placeholder="Сообщение" required></textarea>
-                    <label for="message">Сообщение:</label>
-                </div>
-            </div>
-            <div>
-                <button class="form-btn btn" type="submit">
-                    <span>
-                        <span>отправить</span>
-                        <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
-                    </span>
-                </button>
-            </div>
-        </form>
-    </div>
-</section>
-    <section class="company container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
+<?= $this->render('_form') ?>
+<section class="company container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="company-desc">
         <p class="subtitle">DDA Real Estate</p>
         <p class="title">О компании</p>

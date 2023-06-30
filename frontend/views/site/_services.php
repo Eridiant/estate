@@ -7,7 +7,7 @@
             </a>
             <div class="services-item-inner big-border-radius">
                 <img src="/images/about/services/services-1.jpg" alt="">
-                <a href="#" class="caption over-img">
+                <a href="#" class="caption over-img shadow-black">
                     Подбор недвижимости
                 </a>
             </div>
@@ -18,7 +18,7 @@
             </a>
             <div class="services-item-inner big-border-radius">
                 <img src="/images/about/services/services-2.jpg" alt="">
-                <a href="#" class="caption over-img">
+                <a href="#" class="caption over-img shadow-black">
                     Инвестирование в недвижимость
                 </a>
             </div>
@@ -29,7 +29,7 @@
             </a>
             <div class="services-item-inner big-border-radius">
                 <img src="/images/about/services/services-3.jpg" alt="">
-                <a href="#" class="caption over-img">
+                <a href="#" class="caption over-img shadow-black">
                     Продажа недвижимости
                 </a>
             </div>
@@ -40,7 +40,7 @@
             </a>
             <div class="services-item-inner big-border-radius">
                 <img src="/images/about/services/services-4.jpg" alt="">
-                <a href="#" class="caption over-img">
+                <a href="#" class="caption over-img shadow-black">
                     Оценка стоимости объектов
                 </a>
             </div>
@@ -51,7 +51,7 @@
             </a>
             <div class="services-item-inner big-border-radius">
                 <img src="/images/about/services/services-5.jpg" alt="">
-                <a href="#" class="caption over-img">
+                <a href="#" class="caption over-img shadow-black">
                     Продажа коммерческой недвижимости
                 </a>
             </div>
@@ -62,7 +62,7 @@
             </a>
             <div class="services-item-inner big-border-radius">
                 <img src="/images/about/services/services-6.jpg" alt="">
-                <a href="#" class="caption over-img">
+                <a href="#" class="caption over-img shadow-black">
                     Консалтинг и юридические услуги
                 </a>
             </div>

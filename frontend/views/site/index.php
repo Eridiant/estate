@@ -68,7 +68,7 @@ $this->title = 'Real Estate';
     </div>
     <div class="swiper projects-swiper card all">
         <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-1.jpg" alt="">
@@ -133,7 +133,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-2.jpg" alt="">
@@ -198,7 +198,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-3.jpg" alt="">
@@ -263,7 +263,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-4.jpg" alt="">
@@ -328,7 +328,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -393,7 +393,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -458,7 +458,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats penthouse">
+            <div class="swiper-slide destination shadow-black" data-type="flats penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-7.jpg" alt="">
@@ -523,7 +523,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-8.jpg" alt="">
@@ -588,7 +588,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination" data-type="penthouse">
+            <div class="swiper-slide destination shadow-black" data-type="penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -653,7 +653,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-10.jpg" alt="">
@@ -718,7 +718,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -783,7 +783,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="villa">
+            <div class="swiper-slide destination shadow-black" data-type="villa">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-12.jpg" alt="">
@@ -848,7 +848,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats penthouse">
+            <div class="swiper-slide destination shadow-black" data-type="flats penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-13.jpg" alt="">
@@ -913,7 +913,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="villa">
+            <div class="swiper-slide destination shadow-black" data-type="villa">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -978,7 +978,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-15.jpg" alt="">
@@ -1043,7 +1043,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-16.jpg" alt="">
@@ -1108,7 +1108,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-17.jpg" alt="">
@@ -1173,7 +1173,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-18.jpg" alt="">
@@ -1238,7 +1238,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-19.jpg" alt="">
@@ -1303,7 +1303,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-20.jpg" alt="">
@@ -1368,7 +1368,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-21.jpg" alt="">
@@ -1433,7 +1433,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-22.jpg" alt="">
@@ -1498,7 +1498,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1563,7 +1563,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-24.jpg" alt="">
@@ -1628,7 +1628,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-25.jpg" alt="">
@@ -1693,7 +1693,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination" data-type="flats">
+            <div class="swiper-slide destination shadow-black" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-26.jpg" alt="">
@@ -1787,7 +1787,7 @@ $this->title = 'Real Estate';
     </div>
     <div class="swiper districts-swiper card">
         <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination" data-target="1">
+            <div class="swiper-slide destination shadow-black" data-target="1">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-1.jpg" alt="">
@@ -1800,7 +1800,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p>
-                            туристический центр и сердце города Батуми, уютные кварталы и многообразие архитектуры
+                            Район "Старый город" это культурное и центральное место всего города, ваша надежная инвестиция на долгие годы. Шаговая доступность ко всем услугам, изобилие выбора ресторанов, потрясающая архитектура города, является главным преимуществом для покупателя.
                         </p>
                         <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
                                 <use xlink:href="/images/icons.svg#small-arrow"></use>
@@ -1808,7 +1808,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-target="2">
+            <div class="swiper-slide destination shadow-black" data-target="2">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-2.jpg" alt="">
@@ -1821,13 +1821,13 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p>
-                            новый центр города с концепцией “Зеленый коридор” большинство домов высотные многофункциональные строения
+                            Район "Алея Героев" была открыта в 2012, концепция данного района это новый центр Батуми, жилые комплексы и небоскребы создают атмосферу мегаполиса с шаговой доступностью к морю. На аее высажены пальмы, прогулочная зона разделяющая дорогами с обеих сторон. Чаще девелоперы строят многофункциональные жилые комплексы.
                         </p>
                         <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-target="3">
+            <div class="swiper-slide destination shadow-black" data-target="3">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-3.jpg" alt="">
@@ -1840,7 +1840,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p>
-                            жемчужина Батуми, современный и новый район с быстро развивающейся инфраструктурой
+                            Район "Новый бульвар" центральный и самая современный район для инвестиций, высокое количество предложений. Огромный парк спроектированный Испанский архитектором с детскими площадками и АРТ инсталляциями.
                         </p>
                         <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
                                 <use xlink:href="/images/icons.svg#small-arrow"></use>
@@ -1848,20 +1848,22 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-target="1">
+
+
+            <div class="swiper-slide destination shadow-black" data-target="4">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="/images/index/districts/districts-1.jpg" alt="">
+                        <img src="/images/index/districts/districts-4.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card-content">
                     <header>
                         <p class="subtitle">район</p>
-                        <p class="caption">Старый город</p>
+                        <p class="caption">Махинджаури</p>
                     </header>
                     <footer>
                         <p>
-                            туристический центр и сердце города Батуми, уютные кварталы и многообразие архитектуры
+                            Район "Махинджаури" один из самых популярных районов для курортного отдыха, близкое расположение к морю, много новых проектов в стадии завершен. Интересный район для инвестиций
                         </p>
                         <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
                                 <use xlink:href="/images/icons.svg#small-arrow"></use>
@@ -1869,20 +1871,20 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-target="2">
+            <div class="swiper-slide destination shadow-black" data-target="5">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="/images/index/districts/districts-2.jpg" alt="">
+                        <img src="/images/index/districts/districts-5.jpg" alt="">
                     </picture>
                 </div>
                 <div class="card-content">
                     <header>
                         <p class="subtitle">район</p>
-                        <p class="caption">Аллея героев</p>
+                        <p class="caption">Гонио-Квариати</p>
                     </header>
                     <footer>
                         <p>
-                            новый центр города с концепцией “Зеленый коридор” большинство домов высотные многофункциональные строения
+                            Район "Гонио-Квариати" это оазис для жизни и отдыха, 80% этот район направлен на курортный формат, расположение до Батуми 10 минут на машине. Крупные франшизы отелей уже появиться в 2025-26 году.
                         </p>
                         <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
                                 <use xlink:href="/images/icons.svg#small-arrow"></use>
@@ -1890,90 +1892,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-target="3">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-3.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p>
-                        <p class="caption">новый бульвар</p>
-                    </header>
-                    <footer>
-                        <p>
-                            жемчужина Батуми, современный и новый район с быстро развивающейся инфраструктурой
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-            <div class="swiper-slide destination" data-target="1">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-1.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p>
-                        <p class="caption">Старый город</p>
-                    </header>
-                    <footer>
-                        <p>
-                            туристический центр и сердце города Батуми, уютные кварталы и многообразие архитектуры
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-            <div class="swiper-slide destination" data-target="2">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-2.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p>
-                        <p class="caption">Аллея героев</p>
-                    </header>
-                    <footer>
-                        <p>
-                            новый центр города с концепцией “Зеленый коридор” большинство домов высотные многофункциональные строения
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-            <div class="swiper-slide destination" data-target="3">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-3.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p>
-                        <p class="caption">новый бульвар</p>
-                    </header>
-                    <footer>
-                        <p>
-                            жемчужина Батуми, современный и новый район с быстро развивающейся инфраструктурой
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
+
         </div>
         <div class="swiper-pagination pagination"></div>
     </div>
@@ -1994,7 +1913,7 @@ $this->title = 'Real Estate';
     <p class="title">Наши специалисты</p>
     <div class="swiper experts-swiper card">
         <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -2036,7 +1955,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -2079,7 +1998,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">
@@ -2121,7 +2040,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -2163,7 +2082,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -2205,7 +2124,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">
@@ -2247,7 +2166,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -2289,7 +2208,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -2331,7 +2250,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination shadow-black" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">

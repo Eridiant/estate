@@ -199,13 +199,16 @@ use yii\helpers\Url;
     <div class="cont-wrapper cont-wa">
         <div class="cont-inner">
             <a href="#" class="cont-wa-link">
+                <svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg>
+            </a>
+        </div>
+        <div class="cont-inner">
+            <a href="#" class="cont-wa-link">
                 <svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg>
             </a>
         </div>
-    </div>
-    <div class="cont-wrapper">
         <div class="cont-inner form-target">
-            <svg width="24" height="24"><use xlink:href="/images/icons.svg#contact"></use></svg>
+            <div><svg width="24" height="24"><use xlink:href="/images/icons.svg#contact"></use></svg></div>
         </div>
     </div>
 </div>

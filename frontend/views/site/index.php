@@ -83,7 +83,7 @@ $this->title = 'Real Estate';
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
                         <p><span>Сдача объекта:</span> <span>2023</span></p>
-                        <p><span>Варианты юнитов:</span> <span>Студио, 1спальня</span></p>
+                        <p><span>Варианты юнитов:</span> <span>Студио, 1 спальня</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
                     <div class="card-popup">
@@ -213,7 +213,7 @@ $this->title = 'Real Estate';
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
                         <p><span>Сдача объекта:</span> <span>Сдан в эксплуатацию</span></p>
-                        <p><span>Варианты юнитов:</span> <span>Студио, 1спальня</span></p>
+                        <p><span>Варианты юнитов:</span> <span>Студио, 1 спальня</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
                     <div class="card-popup">
@@ -278,7 +278,7 @@ $this->title = 'Real Estate';
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
                         <p><span>Сдача объекта:</span> <span>2023</span></p>
-                        <p><span>Варианты юнитов:</span> <span>Студио, 1спальня</span></p>
+                        <p><span>Варианты юнитов:</span> <span>Студио, 1 спальня</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
                     <div class="card-popup">

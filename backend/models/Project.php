@@ -82,7 +82,7 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getOptions()
     {
-        return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id']);
+        return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => 'ru']);
     }
 
     /**
@@ -92,6 +92,6 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getProjectOptions()
     {
-        return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
+        return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => 'ru']);
     }
 }

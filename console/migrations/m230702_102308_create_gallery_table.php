@@ -17,24 +17,23 @@ class m230702_102308_create_gallery_table extends Migration
     {
         $this->createTable('{{%gallery}}', [
             'id' => $this->primaryKey(),
-            'project_id' => $this->integer()->notNull(),
+            'item_id' => $this->integer()->notNull(),
+            'type' => $this->tinyInteger()->notNull()->defaultValue(1),
+            'img' => $this->string(255),
         ]);
 
-        // creates index for column `project_id`
+        // creates index for column `item_id`
         $this->createIndex(
-            '{{%idx-gallery-project_id}}',
+            '{{%idx-gallery-item_id}}',
             '{{%gallery}}',
-            'project_id'
+            'item_id'
         );
 
-        // add foreign key for table `{{%project}}`
-        $this->addForeignKey(
-            '{{%fk-gallery-project_id}}',
+        // creates index for column `type`
+        $this->createIndex(
+            '{{%idx-gallery-type}}',
             '{{%gallery}}',
-            'project_id',
-            '{{%project}}',
-            'id',
-            'CASCADE'
+            'type'
         );
     }
 
@@ -43,15 +42,15 @@ class m230702_102308_create_gallery_table extends Migration
      */
     public function safeDown()
     {
-        // drops foreign key for table `{{%project}}`
-        $this->dropForeignKey(
-            '{{%fk-gallery-project_id}}',
+        // drops index for column `type`
+        $this->dropIndex(
+            '{{%idx-gallery-type}}',
             '{{%gallery}}'
         );
 
-        // drops index for column `project_id`
+        // drops index for column `item_id`
         $this->dropIndex(
-            '{{%idx-gallery-project_id}}',
+            '{{%idx-gallery-item_id}}',
             '{{%gallery}}'
         );
 

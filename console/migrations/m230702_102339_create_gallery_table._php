@@ -14,6 +14,7 @@ class m230702_102339_create_gallery_table extends Migration
     {
         $this->createTable('{{%gallery}}', [
             'id' => $this->primaryKey(),
+            'img' => $this->string(255),
         ]);
     }
 

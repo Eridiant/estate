@@ -8,9 +8,9 @@ use Yii;
  * This is the model class for table "{{%gallery}}".
  *
  * @property int $id
- * @property int $project_id
- *
- * @property Project $project
+ * @property int $item_id
+ * @property int $type
+ * @property string|null $img
  */
 class Gallery extends \yii\db\ActiveRecord
 {
@@ -28,9 +28,9 @@ class Gallery extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['project_id'], 'required'],
-            [['project_id'], 'integer'],
-            [['project_id'], 'exist', 'skipOnError' => true, 'targetClass' => Project::class, 'targetAttribute' => ['project_id' => 'id']],
+            [['item_id'], 'required'],
+            [['item_id', 'type'], 'integer'],
+            [['img'], 'string', 'max' => 255],
         ];
     }
 
@@ -41,7 +41,9 @@ class Gallery extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'project_id' => 'Project ID',
+            'item_id' => 'Item ID',
+            'type' => 'Type',
+            'img' => 'Img',
         ];
     }
 
@@ -52,6 +54,6 @@ class Gallery extends \yii\db\ActiveRecord
      */
     public function getProject()
     {
-        return $this->hasOne(Project::class, ['id' => 'project_id']);
+        return $this->hasOne(Project::class, ['id' => 'item_id']);
     }
 }

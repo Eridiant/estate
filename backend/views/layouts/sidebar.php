@@ -51,6 +51,12 @@ use yii\helpers\Url;
                             ['label' => 'Inactive Page', 'iconStyle' => 'far'],
                         ]
                     ],
+                    [
+                        'label' => 'Локализация',
+                        'icon' => 'file-code-o',
+                        'url' => '/admin/language/languages/active',
+                        'permission' => ['canSupper', 'canAdmin']
+                    ],
                     ['label' => 'Simple Link', 'icon' => 'th', 'badge' => '<span class="right badge badge-danger">New</span>'],
                     ['label' => 'Yii2 PROVIDED', 'header' => true],
                     ['label' => 'Login', 'url' => ['site/login'], 'icon' => 'sign-in-alt', 'visible' => Yii::$app->user->isGuest],

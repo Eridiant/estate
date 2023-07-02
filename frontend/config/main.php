@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'languageSelector'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
@@ -21,6 +21,19 @@ return [
                     'asArray' => true,
                 ],
             ],
+        ],
+        'assetManager' => [
+            'bundles' => [
+                'yii\web\JqueryAsset' => [
+                    'js'=>[]
+                ],
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'js'=>[]
+                ],
+                'yii\bootstrap\BootstrapAsset' => [
+                    'css' => []
+                ]
+            ]
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -59,8 +72,16 @@ return [
                 // '<controller:\w+>/<slug:[\w-]+>' => '<controller>/view',
                 // '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
                 // '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                'site/set-locale' => 'site/set-locale',
             ],
         ],
+        'languageSelector' => [
+            'class' => 'common\components\LanguageSelector',
+        ],
+    ],
+    'as locale' => [
+        'class' => common\behaviors\LocaleBehavior::class,
+        'enablePreferredLanguage' => true
     ],
     'params' => $params,
 ];

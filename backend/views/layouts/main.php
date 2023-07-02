@@ -4,12 +4,14 @@
 /* @var $content string */
 
 use yii\helpers\Html;
+use backend\modules\language\models\Language;
 
 \hail812\adminlte3\assets\FontAwesomeAsset::register($this);
 \hail812\adminlte3\assets\AdminLteAsset::register($this);
 $this->registerCssFile('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
 
 $assetDir = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
+$languages = Language::find()->where('id != :current_id', [':current_id' => Language::getCurrent()->id, ])->andWhere(['IS', 'deleted_at', null])->all();
 
 $publishedRes = Yii::$app->assetManager->publish('@vendor/hail812/yii2-adminlte3/src/web/js');
 $this->registerJsFile($publishedRes[1].'/control_sidebar.js', ['depends' => '\hail812\adminlte3\assets\AdminLteAsset']);
@@ -30,7 +32,7 @@ $this->registerJsFile($publishedRes[1].'/control_sidebar.js', ['depends' => '\ha
 
 <div class="wrapper">
     <!-- Navbar -->
-    <?= $this->render('navbar', ['assetDir' => $assetDir]) ?>
+    <?= $this->render('navbar', ['assetDir' => $assetDir, 'languages' => $languages]) ?>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->

@@ -10,8 +10,12 @@ return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log'],
-    'modules' => [],
+    'bootstrap' => ['log', 'languageSelector'],
+    'modules' => [
+        'language' => [
+            'class' => backend\modules\language\Module::class,
+        ],
+    ],
     'components' => [
         'request' => [
             'baseUrl' => '/admin',
@@ -49,14 +53,15 @@ return [
             'showScriptName' => false,
             'rules' => [
                 '' => 'site/index',
-                // 'lang/change/<id:\d+>' => 'language/languages/change',
-                // 'lang/change/<id:\d+>' => 'language/languages/change',
-                // 'language/change/<id:\d+>' => 'language/languages/change',
+                'language/change/<id:\d+>' => 'language/languages/change',
                 '<controller:\w+>' => '<controller>/index',
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ],
+        ],
+        'languageSelector' => [
+            'class' => 'common\components\LanguageSelector',
         ],
     ],
     'params' => $params,

@@ -10,6 +10,10 @@ use yii\bootstrap5\Html;
 use yii\bootstrap5\Nav;
 use yii\bootstrap5\NavBar;
 
+$currentLang = Yii::$app->language;
+$model = \backend\modules\language\models\Language::find()->where(['deleted_at' => null])->all();
+$cLang = \backend\modules\language\models\Language::find()->where(['deleted_at' => null, 'key' => $currentLang])->one();
+
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>

@@ -23,11 +23,18 @@ use yii\helpers\Url;
             </div>
             <div class="header-localization michroma">
                 <div class="dropdown">
-                    <div class="select"><span>ru</span></div>
+                    <div class="select"><span><?= $cLang->code; ?></span></div>
                     <div class="dropdown-options">
-                        <span>kz</span>
+                        <!-- <span>kz</span>
                         <span>en</span>
-                        <span>ru</span>
+                        <span>ru</span> -->
+                        <?php foreach ($model as $lang): ?>
+                            <?php if ($lang->key != $currentLang): ?>
+                                <a href="/site/set-locale?locale=<?=$lang->key?>" rel="nofollow">
+                                    <?= $lang->code; ?>
+                                </a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
                     </div>
                 </div>
                 <div class="header-localization-links">

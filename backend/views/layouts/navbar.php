@@ -1,6 +1,8 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\Url;
+use backend\modules\language\models\Language;
 
 ?>
 <!-- Navbar -->
@@ -48,6 +50,16 @@ use yii\helpers\Html;
                     </ul>
                 </li>
                 <!-- End Level two -->
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?= strtoupper(Language::getCurrent()->key); ?><span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <?php foreach ($languages as $language) : ?>
+                    <li>
+                        <a href="<?= Url::to(['/language/change', 'id' => $language->id]) ?>"><?= strtoupper($language->key) ?></a>
+                    </li>
+                <?php endforeach; ?>
             </ul>
         </li>
     </ul>

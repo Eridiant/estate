@@ -39,7 +39,7 @@
                 </li>
             </ul>
         </div>
-        <form class="form-form" action="#" method="post">
+        <form id="forms" class="form-form" action="#" method="post">
             <div class="form-inner">
                 <div class="form-inner-fl">
                     <div class="form-inner-container">

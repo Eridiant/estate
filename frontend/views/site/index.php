@@ -79,8 +79,8 @@ $this->title = 'Real Estate';
         </div>
     </div>
     <div class="swiper projects-swiper card all">
-        <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+        <div class="swiper-wrapper text-white shadow-black">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-1.jpg" alt="">
@@ -145,7 +145,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-2.jpg" alt="">
@@ -210,7 +210,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-3.jpg" alt="">
@@ -275,7 +275,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-4.jpg" alt="">
@@ -340,7 +340,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -405,7 +405,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -470,7 +470,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats penthouse">
+            <div class="swiper-slide destination" data-type="flats penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-7.jpg" alt="">
@@ -535,7 +535,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-8.jpg" alt="">
@@ -600,7 +600,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
             
-            <div class="swiper-slide destination shadow-black" data-type="penthouse">
+            <div class="swiper-slide destination" data-type="penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-9.jpg" alt="">
@@ -665,7 +665,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-10.jpg" alt="">
@@ -730,7 +730,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-11.jpg" alt="">
@@ -795,7 +795,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="villa">
+            <div class="swiper-slide destination" data-type="villa">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-12.jpg" alt="">
@@ -860,7 +860,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats penthouse">
+            <div class="swiper-slide destination" data-type="flats penthouse">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-13.jpg" alt="">
@@ -925,7 +925,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="villa">
+            <div class="swiper-slide destination" data-type="villa">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-14.jpg" alt="">
@@ -990,7 +990,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-15.jpg" alt="">
@@ -1055,7 +1055,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-16.jpg" alt="">
@@ -1120,7 +1120,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-17.jpg" alt="">
@@ -1185,7 +1185,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-18.jpg" alt="">
@@ -1250,7 +1250,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-19.jpg" alt="">
@@ -1315,7 +1315,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-20.jpg" alt="">
@@ -1380,7 +1380,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-21.jpg" alt="">
@@ -1445,7 +1445,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-22.jpg" alt="">
@@ -1510,7 +1510,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
@@ -1575,7 +1575,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-24.jpg" alt="">
@@ -1640,7 +1640,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-25.jpg" alt="">
@@ -1705,7 +1705,7 @@ $this->title = 'Real Estate';
                 </div>
             </div>
 
-            <div class="swiper-slide destination shadow-black" data-type="flats">
+            <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/projects/projects-26.jpg" alt="">
@@ -1798,8 +1798,8 @@ $this->title = 'Real Estate';
         <div class="districts-swiper-button-next">&#8250;</div>
     </div>
     <div class="swiper districts-swiper card">
-        <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination shadow-black" data-target="1">
+        <div class="swiper-wrapper text-white shadow-black">
+            <div class="swiper-slide destination" data-target="1">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-1.jpg" alt="">
@@ -1820,7 +1820,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-target="2">
+            <div class="swiper-slide destination" data-target="2">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-2.jpg" alt="">
@@ -1839,7 +1839,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-target="3">
+            <div class="swiper-slide destination" data-target="3">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-3.jpg" alt="">
@@ -1862,7 +1862,7 @@ $this->title = 'Real Estate';
             </div>
 
 
-            <div class="swiper-slide destination shadow-black" data-target="4">
+            <div class="swiper-slide destination" data-target="4">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-4.jpg" alt="">
@@ -1883,7 +1883,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-target="5">
+            <div class="swiper-slide destination" data-target="5">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/districts/districts-5.jpg" alt="">
@@ -1924,8 +1924,8 @@ $this->title = 'Real Estate';
 <section class="experts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Наши специалисты</p>
     <div class="swiper experts-swiper card">
-        <div class="swiper-wrapper text-white">
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+        <div class="swiper-wrapper text-white shadow-black">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -1967,7 +1967,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -2010,7 +2010,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">
@@ -2052,7 +2052,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -2094,7 +2094,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -2136,7 +2136,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">
@@ -2178,7 +2178,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -2220,7 +2220,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -2262,7 +2262,7 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination shadow-black" data-class="expert">
+            <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">

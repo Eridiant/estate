@@ -17,8 +17,16 @@ $this->title = 'Real Estate';
                 <img src="/images/index/first/first-1-1600-1x.jpg" alt="">
             </picture>
         </div>
+        <div class="first-button">
+            <div class="first-button-prev">
+                <svg width="48" height="48"><use xlink:href="/images/icons.svg#pointer"></use></svg>
+            </div>
+            <div class="first-button-next">
+                <svg width="48" height="48"><use xlink:href="/images/icons.svg#pointer"></use></svg>
+            </div>
+        </div>
         <div class="container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
-            <div class="first-wrapper">
+            <div class="first-wrapper shadow-black">
                 <div class="first-content">
                     <p class="first-num michroma">01</p>
                     <div class="first-inner">
@@ -62,9 +70,13 @@ $this->title = 'Real Estate';
         <a href="#" data-type="penthouse">Пентхаусы</a>
         <a href="#" data-type="commercial">Коммерческая недвижимость</a>
     </div>
-    <div class="swiper-buttons">
-        <div class="projects-swiper-button-prev">&#8249;</div>
-        <div class="projects-swiper-button-next">&#8250;</div>
+    <div class="first-button">
+        <div class="first-button-prev">
+            <svg width="48" height="48"><use xlink:href="images/icons.svg#pointer"></use></svg>
+        </div>
+        <div class="first-button-next">
+            <svg width="48" height="48"><use xlink:href="images/icons.svg#pointer"></use></svg>
+        </div>
     </div>
     <div class="swiper projects-swiper card all">
         <div class="swiper-wrapper text-white">

@@ -21,8 +21,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                 </span>
                 <span>
-                    <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                    <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                    <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                 </span>
             </li>
             <li>
@@ -30,8 +30,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
                 </span>
                 <span>
-                    <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                    <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                    <a href="https://wa.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                 </span>
             </li>
             <li>
@@ -39,8 +39,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
                 </span>
                 <span>
-                    <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                    <a href="#"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                    <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                    <a href="https://wa.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                 </span>
             </li>
         </ul>

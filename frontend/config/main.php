@@ -66,6 +66,8 @@ return [
                 '' => 'site/index',
                 'about' => 'site/about',
                 'contact' => 'site/contact',
+                // 'amo' => 'site/amo',
+                'amo-dda' => 'site/amo-dda',
                 // '<controller>' => '<controller>/index',
                 // '<controller:\w+>' => '<controller>/index',
                 // '<controller:\w+>/<id:\d+>' => '<controller>/view',

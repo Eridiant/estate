@@ -149,6 +149,11 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
+    public function actionAmoDda()
+    {
+        echo "amo";
+    }
+
     public function actionSendForm()
     {
         $request = Yii::$app->request;

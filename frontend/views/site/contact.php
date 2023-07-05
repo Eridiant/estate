@@ -10,6 +10,11 @@ use yii\captcha\Captcha;
 
 $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
+
+$this->registerJsFile(
+    "//maps.googleapis.com/maps/api/js?key=AIzaSyD2FYsdSyKCF85BXwjTabp2lj0hk5YPWsc&region=EN&language=en",
+    ['position' => $this::POS_END, 'async'=>true]
+);
 ?>
 <main>
     <section class="contacts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">

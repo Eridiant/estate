@@ -3,6 +3,11 @@
 /** @var yii\web\View $this */
 
 $this->title = 'Real Estate';
+
+$this->registerJsFile(
+    "//maps.googleapis.com/maps/api/js?key=AIzaSyD2FYsdSyKCF85BXwjTabp2lj0hk5YPWsc&region=EN&language=en",
+    ['position' => $this::POS_END, 'async'=>true]
+);
 ?>
 <main>
 <section class="first">

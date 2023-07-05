@@ -151,7 +151,7 @@ class SiteController extends Controller
 
     public function actionAmoDda()
     {
-        echo "amo";
+        return $this->render('amo');
     }
 
     public function actionSendForm()

@@ -39,7 +39,7 @@ $this->registerJsFile(
                             Сэкономьте время и деньги на изучение и анализ
                         </p>
                         <p class="lead">
-                            Полная база предложений в 1 каталоге. Получить консультацию со Старшим менеджером
+                            отправить вложение в <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
                         </p>
                     </div>
                     <a href="#" class="first-consultation border border-white form-target">Консультация&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>

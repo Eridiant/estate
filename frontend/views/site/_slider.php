@@ -2,7 +2,7 @@
     <div class="swiper-wrapper">
         <?php foreach ($images as $image): ?>
             <div class="swiper-slide">
-                <img src=<?= $image; ?> alt="">
+                <img src="<?= $image; ?>" alt="">
             </div>
         <?php endforeach; ?>
     </div>

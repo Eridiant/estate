@@ -1949,9 +1949,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -1992,9 +1992,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2034,9 +2034,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2076,9 +2076,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2118,9 +2118,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2160,9 +2160,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2202,9 +2202,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2244,9 +2244,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
@@ -2286,9 +2286,9 @@ $this->title = 'Real Estate';
                         </div>
                         <aside>
                             <div class="card-popup">Соцсети:</div>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
-                            <a href="#" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+995706070141" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
                         </aside>
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">

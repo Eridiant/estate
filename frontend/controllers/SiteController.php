@@ -15,6 +15,8 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use yii\helpers\FileHelper;
+use yii\helpers\BaseFileHelper;
 
 /**
  * Site controller
@@ -99,6 +101,34 @@ class SiteController extends Controller
         return $this->render('login', [
             'model' => $model,
         ]);
+    }
+
+    public function actionGallery()
+    {
+        $request = Yii::$app->request;
+        Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+
+        if (!$request->post()) {
+            return ['data' => ['success' => false]];
+        }
+
+        $folderPath = Yii::getAlias( '@frontend' ) . '/images/upload/' . $request->post('num');
+        $folderPath = Yii::getAlias( '@frontend' ) . '/images/';
+        // $folderPath = 'home';
+        // $folderPath = '/images/upload/1';
+
+        // if (!FileHelper::findDirectories($folderPath, ['recursive' => false])){
+
+        return ['data' => ['success' =>  BaseFileHelper::findFiles($folderPath)]];
+        if (!FileHelper::findFiles('.')){
+        // if (!is_dir($folderPath)) {
+            return ['data' => ['success' => 'sdfs']];
+        }
+
+        $fileList = FileHelper::findFiles($folderPath);
+        
+        
+        return ['data' => ['success' => $fileList]];
     }
 
     /**

@@ -43,6 +43,7 @@ class Project extends \yii\db\ActiveRecord
             [['excerpt', 'description'], 'string'],
             [['name', 'img', 'country'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
+            [['optionsArray'], 'safe'],
         ];
     }
 
@@ -62,6 +63,7 @@ class Project extends \yii\db\ActiveRecord
             'excerpt' => 'Excerpt',
             'description' => 'Description',
             'show' => 'Show',
+            'optionsArray' => 'Show',
         ];
     }
 
@@ -72,7 +74,11 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getGalleries()
     {
-        return $this->hasMany(Gallery::class, ['project_id' => 'id']);
+        return $this->hasMany(Gallery::class, ['item_id' => 'id']);
+    }
+    public function getGallery()
+    {
+        return $this->hasOne(Gallery::class, ['item_id' => 'id']);
     }
 
     /**
@@ -82,7 +88,9 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getOptions()
     {
-        return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => 'ru']);
+        return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id']);
+        // return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
+        // return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => 'lang']);
     }
 
     /**
@@ -92,6 +100,51 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getProjectOptions()
     {
-        return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => 'ru']);
+        return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
+        // return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
+        // return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
+    }
+
+
+
+    private $_optionsArray;
+
+    public function getOptionsArray()
+    {
+        if ($this->_optionsArray === null) {
+            $this->_optionsArray = $this->getOptions()->select('id')->column();
+        }
+        return $this->_optionsArray;
+    }
+
+    public function setOptionsArray($value)
+    {
+        $this->_optionsArray = (array)$value;
+    }
+
+    public function afterSave($insert, $changedAttributes)
+    {
+        $this->updateOptions();
+        parent::afterSave($insert, $changedAttributes);
+    }
+
+    private function updateOptions()
+    {
+        $currentOptionIds = $this->getOptions()->select('id')->column();
+        $newOptionIds = $this->getOptionsArray();
+
+        foreach (array_filter(array_diff($newOptionIds, $currentOptionIds)) as $optionId) {
+            /** @var Option $Option */
+            if ($option = Option::findOne(['id' => $optionId])) {
+                $this->link('options', $option);
+            }
+        }
+
+        foreach (array_filter(array_diff($currentOptionIds, $newOptionIds)) as $optionId) {
+            /** @var Option $option */
+            if ($option = Option::findOne(['id' => $optionId])) {
+                $this->unlink('options', $option, true);
+            }
+        }
     }
 }

@@ -71,13 +71,9 @@ $this->title = 'Real Estate';
         <a href="#" data-type="penthouse">Пентхаусы</a>
         <a href="#" data-type="commercial">Коммерческая недвижимость</a>
     </div>
-    <div class="first-button">
-        <div class="first-button-prev">
-            <svg width="48" height="48"><use xlink:href="images/icons.svg#pointer"></use></svg>
-        </div>
-        <div class="first-button-next">
-            <svg width="48" height="48"><use xlink:href="images/icons.svg#pointer"></use></svg>
-        </div>
+    <div class="swiper-buttons">
+        <div class="projects-swiper-button-prev">&#8249;</div>
+        <div class="projects-swiper-button-next">&#8250;</div>
     </div>
     <div class="swiper projects-swiper card all">
         <div class="swiper-wrapper text-white shadow-black">

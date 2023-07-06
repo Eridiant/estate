@@ -113,13 +113,17 @@ class SiteController extends Controller
         }
 
         $folderPath = Yii::getAlias( '@frontend' ) . '/images/upload/' . $request->post('num');
-        $folderPath = Yii::getAlias( '@frontend' ) . '/images/';
+        $folderPath = Yii::getAlias( '@frontend' ) . '/web/images/upload/' . $request->post('num') . '/';
+        $num = intval($request->post('num'));
+        $folderPath = Yii::getAlias( '@frontend' ) . "/web/images/upload/{$num}/";
         // $folderPath = 'home';
         // $folderPath = '/images/upload/1';
 
         // if (!FileHelper::findDirectories($folderPath, ['recursive' => false])){
-
-        return ['data' => ['success' =>  BaseFileHelper::findFiles($folderPath)]];
+            
+        // return ['data' => ['success' => is_dir($folderPath)]];
+        return ['data' => ['success' => FileHelper::findFiles($folderPath)]];
+        return ['data' => ['success' => scandir($folderPath)]];
         if (!FileHelper::findFiles('.')){
         // if (!is_dir($folderPath)) {
             return ['data' => ['success' => 'sdfs']];

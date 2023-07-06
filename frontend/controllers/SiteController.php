@@ -118,9 +118,14 @@ class SiteController extends Controller
         $folderPath = Yii::getAlias( '@frontend' ) . "/web/images/upload/{$num}/";
         // $folderPath = 'home';
         // $folderPath = '/images/upload/1';
+        $pattern = '/.*\/images/';
+        $images = [];
+        foreach (FileHelper::findFiles($folderPath) as $string) {
+            $images[] = preg_replace($pattern, '/images', $string);
+        }
+        return $this->renderPartial('_slider', compact('images'));
 
         // if (!FileHelper::findDirectories($folderPath, ['recursive' => false])){
-            
         // return ['data' => ['success' => is_dir($folderPath)]];
         return ['data' => ['success' => FileHelper::findFiles($folderPath)]];
         return ['data' => ['success' => scandir($folderPath)]];

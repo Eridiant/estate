@@ -35,7 +35,7 @@ $this->title = 'Real Estate';
                             Сэкономьте время и деньги на изучение и анализ
                         </p>
                         <p class="lead">
-                            отправить вложение в <a href="#"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                            отправить вложение в <a href="https://wa.me/+995706070141"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
                         </p>
                     </div>
                     <a href="#" class="first-consultation border border-white form-target">Консультация&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>

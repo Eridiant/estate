@@ -198,12 +198,12 @@ use yii\helpers\Url;
 <div class="cont-container" style="max-width: 1600px; margin-left: auto; margin-right: auto">
     <div class="cont-wrapper cont-wa">
         <div class="cont-inner">
-            <a href="#" class="cont-wa-link">
+            <a href="https://telegram.me/+995706070141" class="cont-wa-link">
                 <svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg>
             </a>
         </div>
         <div class="cont-inner">
-            <a href="#" class="cont-wa-link">
+            <a href="https://wa.me/+995706070141" class="cont-wa-link">
                 <svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg>
             </a>
         </div>

@@ -6,6 +6,6 @@
             </div>
         <?php endforeach; ?>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next popup-swiper-button-next"></div>
+    <div class="swiper-button-prev popup-swiper-button-prev"></div>
 </div>

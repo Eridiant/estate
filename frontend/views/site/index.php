@@ -82,6 +82,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-1.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -147,6 +150,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-2.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -212,6 +218,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-3.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -277,6 +286,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-4.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -342,6 +354,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -407,6 +422,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -472,6 +490,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-7.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -537,6 +558,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-8.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -602,6 +626,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-9.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -667,6 +694,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-10.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -732,6 +762,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-11.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -797,6 +830,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-12.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -862,6 +898,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-13.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -927,6 +966,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-14.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -992,6 +1034,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-15.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1057,6 +1102,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-16.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1122,6 +1170,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-17.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1187,6 +1238,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-18.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1252,6 +1306,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-19.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1317,6 +1374,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-20.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1382,6 +1442,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-21.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1447,6 +1510,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-22.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1512,6 +1578,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-0.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1577,6 +1646,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-24.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1642,6 +1714,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-25.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">
@@ -1707,6 +1782,9 @@ $this->title = 'Real Estate';
                     <picture>
                         <img src="/images/index/projects/projects-26.jpg" alt="">
                     </picture>
+                    <div class="card-sl">
+                        <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                    </div>
                 </div>
                 <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                 <div class="card-content">

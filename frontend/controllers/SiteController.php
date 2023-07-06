@@ -123,6 +123,7 @@ class SiteController extends Controller
         foreach (FileHelper::findFiles($folderPath) as $string) {
             $images[] = preg_replace($pattern, '/images', $string);
         }
+        // return $this->render('_slider', compact('images'));
         return $this->renderPartial('_slider', compact('images'));
 
         // if (!FileHelper::findDirectories($folderPath, ['recursive' => false])){

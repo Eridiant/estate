@@ -30,11 +30,11 @@
                 </li>
                 <li>
                     <span>
-                        <span>GR:</span><a href="tel:+995706070141">+9 957 060 701 41</a>
+                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                     </span>
                     <span>
-                        <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                        <a href="https://wa.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                     </span>
                 </li>
             </ul>

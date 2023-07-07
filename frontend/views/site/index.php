@@ -2406,7 +2406,7 @@ $this->title = 'Real Estate';
             <img src="images/about/about.jpg" alt="">
         </picture>
     </div>
-    <a href="#" class="company-btn btn">
+    <a href="<?= \yii\helpers\Url::toRoute('/contact'); ?>" class="company-btn btn">
         <span>
             <span>Подробнее</span>
         </span>

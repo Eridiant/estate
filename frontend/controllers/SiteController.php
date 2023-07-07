@@ -223,7 +223,7 @@ class SiteController extends Controller
                         <td style='padding: 10px; border: #e9e9e9 1px solid;'>{$request->post('phone')}</td>
                     </tr>
                     <tr style='background-color: #f8f8f8;'>
-                        <td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Страна:</b></td>
+                        <td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Сообщение:</b></td>
                         <td style='padding: 10px; border: #e9e9e9 1px solid;'>{$request->post('message')}</td>
                     </tr>
                 </table>")

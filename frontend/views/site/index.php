@@ -73,10 +73,10 @@ $this->title = 'Real Estate';
         </span>
         <a href="#" data-type="commercial">Коммерческая недвижимость</a>
     </div>
-    <div class="swiper-buttons">
+    <!-- <div class="swiper-buttons">
         <div class="projects-swiper-button-prev">&#8249;</div>
         <div class="projects-swiper-button-next">&#8250;</div>
-    </div>
+    </div> -->
     <div class="swiper projects-swiper card all">
         <div class="swiper-wrapper text-white shadow-black">
             <div class="swiper-slide destination" data-type="flats">
@@ -1847,6 +1847,8 @@ $this->title = 'Real Estate';
                 </div>
             </div>
         </div>
+        <div class="swiper-button-next projects-next"></div>
+        <div class="swiper-button-prev projects-prev"></div>
         <div class="swiper-pagination pagination"></div>
     </div>
 </section>
@@ -1870,10 +1872,10 @@ $this->title = 'Real Estate';
 </section>
 <section class="districts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Районы</p>
-    <div class="swiper-buttons">
+    <!-- <div class="swiper-buttons">
         <div class="districts-swiper-button-prev">&#8249;</div>
         <div class="districts-swiper-button-next">&#8250;</div>
-    </div>
+    </div> -->
     <div class="swiper districts-swiper card">
         <div class="swiper-wrapper text-white shadow-black">
             <div class="swiper-slide destination" data-target="1">
@@ -1983,6 +1985,8 @@ $this->title = 'Real Estate';
             </div>
 
         </div>
+        <div class="swiper-button-next districts-next"></div>
+        <div class="swiper-button-prev districts-prev"></div>
         <div class="swiper-pagination pagination"></div>
     </div>
     <div class="districts-block">
@@ -2382,6 +2386,8 @@ $this->title = 'Real Estate';
                 </div>
             </div>
         </div>
+        <div class="swiper-button-next experts-next"></div>
+        <div class="swiper-button-prev experts-prev"></div>
         <div class="swiper-pagination pagination"></div>
     </div>
 </section>

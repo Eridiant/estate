@@ -67,8 +67,10 @@ $this->title = 'Real Estate';
     <div class="projects-switch">
         <a href="#" class="active" data-type="all">Все</a>
         <a href="#" data-type="flats">Квартира</a>
-        <a href="#" data-type="villa">Виллы</a>
-        <a href="#" data-type="penthouse">Пентхаусы</a>
+        <span>
+            <a href="#" data-type="villa">Виллы</a>
+            <a href="#" data-type="penthouse">Пентхаусы</a>
+        </span>
         <a href="#" data-type="commercial">Коммерческая недвижимость</a>
     </div>
     <div class="swiper-buttons">

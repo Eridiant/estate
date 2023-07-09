@@ -96,7 +96,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2023</span></p>
+                        <p><span>Сдача объекта:</span> <span>2023</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальня</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -108,11 +108,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -126,11 +126,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -164,7 +164,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2027</span></p>
+                        <p><span>Сдача объекта:</span> <span>2027</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1,2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -176,11 +176,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -194,11 +194,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -232,7 +232,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>Сдан в эксплуатацию</span></p>
+                        <p><span>Сдача объекта:</span> <span>Сдан в эксплуатацию</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальня</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -244,11 +244,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -262,11 +262,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -300,7 +300,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2023</span></p>
+                        <p><span>Сдача объекта:</span> <span>2023</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальня</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -312,11 +312,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -330,11 +330,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -368,7 +368,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2, 3 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -380,11 +380,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -398,11 +398,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -436,7 +436,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -448,11 +448,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -466,11 +466,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -504,7 +504,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни, Пентхаус</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -516,11 +516,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -534,11 +534,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -572,7 +572,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -584,11 +584,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -602,11 +602,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -640,7 +640,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2024</span></p>
+                        <p><span>Сдача объекта:</span> <span>2024</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Пентхаусы 130 и 151 м²</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -652,11 +652,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -670,11 +670,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -708,7 +708,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>Блок А 2024, Б 2025, С2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>Блок А 2024, Б 2025, С2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -720,11 +720,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -738,11 +738,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -776,7 +776,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2023</span></p>
+                        <p><span>Сдача объекта:</span> <span>2023</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -788,11 +788,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -806,11 +806,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -844,7 +844,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2023</span></p>
+                        <p><span>Сдача объекта:</span> <span>2023</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Виллы 160 кв. 176, 1 кв</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -856,11 +856,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -874,11 +874,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -912,7 +912,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2026</span></p>
+                        <p><span>Сдача объекта:</span> <span>2026</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни, Пентхаусы 300-400 кв.м</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -924,11 +924,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -942,11 +942,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -980,7 +980,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2024</span></p>
+                        <p><span>Сдача объекта:</span> <span>2024</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Виллы 165 кв, 200 кв.</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -992,11 +992,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1010,11 +1010,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1048,7 +1048,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>Сдан в эксплуатацию, завершение 2024</span></p>
+                        <p><span>Сдача объекта:</span> <span>Сдан в эксплуатацию, завершение 2024</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1060,11 +1060,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1078,11 +1078,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1116,7 +1116,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Сдан в эксплуатацию, завершение 2024</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1128,11 +1128,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1146,11 +1146,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1184,7 +1184,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2024</span></p>
+                        <p><span>Сдача объекта:</span> <span>2024</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1196,11 +1196,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1214,11 +1214,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1252,7 +1252,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>Блок А 2024, Б 2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>Блок А 2024, Б 2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1264,11 +1264,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1282,11 +1282,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1320,7 +1320,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2028</span></p>
+                        <p><span>Сдача объекта:</span> <span>2028</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1332,11 +1332,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1350,11 +1350,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1388,7 +1388,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2024</span></p>
+                        <p><span>Сдача объекта:</span> <span>2024</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1400,11 +1400,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1418,11 +1418,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1456,7 +1456,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1468,11 +1468,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1486,11 +1486,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1524,7 +1524,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2025</span></p>
+                        <p><span>Сдача объекта:</span> <span>2025</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1536,11 +1536,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1554,11 +1554,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1592,7 +1592,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2027</span></p>
+                        <p><span>Сдача объекта:</span> <span>2027</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1604,11 +1604,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1622,11 +1622,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1660,7 +1660,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2024</span></p>
+                        <p><span>Сдача объекта:</span> <span>2024</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1, 2 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1672,11 +1672,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1690,11 +1690,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1728,7 +1728,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>2027</span></p>
+                        <p><span>Сдача объекта:</span> <span>2027</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1740,11 +1740,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1758,11 +1758,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1796,7 +1796,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer>
                         <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                        <p><span>Сдача объекта:</span> <span>12.2027</span></p>
+                        <p><span>Сдача объекта:</span> <span>12.2027</span></p><br>
                         <p><span>Варианты юнитов:</span> <span>Студио, 1 спальни</span></p>
                         <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                     </footer>
@@ -1808,11 +1808,11 @@ $this->title = 'Real Estate';
                             <ul class="popup-phone">
                                 <li>
                                     <span>
-                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
+                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                                 <li>
@@ -1826,11 +1826,11 @@ $this->title = 'Real Estate';
                                 </li>
                                 <li>
                                     <span>
-                                        <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                        <span>KZ:</span><a href="tel:+77002100685">+7 700 210 06 85</a>
                                     </span>
                                     <span>
-                                        <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                        <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                        <a href="https://telegram.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                        <a href="https://wa.me/+77002100685"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                                     </span>
                                 </li>
                             </ul>
@@ -1886,7 +1886,7 @@ $this->title = 'Real Estate';
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p>
+                        <p class="subtitle">район</p><br>
                         <p class="caption">Старый город</p>
                     </header>
                     <footer>
@@ -1907,7 +1907,7 @@ $this->title = 'Real Estate';
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p>
+                        <p class="subtitle">район</p><br>
                         <p class="caption">Аллея героев</p>
                     </header>
                     <footer>
@@ -1926,7 +1926,7 @@ $this->title = 'Real Estate';
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p>
+                        <p class="subtitle">район</p><br>
                         <p class="caption">новый бульвар</p>
                     </header>
                     <footer>
@@ -1949,7 +1949,7 @@ $this->title = 'Real Estate';
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p>
+                        <p class="subtitle">район</p><br>
                         <p class="caption">Махинджаури</p>
                     </header>
                     <footer>
@@ -1970,7 +1970,115 @@ $this->title = 'Real Estate';
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p>
+                        <p class="subtitle">район</p><br>
+                        <p class="caption">Гонио-Квариати</p>
+                    </header>
+                    <footer>
+                        <p>
+                            Район "Гонио-Квариати" это оазис для жизни и отдыха, 80% этот район направлен на курортный формат, расположение до Батуми 10 минут на машине. Крупные франшизы отелей уже появиться в 2025-26 году.
+                        </p>
+                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
+                                <use xlink:href="/images/icons.svg#small-arrow"></use>
+                            </svg></a>
+                    </footer>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide destination" data-target="1">
+                <div class="card-image main-border-radius">
+                    <picture>
+                        <img src="/images/index/districts/districts-1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card-content">
+                    <header>
+                        <p class="subtitle">район</p><br>
+                        <p class="caption">Старый город</p>
+                    </header>
+                    <footer>
+                        <p>
+                            Район "Старый город" это культурное и центральное место всего города, ваша надежная инвестиция на долгие годы. Шаговая доступность ко всем услугам, изобилие выбора ресторанов, потрясающая архитектура города, является главным преимуществом для покупателя.
+                        </p>
+                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
+                                <use xlink:href="/images/icons.svg#small-arrow"></use>
+                            </svg></a>
+                    </footer>
+                </div>
+            </div>
+            <div class="swiper-slide destination" data-target="2">
+                <div class="card-image main-border-radius">
+                    <picture>
+                        <img src="/images/index/districts/districts-2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card-content">
+                    <header>
+                        <p class="subtitle">район</p><br>
+                        <p class="caption">Аллея героев</p>
+                    </header>
+                    <footer>
+                        <p>
+                            Район "Алея Героев" была открыта в 2012, концепция данного района это новый центр Батуми, жилые комплексы и небоскребы создают атмосферу мегаполиса с шаговой доступностью к морю. На аее высажены пальмы, прогулочная зона разделяющая дорогами с обеих сторон. Чаще девелоперы строят многофункциональные жилые комплексы.
+                        </p>
+                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
+                    </footer>
+                </div>
+            </div>
+            <div class="swiper-slide destination" data-target="3">
+                <div class="card-image main-border-radius">
+                    <picture>
+                        <img src="/images/index/districts/districts-3.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card-content">
+                    <header>
+                        <p class="subtitle">район</p><br>
+                        <p class="caption">новый бульвар</p>
+                    </header>
+                    <footer>
+                        <p>
+                            Район "Новый бульвар" центральный и самая современный район для инвестиций, высокое количество предложений. Огромный парк спроектированный Испанский архитектором с детскими площадками и АРТ инсталляциями.
+                        </p>
+                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
+                                <use xlink:href="/images/icons.svg#small-arrow"></use>
+                            </svg></a>
+                    </footer>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide destination" data-target="4">
+                <div class="card-image main-border-radius">
+                    <picture>
+                        <img src="/images/index/districts/districts-4.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card-content">
+                    <header>
+                        <p class="subtitle">район</p><br>
+                        <p class="caption">Махинджаури</p>
+                    </header>
+                    <footer>
+                        <p>
+                            Район "Махинджаури" один из самых популярных районов для курортного отдыха, близкое расположение к морю, много новых проектов в стадии завершен. Интересный район для инвестиций
+                        </p>
+                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
+                                <use xlink:href="/images/icons.svg#small-arrow"></use>
+                            </svg></a>
+                    </footer>
+                </div>
+            </div>
+            <div class="swiper-slide destination" data-target="5">
+                <div class="card-image main-border-radius">
+                    <picture>
+                        <img src="/images/index/districts/districts-5.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="card-content">
+                    <header>
+                        <p class="subtitle">район</p><br>
                         <p class="caption">Гонио-Квариати</p>
                     </header>
                     <footer>
@@ -2018,8 +2126,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2060,7 +2168,7 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
                             <p class="caption">ибрагимов
                                 егор<span class="card-popup">&nbsp;</span></p>
                             <p>Языки: Английский, Русский</p>
@@ -2103,8 +2211,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2145,8 +2253,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2187,8 +2295,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2229,8 +2337,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2271,8 +2379,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2313,8 +2421,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2355,8 +2463,8 @@ $this->title = 'Real Estate';
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p>
-                            <p class="caption">халина александра<span class="card-popup">&nbsp;Романович</span></p>
+                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="caption">халина александра<span class="card-popup">&nbsp;Романович</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
@@ -2394,7 +2502,7 @@ $this->title = 'Real Estate';
 <?= $this->render('_form') ?>
 <section class="company container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="company-desc">
-        <p class="subtitle">DDA Real Estate</p>
+        <p class="subtitle">DDA Real Estate</p><br>
         <p class="title">О компании</p>
         <input type="checkbox" class="read-more-state" id="post-1">
         <p class="read-more-wrap">

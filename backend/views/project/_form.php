@@ -32,12 +32,12 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'show')->textInput() ?>
 
-    <!-- <?//= $form->field($model, 'optionsArray')->checkboxList(backend\models\Option::find()->select(['name', 'id'])->indexBy('id')->column()) ?> -->
+    <?= $form->field($model, 'optionsArray')->checkboxList(backend\models\Option::find()->select(['name', 'id'])->indexBy('id')->column()) ?>
     
     <!-- <?//= $form->field($model->galleries, 'img[]')->fileInput(['multiple' => true, 'accept' => 'image/*','id'=>'gallery-photo-add'])->label(false) ?> -->
 
     <!-- <?//= $form->field($model, 'img')->widget(FileInput::class, ['options' => ['accept' => 'image/*']]); ?> -->
-    <?= $form->field($gallery, 'img[]')->fileInput(['multiple' => true])->label(false) ?>
+    <!-- <?//= $form->field($gallery, 'img[]')->fileInput(['multiple' => true])->label(false) ?> -->
 
     
     <!-- <input type="file" name="images[]" multiple> -->

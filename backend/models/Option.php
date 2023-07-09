@@ -53,6 +53,11 @@ class Option extends \yii\db\ActiveRecord
     {
         return $this->hasMany(ProjectOption::class, ['option_id' => 'id']);
     }
+    public function getProjectOption()
+    {
+        $lang = Yii::$app->language;
+        return $this->hasOne(ProjectOption::class, ['option_id' => 'id', 'lang' => 'lang']);
+    }
 
     /**
      * Gets query for [[Projects]].

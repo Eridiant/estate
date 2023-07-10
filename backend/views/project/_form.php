@@ -24,6 +24,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'date')->textInput() ?>
 
+    <?= $form->field($model, 'variant')->textarea(['rows' => 2]) ?>
+
     <?= $form->field($model, 'price')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'excerpt')->textarea(['rows' => 6]) ?>

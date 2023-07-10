@@ -21,6 +21,7 @@ class m230701_072816_create_project_table extends Migration
             'country' => $this->string(255),
             'date' => $this->string(255),
             'price' => $this->money(),
+            'variant' => $this->text(),
             'excerpt' => $this->text(),
             'description' => $this->text(),
             'show' => $this->tinyInteger()->notNull()->defaultValue(1),

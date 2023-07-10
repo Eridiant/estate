@@ -5,7 +5,7 @@ namespace backend\models;
 use Yii;
 
 /**
- * This is the model class for table "ste_project".
+ * This is the model class for table "{{%project}}".
  *
  * @property int $id
  * @property string|null $lang
@@ -13,8 +13,9 @@ use Yii;
  * @property string|null $img
  * @property string|null $type
  * @property string|null $country
- * @property int|null $date
+ * @property string|null $date
  * @property float|null $price
+ * @property string|null $variant
  * @property string|null $excerpt
  * @property string|null $description
  * @property int $show
@@ -38,11 +39,11 @@ class Project extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['date', 'show'], 'integer'],
             [['price'], 'number'],
-            [['excerpt', 'description'], 'string'],
+            [['variant', 'excerpt', 'description'], 'string'],
+            [['show'], 'integer'],
             [['lang'], 'string', 'max' => 12],
-            [['name', 'img', 'country'], 'string', 'max' => 255],
+            [['name', 'img', 'country', 'date'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
         ];
     }
@@ -61,6 +62,7 @@ class Project extends \yii\db\ActiveRecord
             'country' => 'Country',
             'date' => 'Date',
             'price' => 'Price',
+            'variant' => 'Variant',
             'excerpt' => 'Excerpt',
             'description' => 'Description',
             'show' => 'Show',

@@ -79,7 +79,6 @@ class ProjectController extends Controller
     public function actionCreate()
     {
         $model = new Project();
-        $gallery = new Gallery();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
@@ -89,10 +88,42 @@ class ProjectController extends Controller
             $model->loadDefaultValues();
         }
 
-        return $this->render('create', [
-            'model' => $model,
-            'gallery' => $gallery,
-        ]);
+        return $this->render('create', compact('model'));
+    }
+
+    public function actionPrg()
+    {
+        return;
+        // HTML content
+        $html = '
+        ';
+
+        // Create a DOMDocument object and load the HTML
+        // $dom = new DOMDocument();
+        // $dom->loadHTML($html);
+
+        // // Create a DOMXPath object
+        // $xpath = new DOMXPath($dom);
+
+        // // Get all the swiper-slide destination divs
+        // $slideDivs = $xpath->query('//div[@class="swiper-slide destination"]');
+
+        // // Loop through each slide div
+        // foreach ($slideDivs as $slideDiv) {
+            // Extract the desired tag values using XPath queries
+            // $subtitle = $xpath->query('.//p[@class="subtitle dn"]', $slideDiv)->item(0)->nodeValue;
+            // $caption = $xpath->query('.//p[@class="caption"]', $slideDiv)->item(0)->nodeValue;
+            // $languages = $xpath->query('.//p[contains(text(), "Языки:")]/following-sibling::p[1]', $slideDiv)->item(0)->nodeValue;
+            // $phone_number = $xpath->query('.//a[starts-with(@href, "tel:")]/text()', $slideDiv)->item(0)->nodeValue;
+            // $telegram_link = $xpath->query('.//a[starts-with(@href, "https://telegram.me/")]/@href', $slideDiv)->item(0)->nodeValue;
+            // $viber_link = $xpath->query('.//a[starts-with(@href, "https://wa.me/")]/@href', $slideDiv)->item(0)->nodeValue;
+            // var_dump('<pre>');
+            // var_dump($subtitle);
+            // var_dump('</pre>');
+            // die;
+            
+        // }
+
     }
 
     /**

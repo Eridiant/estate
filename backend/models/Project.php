@@ -5,9 +5,10 @@ namespace backend\models;
 use Yii;
 
 /**
- * This is the model class for table "{{%project}}".
+ * This is the model class for table "ste_project".
  *
  * @property int $id
+ * @property string|null $lang
  * @property string|null $name
  * @property string|null $img
  * @property string|null $type
@@ -18,7 +19,6 @@ use Yii;
  * @property string|null $description
  * @property int $show
  *
- * @property Gallery[] $galleries
  * @property Option[] $options
  * @property ProjectOption[] $projectOptions
  */
@@ -41,9 +41,9 @@ class Project extends \yii\db\ActiveRecord
             [['date', 'show'], 'integer'],
             [['price'], 'number'],
             [['excerpt', 'description'], 'string'],
+            [['lang'], 'string', 'max' => 12],
             [['name', 'img', 'country'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray'], 'safe'],
         ];
     }
 
@@ -54,6 +54,7 @@ class Project extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
+            'lang' => 'Lang',
             'name' => 'Name',
             'img' => 'Img',
             'type' => 'Type',
@@ -63,7 +64,6 @@ class Project extends \yii\db\ActiveRecord
             'excerpt' => 'Excerpt',
             'description' => 'Description',
             'show' => 'Show',
-            'optionsArray' => 'Show',
         ];
     }
 

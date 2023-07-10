@@ -66,7 +66,7 @@ $this->title = 'Real Estate';
     <p class="title">Надежные проекты</p>
     <div class="projects-switch">
         <a href="#" class="active" data-type="all">Все</a>
-        <a href="#" data-type="flats">Квартира</a>
+        <a href="#" data-type="flats">Квартиры</a>
         <span>
             <a href="#" data-type="villa">Виллы</a>
             <a href="#" data-type="penthouse">Пентхаусы</a>

@@ -19,7 +19,7 @@ class m230701_072816_create_project_table extends Migration
             'img' => $this->string(255),
             'type' => $this->string(64),
             'country' => $this->string(255),
-            'date' => $this->integer(11),
+            'date' => $this->string(255),
             'price' => $this->money(),
             'excerpt' => $this->text(),
             'description' => $this->text(),

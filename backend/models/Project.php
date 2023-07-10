@@ -45,6 +45,7 @@ class Project extends \yii\db\ActiveRecord
             [['lang'], 'string', 'max' => 12],
             [['name', 'img', 'country', 'date'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
+            [['optionsArray'], 'safe;'],
         ];
     }
 
@@ -102,7 +103,7 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getProjectOptions()
     {
-        $lang = Yii::$app->language;        // return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
+        // return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
         // return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
         // return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
         return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);

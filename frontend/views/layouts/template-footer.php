@@ -106,14 +106,14 @@ use yii\helpers\Url;
 
 <div class="popup">
     <div class="popup-wrapper">
-        <div class="popup-close"><svg width="14" height="14"><use xlink:href="/images/icons.svg#close"></use></svg></div>
+        <div class="popup-close"><svg width="24" height="24"><use xlink:href="/images/icons.svg#cls"></use></svg></div>
         <div class="popup-inner"></div>
     </div>
 </div>
 
 <div class="form form-popup">
     <div class="form-wrap">
-        <div class="form-close"><svg width="14" height="14"><use xlink:href="/images/icons.svg#close"></use></svg></div>
+        <div class="form-close"><svg width="24" height="24"><use xlink:href="/images/icons.svg#cls"></use></svg></div>
         <div class="form-inner">
             <div class="form-wrapper">
                 <p class="caption">Получите консультацию</p>
@@ -191,7 +191,7 @@ use yii\helpers\Url;
             </div>
         </div>
         <div class="success-close">
-            <svg width="14" height="14"><use xlink:href="/images/icons.svg#close"></use></svg>
+            <svg width="24" height="24"><use xlink:href="/images/icons.svg#cls"></use></svg>
         </div>
     </div>
 </div>

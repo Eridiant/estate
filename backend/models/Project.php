@@ -90,7 +90,7 @@ class Project extends \yii\db\ActiveRecord
     {
         return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id']);
         // return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
-        return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => 'lang']);
+        // return $this->hasMany(Option::class, ['id' => 'option_id'])->viaTable('{{%project_option}}', ['project_id' => 'id', 'lang' => 'lang']);
     }
 
     /**
@@ -100,11 +100,10 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getProjectOptions()
     {
-        $lang = Yii::$app->language;
-        // return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
+        $lang = Yii::$app->language;        // return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
         // return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
         // return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => \backend\modules\language\models\Language::getCurrent()->code]);
-        return $this->hasMany(ProjectOption::class, ['project_id' => 'id', 'lang' => 'lang']);
+        return $this->hasMany(ProjectOption::class, ['project_id' => 'id']);
     }
 
 
@@ -136,20 +135,9 @@ class Project extends \yii\db\ActiveRecord
         $newOptionIds = $this->getOptionsArray();
 
         foreach (array_filter(array_diff($newOptionIds, $currentOptionIds)) as $optionId) {
+
             /** @var Option $Option */
             if ($option = Option::findOne(['id' => $optionId])) {
-                $lang = Yii::$app->language;
-                var_dump('<pre>');
-                var_dump($option->projectOption);
-                var_dump('</pre>');
-                die;
-                
-                $option->projectOption->lang = $lang;
-                var_dump('<pre>');
-                var_dump($option->projectOption);
-                var_dump('</pre>');
-                die;
-                
                 $this->link('options', $option);
             }
         }

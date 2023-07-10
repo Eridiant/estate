@@ -5,11 +5,10 @@ namespace backend\models;
 use Yii;
 
 /**
- * This is the model class for table "{{%project_option}}".
+ * This is the model class for table "ste_project_option".
  *
  * @property int $project_id
  * @property int $option_id
- * @property string $lang
  *
  * @property Option $option
  * @property Project $project
@@ -21,7 +20,7 @@ class ProjectOption extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%project_option}}';
+        return 'ste_project_option';
     }
 
     /**
@@ -30,10 +29,9 @@ class ProjectOption extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['project_id', 'option_id', 'lang'], 'required'],
+            [['project_id', 'option_id'], 'required'],
             [['project_id', 'option_id'], 'integer'],
-            [['lang'], 'string', 'max' => 12],
-            [['project_id', 'option_id', 'lang'], 'unique', 'targetAttribute' => ['project_id', 'option_id', 'lang']],
+            [['project_id', 'option_id'], 'unique', 'targetAttribute' => ['project_id', 'option_id']],
             [['option_id'], 'exist', 'skipOnError' => true, 'targetClass' => Option::class, 'targetAttribute' => ['option_id' => 'id']],
             [['project_id'], 'exist', 'skipOnError' => true, 'targetClass' => Project::class, 'targetAttribute' => ['project_id' => 'id']],
         ];
@@ -47,7 +45,6 @@ class ProjectOption extends \yii\db\ActiveRecord
         return [
             'project_id' => 'Project ID',
             'option_id' => 'Option ID',
-            'lang' => 'Lang',
         ];
     }
 

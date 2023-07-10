@@ -19,16 +19,8 @@ class m230702_105035_create_junction_table_for_project_and_option_tables extends
         $this->createTable('{{%project_option}}', [
             'project_id' => $this->integer(),
             'option_id' => $this->integer(),
-            'lang' => $this->string(12),
-            'PRIMARY KEY(project_id, option_id, lang)',
+            'PRIMARY KEY(project_id, option_id)',
         ]);
-
-        // creates index for column `lang`
-        $this->createIndex(
-            '{{%idx-project_option-lang}}',
-            '{{%project_option}}',
-            'lang'
-        );
 
         // creates index for column `project_id`
         $this->createIndex(
@@ -70,12 +62,6 @@ class m230702_105035_create_junction_table_for_project_and_option_tables extends
      */
     public function safeDown()
     {
-        // drops index for column `lang`
-        $this->dropIndex(
-            '{{%idx-project_option-lang}}',
-            '{{%project_option}}'
-        );
-
         // drops foreign key for table `{{%project}}`
         $this->dropForeignKey(
             '{{%fk-project_option-project_id}}',

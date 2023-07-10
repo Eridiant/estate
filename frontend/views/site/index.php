@@ -2169,8 +2169,7 @@ $this->title = 'Real Estate';
                     <footer class="card-inner">
                         <div>
                             <p class="subtitle">Брокер по продаже недвижимости</p><br>
-                            <p class="caption">ибрагимов
-                                егор<span class="card-popup">&nbsp;</span></p>
+                            <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
                             <p>Языки: Английский, Русский</p>
                         </div>
                         <div class="card-popup">

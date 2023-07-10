@@ -87,9 +87,9 @@ use yii\helpers\Url;
         <div class="menu-nav">
             <div class="menu-link">
                 <ul>
-                    <li><a href="<?= Url::toRoute('/'); ?>">Home</a></li>
-                    <li><a href="<?= Url::toRoute('/about'); ?>">About</a></li>
-                    <li><a href="<?= Url::toRoute('/contact'); ?>">Contacts</a></li>
+                    <li><a href="<?= Url::toRoute('/'); ?>">Главная</a></li>
+                    <li><a href="<?= Url::toRoute('/about'); ?>">О нас</a></li>
+                    <li><a href="<?= Url::toRoute('/contact'); ?>">Контакты</a></li>
                 </ul>
             </div>
             <div>

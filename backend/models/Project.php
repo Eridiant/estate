@@ -45,7 +45,7 @@ class Project extends \yii\db\ActiveRecord
             [['lang'], 'string', 'max' => 12],
             [['name', 'img', 'country', 'date'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray'], 'safe;'],
+            [['optionsArray'], 'safe'],
         ];
     }
 

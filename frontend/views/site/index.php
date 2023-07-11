@@ -33,7 +33,7 @@ $this->title = 'Real Estate';
                     <div class="first-inner">
                         <p class="title">
                             Сэкономьте время и деньги на изучение и анализ
-                        </p>
+                        </p><br>
                         <p class="lead">
                             отправить вложение в <a href="https://wa.me/+995555932307"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
                         </p>

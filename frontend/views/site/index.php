@@ -1578,7 +1578,7 @@ $this->title = 'Real Estate';
             <div class="swiper-slide destination" data-type="flats">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="/images/index/projects/projects-0.jpg" alt="">
+                        <img src="/images/index/projects/projects-23.jpg" alt="">
                     </picture>
                     <div class="card-sl">
                         <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>

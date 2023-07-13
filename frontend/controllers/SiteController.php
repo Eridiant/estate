@@ -17,6 +17,9 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use yii\helpers\FileHelper;
 use yii\helpers\BaseFileHelper;
+use frontend\models\Project;
+use frontend\models\ProjectSearch;
+use frontend\models\Option;
 
 /**
  * Site controller
@@ -192,6 +195,45 @@ class SiteController extends Controller
     public function actionAmoDda()
     {
         return $this->render('amo');
+    }
+
+    public function actionTest()
+    {
+        $request = Yii::$app->request;
+
+        $model = Project::find()
+            ->joinWith("options as o");
+            // ->with("projectOptions")
+            // ->with("options");
+            // ->with("options");
+            // ->joinWith("options");
+            // ->joinWith("option");
+
+        if ($request->post()) {
+
+            // $model = $model->andWhere(['option.name' => $request->post('options')])->all();
+            // $model = $model->andWhere(['options.name' => 'пентхаусы'])->all();
+            // $model = $model->andWhere(['options.name' => 'пентхаусы'])->all();['o.name' => "виллы"]
+            if ($request->post('options') != 'all') {
+                $model = $model->where('o.type=:type', [':type' => $request->post('options')]);
+            }
+
+            $model = $model->all();
+
+            Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+            return $this->renderPartial('_test', compact('model'));
+        }
+        // $model = Project::find()->all();
+
+        // $searchModel = new ProjectSearch();
+        // $dataProvider = $searchModel->search($request->queryParams);
+        // // $dataProvider = $dataProvider->;
+        // $model = $dataProvider->getModels();
+        $model = $model->all();
+
+        $options = Option::find()->all();
+
+        return $this->render('test', compact('model', 'options'));
     }
 
     public function actionSendForm()

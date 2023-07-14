@@ -35,7 +35,7 @@ use yii\helpers\Url;
                     </li>
                     <li>
                         <span>
-                            <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                            <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                         </span>
                         <span>
                             <a href="https://telegram.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -80,7 +80,7 @@ use yii\helpers\Url;
             <div class="menu-header-phone">
                 <!-- <p class="header-localization-inf"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg> <svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></p> -->
                 <p class="header-localization-phone michroma"><a href="tel:+995555932307">+995 555 932 307</a> <span>:GR</span></p>
-                <p class="header-localization-phone michroma"><a href="tel:89646353313">8 964 635 33 13</a> <span>:RU</span></p>
+                <p class="header-localization-phone michroma"><a href="tel:89646353313">+7 964 635 33 13</a> <span>:RU</span></p>
                 <p class="header-localization-phone michroma"><a href="tel:+77002100685">+7 700 210 06 85</a> <span>:KZ</span></p>
             </div>
         </div>
@@ -131,7 +131,7 @@ use yii\helpers\Url;
                         </li>
                         <li>
                             <span>
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>

@@ -392,7 +392,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -434,7 +434,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -476,7 +476,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -518,7 +518,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -560,7 +560,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -602,7 +602,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -644,7 +644,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -686,7 +686,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -728,7 +728,7 @@ $this->title = 'Real Estate';
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
-                                <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
                                 <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
@@ -765,7 +765,7 @@ $this->title = 'Real Estate';
         <p class="title">О компании</p>
         <input type="checkbox" class="read-more-state" id="post-1">
         <p class="read-more-wrap">
-            Международное агентство по продаже недвижимости в Грузии,ОАЭ, Турции и Тайланде, созданное в 2007 году, входит в группу компаний «Бизнес - Юрист». Единственная Компания на рынке ,которая имеет более 350 филиалов в России от Калининграда до Камчатки ,офисы в Казахстане, Белоруссии, Турции и головной офис в Дубае.<br>
+            Международное агентство по продаже недвижимости в Грузии,ОАЭ, Турции и Тайланде, созданное в 2007 году, входит в группу компаний «Бизнес - Юрист». Единственная Компания на рынке ,которая имеет более 400 филиалов в России от Калининграда до Камчатки ,офисы в Казахстане, Белоруссии, Турции и головной офис в Дубае.<br>
             <span class="read-more-target">Мы стремимся учитывать индивидуальные потребности каждого нашего Клиента и предоставить наиболее эффективные решения для реализации их целей в области недвижимости. Наша команда профессионалов всегда готова ответить на любые вопросы и предоставить полную информацию о всех услугах агентства.<br>
             Мы уделяем особое внимание своей репутации и несем ответственность за все свои действия. Именно поэтому мы уверены в качестве наших услуг и уверены, что сможем удовлетворить все запросы и потребности наших Клиентов в области недвижимости.<br>
             Выбирая нашу Компанию, Вы можете быть уверены, что получите лучший сервис и профессиональную помощь в решении всех вопросов, связанных с недвижимостью. Мы всегда готовы помочь Вам достигнуть ваших целей в сфере недвижимости и обеспечить высококачественный сервис.</span>

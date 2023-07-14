@@ -46,7 +46,7 @@
                                     </li>
                                     <li>
                                         <span>
-                                            <span>RU:</span><a href="tel:89646353313">8 964 635 33 13</a>
+                                            <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                                         </span>
                                         <span>
                                             <a href="https://telegram.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>

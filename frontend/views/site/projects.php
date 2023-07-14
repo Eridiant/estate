@@ -1,4 +1,4 @@
-<section id="test" class="projects container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
+<section class="projects container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Надежные проекты</p>
     <div class="projects-switch">
         <a href="#" class="active" data-type="all">Все</a>
@@ -24,7 +24,7 @@
         <div class="projects-swiper-button-prev">&#8249;</div>
         <div class="projects-swiper-button-next">&#8250;</div>
     </div> -->
-    <div id="test1">
-        <?= $this->render('_test', compact('model')) ?>
+    <div id="projects">
+        <?= $this->render('_projects', compact('model')) ?>
     </div>
 </section>

@@ -80,7 +80,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $model = Project::find()
+            ->joinWith("options as o")
+            ->all();
+
+        $options = Option::find()->all();
+
+        return $this->render('index', compact('model', 'options'));
     }
 
     /**
@@ -106,6 +112,26 @@ class SiteController extends Controller
         ]);
     }
 
+    protected function findGallery($id)
+    {
+        $num = intval($id);
+        // $folderPath = Yii::getAlias( '@frontend' ) . '/images/upload/' . $num;
+        try {
+            $folderPath = Yii::getAlias( '@frontend' ) . '/web/images/upload/' . $num . '/';
+            $folderPath = Yii::getAlias( '@frontend' ) . "/web/images/upload/{$num}/";
+            // $folderPath = 'home';
+            // $folderPath = '/images/upload/1';
+            $pattern = '/.*\/images/';
+            $images = [];
+            foreach (FileHelper::findFiles($folderPath) as $string) {
+                $images[] = preg_replace($pattern, '/images', $string);
+            }
+            return $images;
+        } catch (\Throwable $th) {
+            return false;
+        }
+    }
+
     public function actionGallery()
     {
         $request = Yii::$app->request;
@@ -115,33 +141,23 @@ class SiteController extends Controller
             return ['data' => ['success' => false]];
         }
 
-        $folderPath = Yii::getAlias( '@frontend' ) . '/images/upload/' . $request->post('num');
-        $folderPath = Yii::getAlias( '@frontend' ) . '/web/images/upload/' . $request->post('num') . '/';
-        $num = intval($request->post('num'));
-        $folderPath = Yii::getAlias( '@frontend' ) . "/web/images/upload/{$num}/";
-        // $folderPath = 'home';
-        // $folderPath = '/images/upload/1';
-        $pattern = '/.*\/images/';
-        $images = [];
-        foreach (FileHelper::findFiles($folderPath) as $string) {
-            $images[] = preg_replace($pattern, '/images', $string);
-        }
+        $images = $this->findGallery($request->post('num'));
         // return $this->render('_slider', compact('images'));
         return $this->renderPartial('_slider', compact('images'));
 
         // if (!FileHelper::findDirectories($folderPath, ['recursive' => false])){
         // return ['data' => ['success' => is_dir($folderPath)]];
-        return ['data' => ['success' => FileHelper::findFiles($folderPath)]];
-        return ['data' => ['success' => scandir($folderPath)]];
-        if (!FileHelper::findFiles('.')){
+        // return ['data' => ['success' => FileHelper::findFiles($folderPath)]];
+        // return ['data' => ['success' => scandir($folderPath)]];
+        // if (!FileHelper::findFiles('.')){
         // if (!is_dir($folderPath)) {
-            return ['data' => ['success' => 'sdfs']];
-        }
+            // return ['data' => ['success' => 'sdfs']];
+        // }
 
-        $fileList = FileHelper::findFiles($folderPath);
+        // $fileList = FileHelper::findFiles($folderPath);
         
         
-        return ['data' => ['success' => $fileList]];
+        // return ['data' => ['success' => $fileList]];
     }
 
     /**
@@ -197,7 +213,22 @@ class SiteController extends Controller
         return $this->render('amo');
     }
 
-    public function actionTest()
+    public function actionProject()
+    {
+        $request = Yii::$app->request;
+
+        if ($request->post()) {
+            $id = (int)$request->post('project_id');
+            $model = Project::findOne($id);
+
+            $images = $this->findGallery($id);
+
+            Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+            return $this->renderPartial('_project', compact('model', 'images'));
+        }
+    }
+
+    public function actionProjects()
     {
         $request = Yii::$app->request;
 
@@ -221,7 +252,7 @@ class SiteController extends Controller
             $model = $model->all();
 
             Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
-            return $this->renderPartial('_test', compact('model'));
+            return $this->renderPartial('_projects', compact('model'));
         }
         // $model = Project::find()->all();
 
@@ -233,7 +264,7 @@ class SiteController extends Controller
 
         $options = Option::find()->all();
 
-        return $this->render('test', compact('model', 'options'));
+        return $this->render('projects', compact('model', 'options'));
     }
 
     public function actionSendForm()

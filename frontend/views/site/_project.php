@@ -1,37 +1,34 @@
 <?php
 
 ?>
-    <div class="swiper projects-swiper card all">
-        <div class="swiper-wrapper text-white shadow-black">
-            <?php foreach ($model as $item): ?>
-                <div class="swiper-slide destination" data-type="flats">
-                    <div class="card-image main-border-radius">
-                        <picture>
-                            <img src="/images/index/projects/projects-<?= $item->id; ?>.jpg" alt="">
-                        </picture>
+                    <div class="card-image main-border-radius<?= $images ? ' sl' : ''; ?>">
+                        <?php if ($images): ?>
+                            <?= $this->render('_cardsw', compact('images')) ?>
+                        <?php else: ?>
+                            <picture>
+                                <img src="/images/index/projects/projects-<?= $model->id; ?>.jpg" alt="">
+                            </picture>
+                        <?php endif; ?>
                         <div class="card-sl">
-                            <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>
+                            <svg><use xlink:href="/images/icons.svg#arrow-increase"></use></svg>
                         </div>
                     </div>
-                    <a href="#" class="card-active border border-white target">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
+                    <a href="#" class="card-active border border-white project">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                     <div class="card-content">
                         <header>
                             <p class="subtitle dn">
-                                <?php foreach ($item->options as $items): ?>
-                                    <?= $items->name; ?>
-                                <?php endforeach; ?>
                             </p>
-                            <p class="caption"><?= $item?->name; ?></p>
+                            <p class="caption"><?= $model?->name; ?></p>
                         </header>
                         <footer>
                             <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                            <p><span>Сдача объекта:</span> <span><?= $item?->date; ?></span></p><br>
-                            <p><span>Варианты юнитов:</span> <span><?= $item?->variant; ?></span></p>
+                            <p><span>Сдача объекта:</span> <span><?= $model?->date; ?></span></p><br>
+                            <p><span>Варианты юнитов:</span> <span><?= $model?->variant; ?></span></p>
                             <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
                         </footer>
                         <div class="card-popup">
                             <p class="popup-desc">
-                                <?= $item?->excerpt; ?>
+                                <?= $model?->excerpt; ?>
                             </p>
                             <div class="popup-connect">
                                 <ul class="popup-phone">
@@ -74,10 +71,3 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            <?php endforeach; ?>
-        </div>
-        <div class="swiper-button-next projects-next"></div>
-        <div class="swiper-button-prev projects-prev"></div>
-        <div class="swiper-pagination pagination"></div>
-    </div>

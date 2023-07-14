@@ -9,23 +9,72 @@ $this->title = 'Real Estate';
 <section class="first">
     <div class="container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
         <div class="first-bg background">
-            <picture>
-				<source srcset="/images/index/first/first-1-480-1x.jpg, images/index/first/first-1-480-2x.jpg 2x" media="(max-width: 481px)">
-				<source srcset="/images/index/first/first-1-1440-1x.jpg, images/index/first/first-1-1440-2x.jpg 2x" media="(max-width: 1440px)">
-				<source srcset="/images/index/first/first-1-1600-1x.jpg, images/index/first/first-1-1600-2x.jpg 2x" media="(max-width: 1600px)">
-				<source srcset="/images/index/first/first-1-1920-1x.jpg, images/index/first/first-1-1920-2x.jpg 2x" media="(min-width: 1600px)">
-                <source type="image/jpeg" srcset="/images/index/first/first-1-1600-1x.jpg, images/index/first/first-1-1600-2x.jpg 2x">
-                <img src="/images/index/first/first-1-1600-1x.jpg" alt="">
-            </picture>
-        </div>
-        <div class="first-button">
-            <div class="first-button-prev">
-                <svg width="48" height="48"><use xlink:href="/images/icons.svg#pointer"></use></svg>
+            <div class="swiper first-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-1-480-1x.jpg, images/index/first/first-1-480-2x.jpg 2x" media="(max-width: 481px)">
+                            <source srcset="images/index/first/first-1-1440-1x.jpg, images/index/first/first-1-1440-2x.jpg 2x" media="(max-width: 1440px)">
+                            <source srcset="images/index/first/first-1-1600-1x.jpg, images/index/first/first-1-1600-2x.jpg 2x" media="(max-width: 1600px)">
+                            <source srcset="images/index/first/first-1-1920-1x.jpg, images/index/first/first-1-1920-2x.jpg 2x" media="(min-width: 1600px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-1-1600-1x.jpg, images/index/first/first-1-1600-2x.jpg 2x">
+                            <img src="images/index/first/first-1-1600-1x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-2-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-2-1920-2x.jpg">
+                            <img src="images/index/first/first-2-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-3-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-3-1920-2x.jpg">
+                            <img src="images/index/first/first-3-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-4-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-4-1920-2x.jpg">
+                            <img src="images/index/first/first-4-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-5-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-5-1920-2x.jpg">
+                            <img src="images/index/first/first-5-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-6-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-6-1920-2x.jpg">
+                            <img src="images/index/first/first-6-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-7-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-7-1920-2x.jpg">
+                            <img src="images/index/first/first-7-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="images/index/first/first-8-480-2x.jpg" media="(max-width: 481px)">
+                            <source type="image/jpeg" srcset="images/index/first/first-8-1920-2x.jpg">
+                            <img src="images/index/first/first-8-1920-2x.jpg" alt="">
+                        </picture>
+                    </div>
+                </div>
             </div>
-            <div class="first-button-next">
-                <svg width="48" height="48"><use xlink:href="/images/icons.svg#pointer"></use></svg>
-            </div>
         </div>
+        <div class="swiper-button-next first-button-next"></div>
+        <div class="swiper-button-prev first-button-prev"></div>
         <div class="container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
             <div class="first-wrapper shadow-black">
                 <div class="first-content">

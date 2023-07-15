@@ -81,6 +81,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $model = Project::find()
+            ->where(['show' => 1])
             ->joinWith("options as o")
             ->all();
 
@@ -219,7 +220,10 @@ class SiteController extends Controller
 
         if ($request->post()) {
             $id = (int)$request->post('project_id');
-            $model = Project::findOne($id);
+            $model = Project::find()
+                ->where(['show' => 1])
+                ->andWhere('id=:id', [':id' => $id])
+                ->one();
 
             $images = $this->findGallery($id);
 

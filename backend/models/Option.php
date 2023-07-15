@@ -9,6 +9,7 @@ use Yii;
  *
  * @property int $id
  * @property string|null $name
+ * @property string|null $type
  *
  * @property ProjectOption[] $projectOptions
  * @property Project[] $projects
@@ -29,7 +30,7 @@ class Option extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name'], 'string', 'max' => 255],
+            [['name', 'type'], 'string', 'max' => 255],
         ];
     }
 
@@ -41,6 +42,7 @@ class Option extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'name' => 'Name',
+            'type' => 'Type',
         ];
     }
 

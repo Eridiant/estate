@@ -4,6 +4,7 @@ namespace frontend\models;
 
 use Yii;
 
+
 /**
  * This is the model class for table "{{%project}}".
  *
@@ -19,6 +20,7 @@ use Yii;
  * @property string|null $excerpt
  * @property string|null $description
  * @property int $show
+ * @property string|null $coordinate
  *
  * @property Option[] $options
  * @property ProjectOption[] $projectOptions
@@ -43,7 +45,7 @@ class Project extends \yii\db\ActiveRecord
             [['variant', 'excerpt', 'description'], 'string'],
             [['show'], 'integer'],
             [['lang'], 'string', 'max' => 12],
-            [['name', 'img', 'country', 'date'], 'string', 'max' => 255],
+            [['name', 'img', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
         ];
     }
@@ -66,6 +68,7 @@ class Project extends \yii\db\ActiveRecord
             'excerpt' => 'Excerpt',
             'description' => 'Description',
             'show' => 'Show',
+            'coordinate' => 'Coordinate',
         ];
     }
 

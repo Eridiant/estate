@@ -32,7 +32,9 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'show')->textInput() ?>
+    <?= $form->field($model, 'coordinate')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'show')->checkbox() ?>
 
     <?= $form->field($model, 'optionsArray')->checkboxList(backend\models\Option::find()->select(['name', 'id'])->indexBy('id')->column()) ?>
 

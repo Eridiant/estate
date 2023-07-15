@@ -22,7 +22,7 @@ class OptionController extends Controller
             parent::behaviors(),
             [
                 'verbs' => [
-                    'class' => VerbFilter::className(),
+                    'class' => VerbFilter::class,
                     'actions' => [
                         'delete' => ['POST'],
                     ],
@@ -80,8 +80,11 @@ class OptionController extends Controller
         $model = new Option();
 
         if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
-                return $this->redirect(['view', 'id' => $model->id]);
+            if ($model->load($this->request->post())) {
+                $model->type = $this->transliteration($model->name);
+                if ($model->save()) {
+                    return $this->redirect(['view', 'id' => $model->id]);
+                }
             }
         } else {
             $model->loadDefaultValues();
@@ -140,5 +143,46 @@ class OptionController extends Controller
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
+    }
+
+    protected function transliteration($word) {
+
+        $converter = array(
+            'а' => 'a', 'б' => 'b', 'в' => 'v', 'г' => 'g', 'д' => 'd',
+            'е' => 'e', 'ё' => 'e', 'ж' => 'zh', 'з' => 'z', 'и' => 'i',
+            'й' => 'y', 'к' => 'k', 'л' => 'l', 'м' => 'm', 'н' => 'n',
+            'о' => 'o', 'п' => 'p', 'р' => 'r', 'с' => 's', 'т' => 't',
+            'у' => 'u', 'ф' => 'f', 'х' => 'h', 'ц' => 'c', 'ч' => 'ch',
+            'ш' => 'sh', 'щ' => 'sch', 'ь' => '', 'ы' => 'y', 'ъ' => '',
+            'э' => 'eh', 'ю' => 'yu', 'я' => 'ya'
+        );
+    
+        $word = mb_strtolower($word, 'UTF-8');
+    
+        $answer = '';
+    
+        for ($i = 0; $i < mb_strlen($word, 'UTF-8'); ++$i) {
+    
+            $currentChar = mb_substr($word, $i, 1, 'UTF-8');
+    
+            if (!array_key_exists($currentChar, $converter)) {
+    
+                $answer .= $currentChar;
+    
+            } else {
+    
+                $answer .= $converter[$currentChar];
+    
+            }
+    
+        }
+    
+        $answer = preg_replace('/[^-0-9a-z]/u', '-', $answer);
+    
+        $answer = preg_replace('/[-]+/', '-', $answer);
+    
+        $answer = preg_replace('/^-|-$/u', '', $answer);
+    
+        return $answer;
     }
 }

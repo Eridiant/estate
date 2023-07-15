@@ -243,115 +243,6 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-
-
-
-            <div class="swiper-slide destination" data-target="1">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-1.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p><br>
-                        <p class="caption">Старый город</p>
-                    </header>
-                    <footer>
-                        <p>
-                            Район "Старый город" это культурное и центральное место всего города, ваша надежная инвестиция на долгие годы. Шаговая доступность ко всем услугам, изобилие выбора ресторанов, потрясающая архитектура города, является главным преимуществом для покупателя.
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-            <div class="swiper-slide destination" data-target="2">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-2.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p><br>
-                        <p class="caption">Аллея героев</p>
-                    </header>
-                    <footer>
-                        <p>
-                            Район "Алея Героев" была открыта в 2012, концепция данного района это новый центр Батуми, жилые комплексы и небоскребы создают атмосферу мегаполиса с шаговой доступностью к морю. На аее высажены пальмы, прогулочная зона разделяющая дорогами с обеих сторон. Чаще девелоперы строят многофункциональные жилые комплексы.
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
-                    </footer>
-                </div>
-            </div>
-            <div class="swiper-slide destination" data-target="3">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-3.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p><br>
-                        <p class="caption">новый бульвар</p>
-                    </header>
-                    <footer>
-                        <p>
-                            Район "Новый бульвар" центральный и самая современный район для инвестиций, высокое количество предложений. Огромный парк спроектированный Испанский архитектором с детскими площадками и АРТ инсталляциями.
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-
-
-            <div class="swiper-slide destination" data-target="4">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-4.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p><br>
-                        <p class="caption">Махинджаури</p>
-                    </header>
-                    <footer>
-                        <p>
-                            Район "Махинджаури" один из самых популярных районов для курортного отдыха, близкое расположение к морю, много новых проектов в стадии завершен. Интересный район для инвестиций
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-            <div class="swiper-slide destination" data-target="5">
-                <div class="card-image main-border-radius">
-                    <picture>
-                        <img src="/images/index/districts/districts-5.jpg" alt="">
-                    </picture>
-                </div>
-                <div class="card-content">
-                    <header>
-                        <p class="subtitle">район</p><br>
-                        <p class="caption">Гонио-Квариати</p>
-                    </header>
-                    <footer>
-                        <p>
-                            Район "Гонио-Квариати" это оазис для жизни и отдыха, 80% этот район направлен на курортный формат, расположение до Батуми 10 минут на машине. Крупные франшизы отелей уже появиться в 2025-26 году.
-                        </p>
-                        <a href="#" class="card-link-hover target popup-hide"><svg width="16" height="16">
-                                <use xlink:href="/images/icons.svg#small-arrow"></use>
-                            </svg></a>
-                    </footer>
-                </div>
-            </div>
-
         </div>
         <div class="swiper-button-next districts-next"></div>
         <div class="swiper-button-prev districts-prev"></div>
@@ -500,7 +391,8 @@ $this->title = 'Real Estate';
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+
+            <!-- <div class="swiper-slide destination" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -751,7 +643,7 @@ $this->title = 'Real Estate';
                         </div>
                     </footer>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="swiper-button-next experts-next"></div>
         <div class="swiper-button-prev experts-prev"></div>

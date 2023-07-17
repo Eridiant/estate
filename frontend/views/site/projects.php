@@ -1,7 +1,7 @@
 <section class="projects container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
-    <p class="title">Надежные проекты</p>
+    <p class="title"><?=Yii::t('frontend', 'Надежные проекты')?></p>
     <div class="projects-switch">
-        <a href="#" class="active" data-type="all">Все</a>
+        <a href="#" class="active" data-type="all"><?=Yii::t('frontend', 'Все')?></a>
         <?php foreach ($options as $option): ?>
             <?php if ($option->id == 2): ?>
                 <span>

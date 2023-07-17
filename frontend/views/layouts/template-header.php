@@ -13,12 +13,12 @@ use yii\helpers\Url;
             </div>
             <div class="header-nav">
                 <ul>
-                    <li><a href="<?= Url::toRoute('/'); ?>">Главная</a></li>
-                    <li><a href="<?= Url::toRoute('/about'); ?>">О нас</a></li>
-                    <li><a href="<?= Url::toRoute('/contact'); ?>">Контакты</a></li>
+                    <li><a href="<?= Url::toRoute('/'); ?>"><?=Yii::t('frontend', 'Главная')?></a></li>
+                    <li><a href="<?= Url::toRoute('/about'); ?>"><?=Yii::t('frontend', 'О нас')?></a></li>
+                    <li><a href="<?= Url::toRoute('/contact'); ?>"><?=Yii::t('frontend', 'Контакты')?></a></li>
                 </ul>
                 <address class="border">
-                    <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg> 15 Luka Asatiani St, Batumi 6010, Грузия
+                    <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg> <?=Yii::t('frontend', '15 Luka Asatiani St, Batumi 6010, Грузия')?>
                 </address>
             </div>
             <div class="header-localization michroma">

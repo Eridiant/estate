@@ -191,7 +191,7 @@ $this->registerJs("var districtsData = [
         labelColor: '#ffffff',
         color: '#ab47bc'
     }
-];",\yii\web\View::POS_HEAD);
+];",$this::POS_HEAD);
 ?>
 <main>
 <section class="first">
@@ -269,30 +269,30 @@ $this->registerJs("var districtsData = [
                     <p class="first-num michroma">01</p>
                     <div class="first-inner">
                         <p class="title">
-                            Сэкономьте время и деньги на изучение и анализ
+                            <?=Yii::t('frontend', 'Сэкономьте время и деньги на изучение и анализ')?>
                         </p><br>
                         <p class="lead">
-                            отправить вложение в <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                            <?=Yii::t('frontend', 'отправить вложение в')?> <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
                         </p>
                     </div>
-                    <a href="#" class="first-consultation border border-white form-target">Консультация&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>
+                    <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>
                 </div>
                 <div class="first-switch">
                     <div class="first-item" data-item="03">
                         <p class="first-digit michroma">01</p>
-                        <p class="first-desc">Выгодные проекты для инвестиций</p>
+                        <p class="first-desc"><?=Yii::t('frontend', 'Выгодные проекты для инвестиций')?></p>
                     </div>
                     <div class="first-item" data-item="02">
                         <p class="first-digit michroma">02</p>
-                        <p class="first-desc">Апартаменты с видом на море</p>
+                        <p class="first-desc"><?=Yii::t('frontend', 'Апартаменты с видом на море')?></p>
                     </div>
                     <div class="first-item" data-item="06">
                         <p class="first-digit michroma">03</p>
-                        <p class="first-desc">Крупные проекты</p>
+                        <p class="first-desc"><?=Yii::t('frontend', 'Крупные проекты')?></p>
                     </div>
                     <div class="first-item" data-item="07">
                         <p class="first-digit michroma">04</p>
-                        <p class="first-desc">Загородная недвижимость</p>
+                        <p class="first-desc"><?=Yii::t('frontend', 'Загородная недвижимость')?></p>
                     </div>
                 </div>
             </div>
@@ -308,18 +308,18 @@ $this->registerJs("var districtsData = [
         </picture>
     </div>
     <div class="opinion-desc">
-        <p class="title">Мнение эксперта</p>
+        <p class="title"><?=Yii::t('frontend', 'Мнение эксперта')?></p>
         <p>
-            Самый заметный рост на рынке жилья Грузии начался с начала 2022 года +38%, с развитием сегмента новостроек можно отметить рост цен и быстрое развитие рынка за последние 5 лет. Вторичный рынок столкнулся с дефицитом эксклюзивных предложений от 80 кв.
+            <?=Yii::t('frontend', 'Самый заметный рост на рынке жилья Грузии начался с начала 2022 года +38%, с развитием сегмента новостроек можно отметить рост цен и быстрое развитие рынка за последние 5 лет. Вторичный рынок столкнулся с дефицитом эксклюзивных предложений от 80 кв.')?>
         </p>
-        <p>средняя стоимость недвижимость в Грузии новостройки за 1 кв.м</p>
+        <p><?=Yii::t('frontend', 'средняя стоимость недвижимость в Грузии новостройки за 1 кв.м')?></p>
     </div>
     <div class="opinion-chart">
         <canvas class="opinion-chart" id="chart"></canvas>
     </div>
 </section>
 <section class="districts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
-    <p class="title">Районы</p>
+    <p class="title"><?=Yii::t('frontend', 'Районы')?></p>
     <!-- <div class="swiper-buttons">
         <div class="districts-swiper-button-prev">&#8249;</div>
         <div class="districts-swiper-button-next">&#8250;</div>
@@ -334,7 +334,7 @@ $this->registerJs("var districtsData = [
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p><br>
+                        <p class="subtitle"><?=Yii::t('frontend', 'район')?></p><br>
                         <p class="caption">Старый город</p>
                     </header>
                     <footer>
@@ -355,7 +355,7 @@ $this->registerJs("var districtsData = [
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p><br>
+                        <p class="subtitle"><?=Yii::t('frontend', 'район')?></p><br>
                         <p class="caption">Аллея героев</p>
                     </header>
                     <footer>
@@ -374,7 +374,7 @@ $this->registerJs("var districtsData = [
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p><br>
+                        <p class="subtitle"><?=Yii::t('frontend', 'район')?></p><br>
                         <p class="caption">новый бульвар</p>
                     </header>
                     <footer>
@@ -397,7 +397,7 @@ $this->registerJs("var districtsData = [
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p><br>
+                        <p class="subtitle"><?=Yii::t('frontend', 'район')?></p><br>
                         <p class="caption">Махинджаури</p>
                     </header>
                     <footer>
@@ -418,7 +418,7 @@ $this->registerJs("var districtsData = [
                 </div>
                 <div class="card-content">
                     <header>
-                        <p class="subtitle">район</p><br>
+                        <p class="subtitle"><?=Yii::t('frontend', 'район')?></p><br>
                         <p class="caption">Гонио-Квариати</p>
                     </header>
                     <footer>
@@ -457,7 +457,7 @@ $this->registerJs("var districtsData = [
     </div> -->
 </section>
 <section class="experts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
-    <p class="title">Наши специалисты</p>
+    <p class="title"><?=Yii::t('frontend', 'Наши специалисты')?></p>
     <div class="swiper experts-swiper card">
         <div class="swiper-wrapper text-white shadow-black">
             <div class="swiper-slide destination" data-class="expert">
@@ -474,7 +474,7 @@ $this->registerJs("var districtsData = [
                         <div>
                             <p class="subtitle">Брокер по продаже недвижимости</p><br>
                             <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p><?=Yii::t('frontend', 'Языки')?>: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -486,7 +486,7 @@ $this->registerJs("var districtsData = [
                             </span>
                         </div>
                         <aside>
-                            <div class="card-popup">Соцсети:</div>
+                            <div class="card-popup"><?=Yii::t('frontend', 'Соцсети')?>:</div>
                             <a href="https://telegram.me/+995555932307" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                             <a href="https://wa.me/995555932307" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                             <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
@@ -494,7 +494,7 @@ $this->registerJs("var districtsData = [
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
                                 <span>
-                                    <span>Получить консультацию</span>
+                                    <span><?=Yii::t('frontend', 'Получить консультацию')?></span>
                                     <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                 </span>
                             </a>
@@ -516,7 +516,7 @@ $this->registerJs("var districtsData = [
                         <div>
                             <p class="subtitle">Брокер по продаже недвижимости</p><br>
                             <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p><?=Yii::t('frontend', 'Языки')?>: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -528,7 +528,7 @@ $this->registerJs("var districtsData = [
                             </span>
                         </div>
                         <aside>
-                            <div class="card-popup">Соцсети:</div>
+                            <div class="card-popup"><?=Yii::t('frontend', 'Соцсети')?>:</div>
                             <a href="https://telegram.me/+995555932307" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                             <a href="https://wa.me/995555932307" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                             <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
@@ -536,7 +536,7 @@ $this->registerJs("var districtsData = [
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
                                 <span>
-                                    <span>Получить консультацию</span>
+                                    <span><?=Yii::t('frontend', 'Получить консультацию')?></span>
                                     <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                 </span>
                             </a>
@@ -558,7 +558,7 @@ $this->registerJs("var districtsData = [
                         <div>
                             <p class="subtitle">Брокер по продаже недвижимости</p><br>
                             <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p><?=Yii::t('frontend', 'Языки')?>: Английский, Русский</p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -570,7 +570,7 @@ $this->registerJs("var districtsData = [
                             </span>
                         </div>
                         <aside>
-                            <div class="card-popup">Соцсети:</div>
+                            <div class="card-popup"><?=Yii::t('frontend', 'Соцсети')?>:</div>
                             <a href="https://telegram.me/+995555932307" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                             <a href="https://wa.me/995555932307" class="card-link"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                             <a href="mailto:dda.rea.est@gmail.com" class="card-link"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg></a>
@@ -578,7 +578,7 @@ $this->registerJs("var districtsData = [
                         <div class="popup-action card-popup">
                             <a href="" class="btn-black btn form-target">
                                 <span>
-                                    <span>Получить консультацию</span>
+                                    <span><?=Yii::t('frontend', 'Получить консультацию')?></span>
                                     <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                 </span>
                             </a>
@@ -849,13 +849,14 @@ $this->registerJs("var districtsData = [
 <section class="company container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="company-desc">
         <p class="subtitle">DDA Real Estate</p><br>
-        <p class="title">О компании</p>
+        <p class="title"><?=Yii::t('frontend', 'О компании')?></p>
         <input type="checkbox" class="read-more-state" id="post-1">
         <p class="read-more-wrap">
-            Международное агентство по продаже недвижимости в Грузии,ОАЭ, Турции и Тайланде, созданное в 2007 году, входит в группу компаний «Бизнес - Юрист». Единственная Компания на рынке ,которая имеет более 400 филиалов в России от Калининграда до Камчатки ,офисы в Казахстане, Белоруссии, Турции и головной офис в Дубае.<br>
+            <?=Yii::t('frontend', 'Международное агентство по продаже недвижимости в Грузии,ОАЭ, Турции и Тайланде, созданное в 2007 году, входит в группу компаний «Бизнес - Юрист». Единственная Компания на рынке ,которая имеет более 400 филиалов в России от Калининграда до Камчатки ,офисы в Казахстане, Белоруссии, Турции и головной офис в Дубае.<br>
             <span class="read-more-target">Мы стремимся учитывать индивидуальные потребности каждого нашего Клиента и предоставить наиболее эффективные решения для реализации их целей в области недвижимости. Наша команда профессионалов всегда готова ответить на любые вопросы и предоставить полную информацию о всех услугах агентства.<br>
             Мы уделяем особое внимание своей репутации и несем ответственность за все свои действия. Именно поэтому мы уверены в качестве наших услуг и уверены, что сможем удовлетворить все запросы и потребности наших Клиентов в области недвижимости.<br>
-            Выбирая нашу Компанию, Вы можете быть уверены, что получите лучший сервис и профессиональную помощь в решении всех вопросов, связанных с недвижимостью. Мы всегда готовы помочь Вам достигнуть ваших целей в сфере недвижимости и обеспечить высококачественный сервис.</span>
+            Выбирая нашу Компанию, Вы можете быть уверены, что получите лучший сервис и профессиональную помощь в решении всех вопросов, связанных с недвижимостью. Мы всегда готовы помочь Вам достигнуть ваших целей в сфере недвижимости и обеспечить высококачественный сервис.')?>
+            </span>
         </p>
         <label for="post-1" class="read-more-trigger"></label>
     </div>
@@ -866,7 +867,7 @@ $this->registerJs("var districtsData = [
     </div>
     <a href="<?= \yii\helpers\Url::toRoute('/about'); ?>" class="company-btn btn">
         <span>
-            <span>Подробнее</span>
+            <span><?=Yii::t('frontend', 'Подробнее')?></span>
         </span>
         <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
     </a>

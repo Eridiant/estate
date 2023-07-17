@@ -8,7 +8,7 @@ use yii\bootstrap5\Html;
 use yii\bootstrap5\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Contact';
+$this->title = Yii::t('frontend', 'Контакты');
 $this->params['breadcrumbs'][] = $this->title;
 
 $this->registerJsFile(
@@ -19,7 +19,7 @@ $this->registerJsFile(
 <main>
     <section class="contacts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <article class="contacts-inf">
-        <p class="title">Контакты</p>
+        <p class="title"><?=Yii::t('frontend', 'Контакты')?></p>
         <ul>
             <li>
                 <span>
@@ -53,7 +53,7 @@ $this->registerJsFile(
             <svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> <a href="mailto:dda.rea.est@gmail.com">dda.rea.est@gmail.com</a>
         </div>
         <address class="border">
-            <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg>15 Luka Asatiani St, Batumi 6010, Грузия
+            <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg><?=Yii::t('frontend', '15 Luka Asatiani St, Batumi 6010, Грузия')?>
         </address>
     </article>
     <div id="map" class="contacts-map map">
@@ -63,8 +63,7 @@ $this->registerJsFile(
 </section>
 
 <section class="photo container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
-    <div class="title">фото офиса</div>
-    <!-- <div class="swiper photo-swiper" style="--swiper-pagination-color: #73B4E5; --swiper-pagination-bullet-inactive-color: #D9D9D9; --swiper-pagination-bullet-inactive-opacity: 1; --swiper-pagination-bottom: 0; --swiper-pagination-bullet-size: 6px"> -->
+    <div class="title"><?=Yii::t('frontend', 'фото офиса')?></div>
     <div class="swiper photo-swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">

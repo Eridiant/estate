@@ -15,9 +15,9 @@ use yii\helpers\Url;
         </div>
         <div class="footer-column footer-link">
             <ul>
-                <li><a href="<?= Url::toRoute('/'); ?>">Главная</a></li>
-                <li><a href="<?= Url::toRoute('/about'); ?>">О нас</a></li>
-                <li><a href="<?= Url::toRoute('/contact'); ?>">Контакты</a></li>
+                <li><a href="<?= Url::toRoute('/'); ?>"><?=Yii::t('frontend', 'Главная')?></a></li>
+                <li><a href="<?= Url::toRoute('/about'); ?>"><?=Yii::t('frontend', 'О нас')?></a></li>
+                <li><a href="<?= Url::toRoute('/contact'); ?>"><?=Yii::t('frontend', 'Контакты')?></a></li>
             </ul>
             <a href="mailto:dda.rea.est@gmail.com" class="border dt"><svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> dda.rea.est@gmail.com</a>
         </div>
@@ -54,7 +54,7 @@ use yii\helpers\Url;
                 </ul>
             </div>
             <div class="footer-inner">
-                Соцсети:
+                <?=Yii::t('frontend', 'Соцсети')?>:
                 <!-- <a href="https://facebook.com" target="_blank"><svg width="13" height="25"><use xlink:href="/images/icons.svg#fb"></use></svg></a> -->
                 <a href="#" target="_blank"><svg width="26" height="26"><use xlink:href="/images/icons.svg#youtube"></use></svg></a>
                 <a href="https://telegram.me/+995555932307" target="_blank"><svg width="26" height="25"><use xlink:href="/images/icons.svg#telega"></use></svg></a>
@@ -87,9 +87,9 @@ use yii\helpers\Url;
         <div class="menu-nav">
             <div class="menu-link">
                 <ul>
-                    <li><a href="<?= Url::toRoute('/'); ?>">Главная</a></li>
-                    <li><a href="<?= Url::toRoute('/about'); ?>">О нас</a></li>
-                    <li><a href="<?= Url::toRoute('/contact'); ?>">Контакты</a></li>
+                    <li><a href="<?= Url::toRoute('/'); ?>"><?=Yii::t('frontend', 'Главная')?></a></li>
+                    <li><a href="<?= Url::toRoute('/about'); ?>"><?=Yii::t('frontend', 'О нас')?></a></li>
+                    <li><a href="<?= Url::toRoute('/contact'); ?>"><?=Yii::t('frontend', 'Контакты')?></a></li>
                 </ul>
             </div>
             <div>
@@ -97,7 +97,7 @@ use yii\helpers\Url;
                     <svg width="17" height="13"><use xlink:href="/images/icons.svg#mail"></use></svg> <a href="mailto:dda.rea.est@gmail.com">dda.rea.est@gmail.com</a>
                 </div>
                 <address class="border">
-                    <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg>15 Luka Asatiani St, Batumi 6010, Грузия
+                    <svg width="17" height="24"><use xlink:href="/images/icons.svg#address"></use></svg> <?=Yii::t('frontend', '15 Luka Asatiani St, Batumi 6010, Грузия')?>
                 </address>
             </div>
         </div>
@@ -116,8 +116,8 @@ use yii\helpers\Url;
         <div class="form-close"><svg width="24" height="24"><use xlink:href="/images/icons.svg#cls"></use></svg></div>
         <div class="form-inner">
             <div class="form-wrapper">
-                <p class="caption">Получите консультацию</p>
-                <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону</p>
+                <p class="caption"><?=Yii::t('frontend', 'Получите консультацию')?></p>
+                <p class="form-desc"><?=Yii::t('frontend', 'Оставьте заявку на сайте или  позвоните по телефону')?></p>
                 <div class="header-localization-links">
                     <ul>
                         <li>
@@ -153,23 +153,23 @@ use yii\helpers\Url;
                     <div class="form-inner">
                         <div class="form-inner-fl">
                             <div class="form-inner-container">
-                                <input type="text" id="name" name="name" placeholder="Имя" required>
-                                <label for="name">Имя:</label>
+                                <input type="text" id="name" name="name" placeholder="<?=Yii::t('frontend', 'Имя')?>" required>
+                                <label for="name"><?=Yii::t('frontend', 'Имя')?>:</label>
                             </div>
         
                             <div class="form-inner-container">
-                                <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
-                                <label for="phone">Телефон:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="<?=Yii::t('frontend', 'Телефон')?>" required>
+                                <label for="phone"><?=Yii::t('frontend', 'Телефон')?>:</label>
                             </div>
                         </div>
                         <div class="form-inner-container">
-                            <textarea id="message" name="message" placeholder="Сообщение" required></textarea>
-                            <label for="message">Сообщение:</label>
+                            <textarea id="message" name="message" placeholder="<?=Yii::t('frontend', 'Сообщение')?>" required></textarea>
+                            <label for="message"><?=Yii::t('frontend', 'Сообщение')?>:</label>
                         </div>
                     </div>
                     <button class="form-btn btn" type="submit">
                         <span>
-                            <span>отправить</span>
+                            <span><?=Yii::t('frontend', 'отправить')?></span>
                             <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                         </span>
                     </button>
@@ -186,8 +186,8 @@ use yii\helpers\Url;
                 <svg width="19" height="17"><use xlink:href="/images/icons.svg#success"></use></svg>
             </div>
             <div class="success-inner">
-                <p class="caption">Спасибо</p>
-                <p class="subtitle">Ваша заявка отправлена, мы перезвоним</p>
+                <p class="caption"><?=Yii::t('frontend', 'Спасибо')?></p>
+                <p class="subtitle"><?=Yii::t('frontend', 'Ваша заявка отправлена, мы перезвоним')?></p>
             </div>
         </div>
         <div class="success-close">

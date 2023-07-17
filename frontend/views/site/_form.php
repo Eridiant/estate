@@ -6,8 +6,8 @@
         </picture>
     </div>
     <div class="form-wrapper">
-        <p class="title">Получите консультацию</p>
-        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону</p>
+        <p class="title"><?=Yii::t('frontend', 'Получите консультацию')?></p>
+        <p class="form-desc"><?=Yii::t('frontend', 'Оставьте заявку на сайте или  позвоните по телефону')?></p>
         <div class="header-localization-links">
             <ul>
                 <li>
@@ -43,24 +43,24 @@
             <div class="form-inner">
                 <div class="form-inner-fl">
                     <div class="form-inner-container">
-                        <input type="text" id="name" name="name" placeholder="Имя" required>
-                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name" placeholder="<?=Yii::t('frontend', 'Имя')?>" required>
+                        <label for="name"><?=Yii::t('frontend', 'Имя')?>:</label>
                     </div>
 
                     <div class="form-inner-container">
-                        <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
-                        <label for="phone">Телефон:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="<?=Yii::t('frontend', 'Телефон')?>" required>
+                        <label for="phone"><?=Yii::t('frontend', 'Телефон')?>:</label>
                     </div>
                 </div>
                 <div class="form-inner-container">
-                    <textarea id="message" name="message" placeholder="Сообщение" required></textarea>
-                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" placeholder="<?=Yii::t('frontend', 'Сообщение')?>" required></textarea>
+                    <label for="message"><?=Yii::t('frontend', 'Сообщение')?>:</label>
                 </div>
             </div>
             <div>
                 <button class="form-btn btn" type="submit">
                     <span>
-                        <span>отправить</span>
+                        <span><?=Yii::t('frontend', 'отправить')?></span>
                         <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                     </span>
                 </button>

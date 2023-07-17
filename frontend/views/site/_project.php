@@ -13,7 +13,7 @@
                             <svg><use xlink:href="/images/icons.svg#arrow-increase"></use></svg>
                         </div>
                     </div>
-                    <a href="#" class="card-active border border-white project">Посмотреть&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
+                    <a href="#" class="card-active border border-white project"><?=Yii::t('frontend', 'Посмотреть')?>&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                     <div class="card-content">
                         <header>
                             <p class="subtitle dn">
@@ -21,10 +21,10 @@
                             <p class="caption"><?= $model?->name; ?></p>
                         </header>
                         <footer>
-                            <p class="dn"><span>Country:</span> <span>United Arab Emirates</span></p>
-                            <p><span>Сдача объекта:</span> <span><?= $model?->date; ?></span></p><br>
-                            <p><span>Варианты юнитов:</span> <span><?= $model?->variant; ?></span></p>
-                            <p class="dn"><span>Starting price ($):</span> <span>327,780</span></p>
+                            <p class="dn"><span><?=Yii::t('frontend', 'Страна')?>:</span> <span><?= $model?->country; ?></span></p>
+                            <p><span><?=Yii::t('frontend', 'Сдача объекта')?>:</span> <span><?= $model?->date; ?></span></p><br>
+                            <p><span><?=Yii::t('frontend', 'Варианты юнитов')?>:</span> <span><?= $model?->variant; ?></span></p>
+                            <p class="dn"><span><?=Yii::t('frontend', 'Начальная цена')?> ($):</span> <span><?= $model?->price; ?></span></p>
                         </footer>
                         <div class="card-popup">
                             <p class="popup-desc">
@@ -63,7 +63,7 @@
                                 <div class="popup-action">
                                     <a href="" class="btn-black btn form-target">
                                         <span>
-                                            <span>Хочу этот объект</span>
+                                            <span><?=Yii::t('frontend', 'Хочу этот объект')?></span>
                                             <svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg>
                                         </span>
                                     </a>

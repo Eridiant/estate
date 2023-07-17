@@ -16,7 +16,7 @@
                     <a href="#" class="card-active border border-white project"><?=Yii::t('frontend', 'Посмотреть')?>&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#small-arrow"></use></svg></a>
                     <div class="card-content">
                         <header>
-                            <p class="subtitle dn"><?= $items->type; ?></p>
+                            <p class="subtitle dn"><?= $item->type; ?></p>
                             <p class="caption"><?= $item?->name; ?></p>
                         </header>
                         <footer>

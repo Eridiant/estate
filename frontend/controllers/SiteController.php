@@ -18,8 +18,12 @@ use frontend\models\ContactForm;
 use yii\helpers\FileHelper;
 use yii\helpers\BaseFileHelper;
 use frontend\models\Project;
-use frontend\models\ProjectSearch;
+use frontend\models\Key;
 use frontend\models\Option;
+// use \dotzero\amocrm\AmoCRM\Client;
+// use \dotzero\amocrm\AmoCRM\Client as AmoCRM;
+// use dotzero\AmoCRM\Client as AmoCRM;
+use \AmoCRM\Client;
 
 /**
  * Site controller
@@ -71,6 +75,29 @@ class SiteController extends Controller
                 'locales'=> \yii\helpers\ArrayHelper::getColumn(\backend\modules\language\models\Language::find()->select('key')->asArray()->all(), 'key'),
             ]
         ];
+    }
+
+    // public function actionAmoDda()
+    public function actionAmo()
+    {
+        $key = Key::find()->where(['id' => 1])->one();
+        // Создание клиента
+        $subdomain = $key->key;            // Поддомен в амо срм
+        $login     = $key->value;            // Логин в амо срм
+        $apikey    = $key->content;            // api ключ
+
+        $amo = new Client($subdomain, $login, $apikey);
+        // $amo = new Client();
+        // var_dump('<pre>');
+        // var_dump($amo);
+        // var_dump('</pre>');
+        // Вывести полученые из амо данные
+        echo '<pre>';
+        print_r($amo->account->apiCurrent());
+        echo '</pre>';
+        die;
+        
+        return $this->render('amo');
     }
 
     /**
@@ -207,11 +234,6 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
-    }
-
-    public function actionAmoDda()
-    {
-        return $this->render('amo');
     }
 
     public function actionProject()

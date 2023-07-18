@@ -78,7 +78,7 @@ class SiteController extends Controller
     }
 
     // public function actionAmoDda()
-    public function actionAmo()
+    private function Amo()
     {
         $key = Key::find()->where(['id' => 1])->one();
         // Создание клиента
@@ -87,14 +87,33 @@ class SiteController extends Controller
         $apikey    = $key->content;            // api ключ
 
         $amo = new Client($subdomain, $login, $apikey);
+        // $am = $amo->account->apiCurrent();
         // $amo = new Client();
         // var_dump('<pre>');
         // var_dump($amo);
         // var_dump('</pre>');
         // Вывести полученые из амо данные
         echo '<pre>';
-        print_r($amo->account->apiCurrent());
+        print_r($amo->pipelines->apiList(5581734));
         echo '</pre>';
+
+        // Define the file path
+        // $filePath = Yii::getAlias( '@frontend' ) . '/web/del/file.txt';
+
+        // // Create the directory if it doesn't exist
+        // // FileHelper::createDirectory(dirname($filePath));
+
+        // // Open the file in write mode
+        // $file = fopen($filePath, 'w');
+
+        // // Convert the array to a string representation
+        // $amoString = var_export($am, true);
+
+        // // Write the variable to the file
+        // fwrite($file, $amoString);
+
+        // // Close the file
+        // fclose($file);
         die;
         
         return $this->render('amo');
@@ -332,7 +351,45 @@ class SiteController extends Controller
         } catch (\Throwable $th) {
             throw $th;
         }
+
         return ['data' => ['success' => false]];
+
+        try {
+            $key = Key::find()->where(['id' => 1])->one();
+            // Создание клиента
+            $subdomain = $key->key;            // Поддомен в амо срм
+            $login     = $key->value;            // Логин в амо срм
+            $apikey    = $key->content;            // api ключ
+
+            $amo = new Client($subdomain, $login, $apikey);
+
+            // create lead
+            $lead = $amo->lead;
+            $lead['name'] = 'Неразобранное';
+            $lead['responsible_user_id'] = 5847651; // ID ответсвенного 
+            $lead['pipeline_id'] = 5581734; // ID воронки
+            $lead['status_id'] = 49943004; // for check
+
+            $lead->addCustomField(696960, [ // ID  поля в которое будт приходить заявки
+                [$request->post('phone')], // сюда вписать значение из атрибута "name" пример: <input name="phone">
+            ]);
+
+            $lead->addCustomField(814484, [ // for check
+                ['ГуглГрузия'],
+            ]);
+
+            $lead->addCustomField(335377, [ // for check
+                [$request->post('phone')],
+            ]);
+
+            $lead->addCustomField(814570, [ // for check
+                [$request->post('name')],
+            ]);
+
+            $id = $lead->apiAdd();
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
     }
 
     /**

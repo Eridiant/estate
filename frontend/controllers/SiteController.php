@@ -365,7 +365,7 @@ class SiteController extends Controller
 
             // create lead
             $lead = $amo->lead;
-            $lead['name'] = 'Неразобранное';
+            $lead['name'] = 'ГуглГрузия';
             $lead['responsible_user_id'] = 5847651; // ID ответсвенного 
             $lead['pipeline_id'] = 5581734; // ID воронки
             $lead['status_id'] = 49943004; // for check

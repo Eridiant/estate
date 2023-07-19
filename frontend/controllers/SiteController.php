@@ -470,7 +470,7 @@ class SiteController extends Controller
 
         try {
 
-            if ($message->load($request->post()) && $message->validate()) {
+            if ($message->load($request->post())) {
                 $message->lang = Yii::$app->language;
                 $message->id = $request->userIP;
             } else {

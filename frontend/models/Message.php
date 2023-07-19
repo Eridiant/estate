@@ -39,7 +39,7 @@ class Message extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'email', 'phone', 'ip'], 'required'],
+            [['name', 'ip'], 'required'],
             [['body', 'city', 'country'], 'string'],
             [['status_amo_id', 'status_mail', 'status_save', 'ip'], 'integer'],
             [['created_at'], 'safe'],

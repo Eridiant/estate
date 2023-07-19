@@ -15,8 +15,8 @@ class m230719_114941_create_message_table extends Migration
         $this->createTable('{{%message}}', [
             'id' => $this->primaryKey(),
             'name' => $this->string()->notNull(),
-            'email' => $this->string(32)->notNull(),
-            'phone' => $this->string(32)->notNull(),
+            'email' => $this->string(32),
+            'phone' => $this->string(32),
             'subject' => $this->string(255),
             'lang' => $this->string(32),
             'body' => $this->text(),

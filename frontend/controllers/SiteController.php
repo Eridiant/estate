@@ -389,6 +389,11 @@ class SiteController extends Controller
     {
         $request = Yii::$app->request;
 
+        // var_dump('<pre>');
+        // var_dump(Yii::$app->language, ip2long($request->userIP));
+        // var_dump('</pre>');
+        // die;
+
         if (!$request->isPost) {
             return ['data' => ['success' => false]];
         }
@@ -426,11 +431,10 @@ class SiteController extends Controller
                 </table>")
 
             ->send();
-            return ['data' => ['success' => true]];
         } catch (\Throwable $th) {
             throw $th;
+            var_dump($th);
             $message->status_mail = 0;
-            $message->save();
         }
 
         try {
@@ -464,29 +468,28 @@ class SiteController extends Controller
             }
         } catch (\Throwable $th) {
             throw $th;
+            var_dump($th);
             $message->status_amo_id = 0;
-            $message->save();
         }
 
         try {
 
-            if ($message->load($request->post())) {
-                $message->lang = Yii::$app->language;
-                $message->id = $request->userIP;
-            } else {
-                $message->status_save = 0;
-            }
-            // $message->name = $request->post('name');
-            // $message->phone = $request->post('phone');
-            // $message->body = $request->post('message');
-            $message->save();
+            $message->lang = Yii::$app->language;
+            $message->id = ip2long($request->userIP);
+            $message->name = $request->post('name');
+            $message->phone = $request->post('phone');
+            $message->body = $request->post('message');
         } catch (\Throwable $th) {
             throw $th;
+            var_dump($th);
             $message->status_save = 0;
-            $message->save();
         }
+        // if (!$message->save()) {
+        //     $message->getErrors();
+        // }
+        $message->save();
 
-        return ['data' => ['success' => false]];
+        return ['data' => ['success' => true]];
     }
 
 

@@ -23,7 +23,7 @@ class m230719_114941_create_message_table extends Migration
             'status_amo_id' => $this->integer(),
             'status_mail' => $this->tinyInteger()->defaultValue(1),
             'status_save' => $this->tinyInteger()->defaultValue(1),
-            'ip' => $this->text(),
+            'ip' => $this->integer(10)->unsigned()->notNull(),
             'city' => $this->text(),
             'country' => $this->text(),
             'created_at' => $this->timestamp(),

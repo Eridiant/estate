@@ -17,7 +17,7 @@ use Yii;
  * @property int|null $status_amo_id
  * @property int|null $status_mail
  * @property int|null $status_save
- * @property string|null $ip
+ * @property int $ip
  * @property string|null $city
  * @property string|null $country
  * @property string $created_at
@@ -38,9 +38,9 @@ class Message extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'email', 'phone'], 'required'],
-            [['body', 'ip', 'city', 'country'], 'string'],
-            [['status_amo_id', 'status_mail', 'status_save'], 'integer'],
+            [['name', 'email', 'phone', 'ip'], 'required'],
+            [['body', 'city', 'country'], 'string'],
+            [['status_amo_id', 'status_mail', 'status_save', 'ip'], 'integer'],
             [['created_at'], 'safe'],
             [['name', 'subject'], 'string', 'max' => 255],
             [['email', 'phone', 'lang'], 'string', 'max' => 32],

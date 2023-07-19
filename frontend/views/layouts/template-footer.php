@@ -158,7 +158,7 @@ use yii\helpers\Url;
                             </div>
         
                             <div class="form-inner-container">
-                                <input type="tel" id="phone" name="phone" placeholder="<?=Yii::t('frontend', 'Телефон')?>" required>
+                                <input type="tel" id="phone" name="phone" placeholder="<?=Yii::t('frontend', 'Телефон')?>" pattern="\+?[0-9\s\-\(\)]+" title="<?=Yii::t('frontend', 'только цифры')?>" required>
                                 <label for="phone"><?=Yii::t('frontend', 'Телефон')?>:</label>
                             </div>
                         </div>

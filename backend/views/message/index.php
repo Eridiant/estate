@@ -40,7 +40,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label' => 'Почта',
                 'attribute' => 'status_mail',
                 'format' => 'raw',
-                // 'filter' => Post::find()->select(['active', 'id'])->indexBy('id')->column(),
                 'value' => function($model) {
                     return $model->status_mail > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
                 }
@@ -49,7 +48,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label' => 'В базе данных',
                 'attribute' => 'status_save',
                 'format' => 'raw',
-                // 'filter' => Post::find()->select(['active', 'id'])->indexBy('id')->column(),
                 'value' => function($model) {
                     return $model->status_save > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
                 }
@@ -58,7 +56,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label' => 'В амо',
                 'attribute' => 'status_amo_id',
                 'format' => 'raw',
-                // 'filter' => Post::find()->select(['active', 'id'])->indexBy('id')->column(),
                 'value' => function($model) {
                     return $model->status_amo_id > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
                 }

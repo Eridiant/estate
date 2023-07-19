@@ -432,8 +432,8 @@ class SiteController extends Controller
 
             ->send();
         } catch (\Throwable $th) {
-            throw $th;
-            var_dump($th);
+            // throw $th;
+            // var_dump($th);
             $message->status_mail = 0;
         }
 
@@ -467,8 +467,8 @@ class SiteController extends Controller
                 $message->status_amo_id = $lead->apiAdd();
             }
         } catch (\Throwable $th) {
-            throw $th;
-            var_dump($th);
+            // throw $th;
+            // var_dump($th);
             $message->status_amo_id = 0;
         }
 
@@ -480,8 +480,8 @@ class SiteController extends Controller
             $message->phone = $request->post('phone');
             $message->body = $request->post('message');
         } catch (\Throwable $th) {
-            throw $th;
-            var_dump($th);
+            // throw $th;
+            // var_dump($th);
             $message->status_save = 0;
         }
         if (!$message->save()) {

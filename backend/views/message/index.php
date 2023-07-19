@@ -33,9 +33,36 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'subject',
             'lang',
             //'body:ntext',
-            'status_amo_id',
-            'status_mail',
-            'status_save',
+            // 'status_amo_id',
+            // 'status_mail',
+            // 'status_save',
+            [
+                'label' => 'Почта',
+                'attribute' => 'status_mail',
+                'format' => 'raw',
+                // 'filter' => Post::find()->select(['active', 'id'])->indexBy('id')->column(),
+                'value' => function($model) {
+                    return $model->status_mail > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
+                }
+            ],
+            [
+                'label' => 'В базе данных',
+                'attribute' => 'status_save',
+                'format' => 'raw',
+                // 'filter' => Post::find()->select(['active', 'id'])->indexBy('id')->column(),
+                'value' => function($model) {
+                    return $model->status_save > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
+                }
+            ],
+            [
+                'label' => 'В амо',
+                'attribute' => 'status_amo_id',
+                'format' => 'raw',
+                // 'filter' => Post::find()->select(['active', 'id'])->indexBy('id')->column(),
+                'value' => function($model) {
+                    return $model->status_amo_id > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
+                }
+            ],
             //'ip:ntext',
             //'city:ntext',
             //'country:ntext',

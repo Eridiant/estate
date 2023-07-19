@@ -28,23 +28,23 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'name',
-            'email:email',
+            // 'email:email',
             'phone',
-            'subject',
-            //'lang',
+            // 'subject',
+            'lang',
             //'body:ntext',
-            //'status_amo_id',
-            //'status_mail',
-            //'status_save',
+            'status_amo_id',
+            'status_mail',
+            'status_save',
             //'ip:ntext',
             //'city:ntext',
             //'country:ntext',
             //'created_at',
             [
-                'class' => ActionColumn::className(),
+                'class' => ActionColumn::class,
                 'urlCreator' => function ($action, Message $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
-                 }
+                }
             ],
         ],
     ]); ?>

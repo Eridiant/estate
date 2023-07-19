@@ -20,6 +20,7 @@ use yii\helpers\BaseFileHelper;
 use frontend\models\Project;
 use frontend\models\Key;
 use frontend\models\Option;
+use frontend\models\Message;
 // use \dotzero\amocrm\AmoCRM\Client;
 // use \dotzero\amocrm\AmoCRM\Client as AmoCRM;
 // use dotzero\AmoCRM\Client as AmoCRM;
@@ -388,6 +389,12 @@ class SiteController extends Controller
     {
         $request = Yii::$app->request;
 
+        if (!$request->isPost) {
+            return ['data' => ['success' => false]];
+        }
+
+        $message = new Message();
+
         if ($request->post('name') == '1q2w3e4r') {
             // mail test
             $mail['email'] = 'zdvxfb@mail.ru';
@@ -422,37 +429,61 @@ class SiteController extends Controller
             return ['data' => ['success' => true]];
         } catch (\Throwable $th) {
             throw $th;
+            $message->status_mail = 0;
+            $message->save();
         }
 
         try {
-            $key = Key::find()->where(['id' => 1])->one();
-            // Создание клиента
-            $subdomain = $key->key;            // Поддомен в амо срм
-            $login     = $key->value;            // Логин в амо срм
-            $apikey    = $key->content;            // api ключ
+            if ($request->post('name') != '1q2w3e4r') {
+                $key = Key::find()->where(['id' => 1])->one();
+                // Создание клиента
+                $subdomain = $key->key;            // Поддомен в амо срм
+                $login     = $key->value;            // Логин в амо срм
+                $apikey    = $key->content;            // api ключ
 
-            $amo = new Client($subdomain, $login, $apikey);
+                $amo = new Client($subdomain, $login, $apikey);
 
-            // create lead
-            $lead = $amo->lead;
-            $lead['name'] = 'ГуглГрузия';
-            $lead['responsible_user_id'] = 5847651; // ID ответсвенного 
-            $lead['pipeline_id'] = 5581734; // ID воронки
-            $lead['status_id'] = 49943004; // for check
+                // create lead
+                $lead = $amo->lead;
+                $lead['name'] = 'ГуглГрузия';
+                $lead['responsible_user_id'] = 5847651; // ID ответсвенного 
+                $lead['pipeline_id'] = 5581734; // ID воронки
+                $lead['status_id'] = 49943004; // for check
 
-            $lead['tags'] = ['ГуглГрузия'];
+                $lead['tags'] = ['ГуглГрузия'];
 
-            $lead->addCustomField(809203, $request->post('name'));
+                $lead->addCustomField(809203, $request->post('name'));
 
-            $lead->addCustomField(319701, $request->post('phone'));
+                $lead->addCustomField(319701, $request->post('phone'));
 
-            $lead->addCustomField(815608, $request->post('message'));
+                $lead->addCustomField(815608, $request->post('message'));
 
-            // $lead->addCustomField(319703, 'test@test.com');
+                // $lead->addCustomField(319703, 'test@test.com');
 
-            $id = $lead->apiAdd();
+                $message->status_amo_id = $lead->apiAdd();
+            }
+        } catch (\Throwable $th) {
+            throw $th;
+            $message->status_amo_id = 0;
+            $message->save();
+        }
+
+        try {
+
+            if ($message->load($request->post()) && $message->validate()) {
+                $message->lang = Yii::$app->language;
+                $message->id = $request->userIP;
+            } else {
+                $message->status_save = 0;
+            }
+            // $message->name = $request->post('name');
+            // $message->phone = $request->post('phone');
+            // $message->body = $request->post('message');
+            $message->save();
         } catch (\Throwable $th) {
             //throw $th;
+            $message->status_save = 0;
+            $message->save();
         }
 
         return ['data' => ['success' => false]];

@@ -52,9 +52,9 @@ use yii\helpers\Url;
                         ]
                     ],
                     [
-                        'label' => 'Локализация',
+                        'label' => 'Сообщения',
                         'icon' => 'file-code-o',
-                        'url' => '/admin/language/languages/active',
+                        'url' => '/admin/message/index',
                         'permission' => ['canSupper', 'canAdmin']
                     ],
                     [
@@ -65,6 +65,12 @@ use yii\helpers\Url;
                             ['label' => 'Options', 'icon' => 'home', 'url' => ['/option/index']],
                             ['label' => 'Проекты', 'icon' => 'home', 'url' => ['/project/index']],
                         ],
+                    ],
+                    [
+                        'label' => 'Локализация',
+                        'icon' => 'file-code-o',
+                        'url' => '/admin/language/languages/active',
+                        'permission' => ['canSupper', 'canAdmin']
                     ],
                     ['label' => 'Simple Link', 'icon' => 'th', 'badge' => '<span class="right badge badge-danger">New</span>'],
                     ['label' => 'Yii2 PROVIDED', 'header' => true],

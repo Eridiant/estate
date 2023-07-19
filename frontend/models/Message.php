@@ -3,6 +3,7 @@
 namespace frontend\models;
 
 use Yii;
+use yii\behaviors\TimestampBehavior;
 
 /**
  * This is the model class for table "{{%message}}".
@@ -44,6 +45,18 @@ class Message extends \yii\db\ActiveRecord
             [['created_at'], 'safe'],
             [['name', 'subject'], 'string', 'max' => 255],
             [['email', 'phone', 'lang'], 'string', 'max' => 32],
+        ];
+    }
+
+    public function behaviors()
+    {
+        return [
+            'timestamp' => [
+                'class' => TimestampBehavior::class,
+                'attributes' => [
+                    \yii\db\BaseActiveRecord::EVENT_BEFORE_INSERT => ['created_at'],
+                ],
+            ],
         ];
     }
 

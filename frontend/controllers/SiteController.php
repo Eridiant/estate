@@ -481,7 +481,7 @@ class SiteController extends Controller
             // $message->body = $request->post('message');
             $message->save();
         } catch (\Throwable $th) {
-            //throw $th;
+            throw $th;
             $message->status_save = 0;
             $message->save();
         }

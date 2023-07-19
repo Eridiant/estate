@@ -79,7 +79,79 @@ class SiteController extends Controller
 
     // public function actionAmoDda()
     private function Amo()
+    // public function actionAmo()
     {
+
+        try {
+            $key = Key::find()->where(['id' => 1])->one();
+            // Создание клиента
+            $subdomain = $key->key;            // Поддомен в амо срм
+            $login     = $key->value;            // Логин в амо срм
+            $apikey    = $key->content;            // api ключ
+
+            $amo = new Client($subdomain, $login, $apikey);
+
+            var_dump('<pre>');
+            var_dump($amo->lead->apiList(['id' => 36644824]));
+            var_dump('</pre>');
+            die;
+
+            // create lead
+            $lead = $amo->lead;
+            $lead['name'] = 'тестовая сделка';
+            $lead['responsible_user_id'] = 5847651; // ID ответсвенного 
+            $lead['pipeline_id'] = 5581734; // ID воронки
+            $lead['status_id'] = 49943004; // for check
+            // $lead['_embedded[tags]'] = ['ГуглГрузия']; //36643372 36643524
+            $lead['tags'] = ['ГуглГрузия'];
+
+            // $lead->addCustomField(696960, [ // ID  поля в которое будт приходить заявки
+            //     ['888888'], // сюда вписать значение из атрибута "name" пример: <input name="mail">
+            // ]);
+
+            // $lead->addCustomField(809203, [ // for check name
+            //     ['Имя'],
+            // ]);
+            $lead->addCustomField(809203, 'Имя');
+
+            // $lead->addCustomField(319701, [ // for check phone
+            //     ['88888888'],
+            // ]);
+            $lead->addCustomField(319701, '88888888');
+
+            // $lead->addCustomField(815608, [ // for check message
+            //     ['сообщение'],
+            // ]);
+            $lead->addCustomField(815608, 'сообщение');
+
+            // $lead->addCustomField(319703, [ // for check mail
+            //     ['test@test.com'],
+            // ]);
+            $lead->addCustomField(319703, 'test@test.com');
+
+            // $lead->addCustomField(319703, [ // for check mail
+            //     ['test@test.com'],
+            // ]);
+
+            // $lead->addCustomField(814570, [ // for check
+            //     ['name'],
+            // ]);
+
+            $id = $lead->apiAdd();
+            
+            var_dump('<pre>');
+            var_dump($id);
+            var_dump('</pre>');
+            die;
+        } catch (\Throwable $th) {
+            var_dump('<pre>');
+            var_dump($th);
+            var_dump('</pre>');
+            die;
+        }
+
+        die;
+
         $key = Key::find()->where(['id' => 1])->one();
         // Создание клиента
         $subdomain = $key->key;            // Поддомен в амо срм
@@ -93,9 +165,9 @@ class SiteController extends Controller
         // var_dump($amo);
         // var_dump('</pre>');
         // Вывести полученые из амо данные
-        echo '<pre>';
-        print_r($amo->pipelines->apiList(5581734));
-        echo '</pre>';
+        // echo '<pre>';
+        // print_r($amo->pipelines->apiList(5581734));
+        // echo '</pre>';
 
         // Define the file path
         // $filePath = Yii::getAlias( '@frontend' ) . '/web/del/file.txt';
@@ -352,8 +424,6 @@ class SiteController extends Controller
             throw $th;
         }
 
-        return ['data' => ['success' => false]];
-
         try {
             $key = Key::find()->where(['id' => 1])->one();
             // Создание клиента
@@ -370,27 +440,24 @@ class SiteController extends Controller
             $lead['pipeline_id'] = 5581734; // ID воронки
             $lead['status_id'] = 49943004; // for check
 
-            $lead->addCustomField(696960, [ // ID  поля в которое будт приходить заявки
-                [$request->post('phone')], // сюда вписать значение из атрибута "name" пример: <input name="phone">
-            ]);
+            $lead['tags'] = ['ГуглГрузия'];
 
-            $lead->addCustomField(814484, [ // for check
-                ['ГуглГрузия'],
-            ]);
+            $lead->addCustomField(809203, $request->post('name'));
 
-            $lead->addCustomField(335377, [ // for check
-                [$request->post('phone')],
-            ]);
+            $lead->addCustomField(319701, $request->post('phone'));
 
-            $lead->addCustomField(814570, [ // for check
-                [$request->post('name')],
-            ]);
+            $lead->addCustomField(815608, $request->post('message'));
+
+            // $lead->addCustomField(319703, 'test@test.com');
 
             $id = $lead->apiAdd();
         } catch (\Throwable $th) {
             //throw $th;
         }
+
+        return ['data' => ['success' => false]];
     }
+
 
     /**
      * Signs user up.

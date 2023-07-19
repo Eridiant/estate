@@ -475,7 +475,7 @@ class SiteController extends Controller
         try {
 
             $message->lang = Yii::$app->language;
-            $message->id = ip2long($request->userIP);
+            $message->ip = ip2long($request->userIP);
             $message->name = $request->post('name');
             $message->phone = $request->post('phone');
             $message->body = $request->post('message');
@@ -484,10 +484,10 @@ class SiteController extends Controller
             var_dump($th);
             $message->status_save = 0;
         }
-        // if (!$message->save()) {
-        //     $message->getErrors();
-        // }
-        $message->save();
+        if (!$message->save()) {
+            return ['data' => ['success' => $message->getErrors()]];
+        }
+        // $message->save();
 
         return ['data' => ['success' => true]];
     }

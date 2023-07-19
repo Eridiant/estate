@@ -26,7 +26,7 @@ class m230719_114941_create_message_table extends Migration
             'ip' => $this->integer(10)->unsigned()->notNull(),
             'city' => $this->text(),
             'country' => $this->text(),
-            'created_at' => $this->timestamp(),
+            'created_at' => $this->integer(11)->notNull(),
         ]);
     }
 

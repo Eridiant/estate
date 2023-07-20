@@ -16,6 +16,7 @@ use yii\behaviors\TimestampBehavior;
  * @property string|null $lang
  * @property string|null $body
  * @property int|null $status_amo_id
+ * @property int|null $status_contact_amo_id
  * @property int|null $status_mail
  * @property int|null $status_save
  * @property int $ip
@@ -41,7 +42,7 @@ class Message extends \yii\db\ActiveRecord
         return [
             [['name', 'ip'], 'required'],
             [['body', 'city', 'country'], 'string'],
-            [['status_amo_id', 'status_mail', 'status_save', 'ip'], 'integer'],
+            [['status_amo_id', 'status_contact_amo_id', 'status_mail', 'status_save', 'ip'], 'integer'],
             [['created_at'], 'safe'],
             [['name', 'subject'], 'string', 'max' => 255],
             [['email', 'phone', 'lang'], 'string', 'max' => 32],
@@ -74,6 +75,7 @@ class Message extends \yii\db\ActiveRecord
             'lang' => 'Lang',
             'body' => 'Body',
             'status_amo_id' => 'Status Amo ID',
+            'status_contact_amo_id' => 'Status Contact Amo ID',
             'status_mail' => 'Status Mail',
             'status_save' => 'Status Save',
             'ip' => 'Ip',

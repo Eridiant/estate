@@ -79,8 +79,8 @@ class SiteController extends Controller
     }
 
     // public function actionAmoDda()
-    private function Amo()
-    // public function actionAmo()
+    // private function Amo()
+    public function actionAmo()
     {
 
         try {
@@ -93,7 +93,7 @@ class SiteController extends Controller
             $amo = new Client($subdomain, $login, $apikey);
 
             var_dump('<pre>');
-            var_dump($amo->lead->apiList(['id' => 36644824]));
+            var_dump($amo->lead->apiList(['id' => 36648782]));
             var_dump('</pre>');
             die;
 

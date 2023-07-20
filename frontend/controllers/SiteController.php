@@ -407,9 +407,10 @@ class SiteController extends Controller
 
             $amo = new Client($subdomain, $login, $apikey);
 
-            var_dump('<pre>');
-            var_dump($amo->lead->apiList(['id' => 36650978]));
-            var_dump('</pre>');
+            // var_dump('<pre>');
+            // var_dump($amo->lead->apiList(['id' => ]));
+            // var_dump($amo->contact->apiList(['id' => ]));
+            // var_dump('</pre>');
             die;
 
             // create lead

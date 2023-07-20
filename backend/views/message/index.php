@@ -24,20 +24,19 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+            // ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+            // 'id',
             'name',
             // 'email:email',
             'phone',
             // 'subject',
-            'lang',
+            // 'lang',
             //'body:ntext',
             // 'status_amo_id',
             // 'status_mail',
             // 'status_save',
             [
-                'label' => 'Почта',
                 'attribute' => 'status_mail',
                 'format' => 'raw',
                 'value' => function($model) {
@@ -45,7 +44,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             [
-                'label' => 'В базе данных',
                 'attribute' => 'status_save',
                 'format' => 'raw',
                 'value' => function($model) {
@@ -53,7 +51,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             [
-                'label' => 'В амо',
                 'attribute' => 'status_amo_id',
                 'format' => 'raw',
                 'value' => function($model) {
@@ -61,11 +58,17 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             [
-                'label' => 'контакт амо',
                 'attribute' => 'status_contact_amo_id',
                 'format' => 'raw',
                 'value' => function($model) {
                     return $model->status_contact_amo_id > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
+                }
+            ],
+            [
+                'attribute' => 'status_link_amo_id',
+                'format' => 'raw',
+                'value' => function($model) {
+                    return $model->status_link_amo_id > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
                 }
             ],
             //'ip:ntext',

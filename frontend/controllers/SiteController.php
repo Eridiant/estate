@@ -79,8 +79,8 @@ class SiteController extends Controller
     }
 
     // public function actionAmoDda()
-    // private function Amo()
-    public function actionAmo()
+    private function Amo()
+    // public function actionAmo()
     {
 
         try {

@@ -60,6 +60,14 @@ $this->params['breadcrumbs'][] = $this->title;
                     return $model->status_amo_id > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
                 }
             ],
+            [
+                'label' => 'контакт амо',
+                'attribute' => 'status_contact_amo_id',
+                'format' => 'raw',
+                'value' => function($model) {
+                    return $model->status_contact_amo_id > 0 ? '<span class="text-success">ok</span>' : '<span class="text-danger">error</span>';
+                }
+            ],
             //'ip:ntext',
             //'city:ntext',
             //'country:ntext',

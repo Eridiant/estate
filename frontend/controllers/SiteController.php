@@ -459,8 +459,8 @@ class SiteController extends Controller
             $out = "GET /index.php HTTP/1.1\r\n";
             $out .= "Host: " . $url . "\r\n";
             $out .= "Connection: Close\r\n\r\n";
-            fwrite($fp, "\n");
-            fclose($fp);
+            // fwrite($fp, "\n");
+            // fclose($fp);
             var_dump(fwrite($fp, "\n"));
             var_dump(fclose($fp));
         }

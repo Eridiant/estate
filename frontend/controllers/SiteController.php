@@ -439,9 +439,36 @@ class SiteController extends Controller
     }
 
     // public function actionAmoDda()
-    private function Amo()
-    // public function actionAmo()
+    // private function Amo()
+    public function actionAmo()
     {
+
+        $request = Yii::$app->request;
+        try {
+            // Create a new HTTP client instance
+            $httpClient = new Client();
+    
+            // Define the URL of the third-party resource you want to access
+            // $url = 'https://api.ddageorgia.com/data';
+            $url = "https://api.{$request->serverName}/index.php";
+            // Send an asynchronous GET request to the third-party API
+
+            $request = $httpClient->createRequest()
+                ->setMethod('GET')
+                ->setUrl($url)
+                ->sendAsync();
+
+        } catch (RequestException $e) {
+            // throw $e;
+            var_dump($e);
+            
+        } catch (\Exception $e) {
+            // throw $e;
+            var_dump($e);
+        }
+
+        return;
+
         $request = Yii::$app->request;
         $url = "https://api.{$request->serverName}/";
         var_dump('<pre>');

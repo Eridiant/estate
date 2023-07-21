@@ -460,8 +460,11 @@ class SiteController extends Controller
             $out .= "Connection: Close\r\n\r\n";
             fwrite($fp, "\n");
             fclose($fp);
+            var_dump(fwrite($fp, "\n"));
+            var_dump(fclose($fp));
         }
 
+        echo 'after <br>';
         return;
 
         $client = new Client();

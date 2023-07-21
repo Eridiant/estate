@@ -25,8 +25,11 @@ use frontend\models\Message;
 // use \dotzero\amocrm\AmoCRM\Client as AmoCRM;
 // use dotzero\AmoCRM\Client as AmoCRM;
 use \AmoCRM\Client as AmoClient;
-use yii\httpclient\Client;
-use yii\httpclient\RequestException;
+use \AmoCRM\Client as guzzlehttp;
+use \GuzzleHttp\Client;
+use \GuzzleHttp\Promise;
+// use yii\httpclient\Client;
+// use yii\httpclient\RequestException;
 
 /**
  * Site controller
@@ -327,17 +330,17 @@ class SiteController extends Controller
 
         try {
             // Create a new HTTP client instance
-            $httpClient = new Client();
+            // $httpClient = new Client();
     
-            // Define the URL of the third-party resource you want to access
-            // $url = 'https://api.ddageorgia.com/data';
-            $url = "https://api.{$request->serverName}/index.php";
-            // Send an asynchronous GET request to the third-party API
+            // // Define the URL of the third-party resource you want to access
+            // // $url = 'https://api.ddageorgia.com/data';
+            // $url = "https://api.{$request->serverName}/index.php";
+            // // Send an asynchronous GET request to the third-party API
 
-            $request = $httpClient->createRequest()
-                ->setMethod('GET')
-                ->setUrl($url)
-                ->sendAsync();
+            // $request = $httpClient->createRequest()
+            //     ->setMethod('GET')
+            //     ->setUrl($url)
+            //     ->sendAsync();
 
         } catch (RequestException $e) {
             // throw $e;
@@ -446,6 +449,15 @@ class SiteController extends Controller
         echo 'before <br>';
 
         $request = Yii::$app->request;
+        $url = "https://api.{$request->serverName}/index.php";
+        try {
+            $client = new Client();
+            $promise = $client->getAsync($url);
+        } catch (\Throwable $th) {
+            throw $th;
+        }
+        echo 'after <br>';
+        return;
         try {
             // Create a new HTTP client instance
             $httpClient = new Client();

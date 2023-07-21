@@ -443,11 +443,13 @@ class SiteController extends Controller
     public function actionAmo()
     {
 
+        echo 'before <br>';
+
         $request = Yii::$app->request;
         try {
             // Create a new HTTP client instance
             $httpClient = new Client();
-    
+
             // Define the URL of the third-party resource you want to access
             // $url = 'https://api.ddageorgia.com/data';
             $url = "https://api.{$request->serverName}/index.php";
@@ -456,7 +458,7 @@ class SiteController extends Controller
             $request = $httpClient->createRequest()
                 ->setMethod('GET')
                 ->setUrl($url)
-                ->sendAsync();
+                ->send();
 
         } catch (RequestException $e) {
             // throw $e;
@@ -464,8 +466,7 @@ class SiteController extends Controller
             var_dump($e);
             var_dump('</pre>');
             die;
-            
-            
+
         } catch (\Exception $e) {
             // throw $e;
             var_dump('<pre>');
@@ -473,6 +474,8 @@ class SiteController extends Controller
             var_dump('</pre>');
             die;
         }
+
+        echo 'after <br>';
 
         return;
 

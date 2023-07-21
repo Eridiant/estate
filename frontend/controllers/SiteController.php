@@ -451,10 +451,13 @@ class SiteController extends Controller
         $request = Yii::$app->request;
         $url = "https://api.{$request->serverName}/index.php";
 
-        $fp = fsockopen($url, 80, $errno, $errstr);
+        $fp = fsockopen($url, 80, $errno, $errstr, 30);
         if (!$fp) {
             echo "ERROR: $errno - $errstr<br />\n";
         } else {
+            $out = "GET HTTP/1.1\r\n";
+            $out .= "Host: " . $url . "\r\n";
+            $out .= "Connection: Close\r\n\r\n";
             fwrite($fp, "\n");
             fclose($fp);
         }

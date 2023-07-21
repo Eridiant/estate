@@ -460,11 +460,18 @@ class SiteController extends Controller
 
         } catch (RequestException $e) {
             // throw $e;
+            var_dump('<pre>');
             var_dump($e);
+            var_dump('</pre>');
+            die;
+            
             
         } catch (\Exception $e) {
             // throw $e;
+            var_dump('<pre>');
             var_dump($e);
+            var_dump('</pre>');
+            die;
         }
 
         return;

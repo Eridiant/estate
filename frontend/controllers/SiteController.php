@@ -373,7 +373,7 @@ class SiteController extends Controller
 
             }
         } catch (\Throwable $th) {
-            throw $th;
+            // throw $th;
             // var_dump($th);
         }
 

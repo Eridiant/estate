@@ -346,9 +346,13 @@ class SiteController extends Controller
 
                 // $lead->addCustomField(319701, $request->post('phone'));
 
-                // $lead->addCustomField(815608, $request->post('message'));
+                $lead->addCustomField(815608, $request->post('message'));
 
                 // $lead->addCustomField(319703, 'test@test.com');
+
+                $lead->addCustomField(673225, 'ddageorgia.com');
+
+                // $lead->addCustomField(799655, 'ip');
 
                 $message->status_amo_id = $lead->apiAdd();
 
@@ -365,11 +369,11 @@ class SiteController extends Controller
                 $link['to'] = 'contacts';
                 $link['to_id'] = $message->status_contact_amo_id;
 
-                $message->status_link_amo_id = json_decode($link->apiUnlink(), true);
+                $message->status_link_amo_id = json_decode($link->apiLink(), true);
 
             }
         } catch (\Throwable $th) {
-            // throw $th;
+            throw $th;
             // var_dump($th);
         }
 
@@ -407,10 +411,34 @@ class SiteController extends Controller
 
             $amo = new Client($subdomain, $login, $apikey);
 
+            // $contact = $amo->contact;
+            // $contact['request_id'] = '52469744';
+            // $contact->debug(true);
+            // $contact["linked_leads_id"] = 36653566;
             // var_dump('<pre>');
-            // var_dump($amo->lead->apiList(['id' => ]));
-            // var_dump($amo->contact->apiList(['id' => ]));
+            // var_dump($contact->apiAdd());
             // var_dump('</pre>');
+            // die;
+            
+            // $link = $amo->links;
+            // $link['from'] = 'leads';
+            // $link['from_id'] = 36653498;
+            // $link['to'] = 'contacts';
+            // $link['to_id'] = 52469684;
+
+            // $link = $amo->links;
+            // $link['from'] = 'contacts';
+            // $link['from_id'] = 52469684;
+            // $link['to'] = 'leads';
+            // $link['to_id'] = 36653498;
+
+            // $message->status_link_amo_id = json_decode($link->apiUnlink(), true);
+
+            var_dump('<pre>');
+            var_dump($amo->lead->apiList(['id' => 36653498]));
+            // var_dump($link->apiLink());
+            // var_dump($amo->contact->apiList(['id' => 52469684]));
+            var_dump('</pre>');
             die;
 
             // create lead

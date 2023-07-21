@@ -457,9 +457,9 @@ class SiteController extends Controller
         } catch (\Throwable $th) {
             throw $th;
         }
-        var_dump('<pre>');
-        var_dump($promise);
-        var_dump('</pre>');
+        // var_dump('<pre>');
+        // var_dump($promise);
+        // var_dump('</pre>');
         die;
         
         echo 'after <br>';

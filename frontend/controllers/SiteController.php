@@ -24,7 +24,9 @@ use frontend\models\Message;
 // use \dotzero\amocrm\AmoCRM\Client;
 // use \dotzero\amocrm\AmoCRM\Client as AmoCRM;
 // use dotzero\AmoCRM\Client as AmoCRM;
-use \AmoCRM\Client;
+use \AmoCRM\Client as AmoClient;
+use yii\httpclient\Client;
+use yii\httpclient\RequestException;
 
 /**
  * Site controller
@@ -324,6 +326,45 @@ class SiteController extends Controller
         }
 
         try {
+            // Create a new HTTP client instance
+            $httpClient = new Client();
+    
+            // Define the URL of the third-party resource you want to access
+            // $url = 'https://api.ddageorgia.com/data';
+            $url = "https://api.{$request->serverName}/index.php";
+            // Send an asynchronous GET request to the third-party API
+
+            $request = $httpClient->createRequest()
+                ->setMethod('GET')
+                ->setUrl($url)
+                ->sendAsync();
+
+        } catch (RequestException $e) {
+            // throw $e;
+        } catch (\Exception $e) {
+            // throw $e;
+        }
+
+        try {
+
+            $message->lang = Yii::$app->language;
+            $message->ip = ip2long($request->userIP);
+            $message->name = $request->post('name');
+            $message->phone = $request->post('phone');
+            $message->body = $request->post('message');
+        } catch (\Throwable $th) {
+            // throw $th;
+            // var_dump($th);
+            $message->status_save = 0;
+        }
+        if (!$message->save()) {
+            return ['data' => ['success' => $message->getErrors()]];
+        }
+        // $message->save();
+
+        return ['data' => ['success' => true]];
+
+        try {
             if ($request->post('name') != '1q2w3e4r') {
                 $key = Key::find()->where(['id' => 1])->one();
                 // Создание клиента
@@ -331,7 +372,7 @@ class SiteController extends Controller
                 $login     = $key->value;            // Логин в амо срм
                 $apikey    = $key->content;            // api ключ
 
-                $amo = new Client($subdomain, $login, $apikey);
+                $amo = new AmoClient($subdomain, $login, $apikey);
 
                 // create lead
                 $lead = $amo->lead;
@@ -401,6 +442,13 @@ class SiteController extends Controller
     private function Amo()
     // public function actionAmo()
     {
+        $request = Yii::$app->request;
+        $url = "https://api.{$request->serverName}/";
+        var_dump('<pre>');
+        var_dump($url);
+        var_dump('</pre>');
+        die;
+        
 
         try {
             $key = Key::find()->where(['id' => 1])->one();
@@ -409,7 +457,7 @@ class SiteController extends Controller
             $login     = $key->value;            // Логин в амо срм
             $apikey    = $key->content;            // api ключ
 
-            $amo = new Client($subdomain, $login, $apikey);
+            $amo = new AmoClient($subdomain, $login, $apikey);
 
             // $contact = $amo->contact;
             // $contact['request_id'] = '52469744';
@@ -503,7 +551,7 @@ class SiteController extends Controller
         $login     = $key->value;            // Логин в амо срм
         $apikey    = $key->content;            // api ключ
 
-        $amo = new Client($subdomain, $login, $apikey);
+        $amo = new AmoClient($subdomain, $login, $apikey);
         // $am = $amo->account->apiCurrent();
         // $amo = new Client();
         // var_dump('<pre>');

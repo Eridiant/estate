@@ -450,17 +450,22 @@ class SiteController extends Controller
 
         $request = Yii::$app->request;
         $url = "https://api.{$request->serverName}/index.php";
+
+        $client = new Client();
+        $promise = $client->getAsync($url);
+        $promise = $client->requestAsync('GET', $url);
         try {
             $client = new Client();
-            $promise = $client->getAsync($url);
+            // $promise = $client->getAsync($url);
+            $promise = $client->requestAsync('GET', $url);
             
         } catch (\Throwable $th) {
-            throw $th;
+            // throw $th;
+            var_dump('<pre>');
+            var_dump($th);
+            var_dump('</pre>');
+            die;
         }
-        // var_dump('<pre>');
-        // var_dump($promise);
-        // var_dump('</pre>');
-        die;
         
         echo 'after <br>';
         return;

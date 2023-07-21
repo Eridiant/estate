@@ -448,17 +448,39 @@ class SiteController extends Controller
         $request = Yii::$app->request;
         try {
             // Create a new HTTP client instance
-            $httpClient = new Client();
-
+            // $httpClient = new Client();
+    
             // Define the URL of the third-party resource you want to access
             // $url = 'https://api.ddageorgia.com/data';
             $url = "https://api.{$request->serverName}/index.php";
             // Send an asynchronous GET request to the third-party API
 
-            $request = $httpClient->createRequest()
-                ->setMethod('GET')
-                ->setUrl($url)
-                ->send();
+            // $request = $httpClient->createRequest()
+            //     ->setMethod('GET')
+            //     ->setUrl($url)
+            //     ->send();
+
+             // Initialize cURL session
+            $ch = curl_init();
+
+            // Set cURL options
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 0); // Set to 0 to avoid getting the response
+            curl_setopt($ch, CURLOPT_NOBODY, 1); // Send a HEAD request without response body
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET'); // Use GET method
+
+            // Execute cURL session (without expecting response)
+            curl_exec($ch);
+
+            // Check for cURL errors
+            if (curl_errno($ch)) {
+                // Handle the error appropriately (e.g., log, throw an exception, etc.)
+                $errorMessage = curl_error($ch);
+                // ...
+            }
+
+            // Close cURL session
+            curl_close($ch);
 
         } catch (RequestException $e) {
             // throw $e;

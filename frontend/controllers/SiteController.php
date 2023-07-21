@@ -446,32 +446,12 @@ class SiteController extends Controller
     public function actionAmo()
     {
 
-        echo 'before <br>';
-
         $request = Yii::$app->request;
-        // $url = "https://api.{$request->serverName}/index.php";
-        $url = "api.{$request->serverName}";
-
-        $fp = fsockopen($url, 443, $errno, $errstr, 30);
-        if (!$fp) {
-            // echo "ERROR: $errno - $errstr<br />\n";
-            error_log("ERROR: $errno - $errstr");
-        } else {
-            $out = "GET /index.php HTTP/1.1\r\n";
-            $out .= "Host: " . $url . "\r\n";
-            $out .= "Connection: Close\r\n\r\n";
-            fwrite($fp, "\n");
-            fclose($fp);
-            // var_dump(fwrite($fp, "\n"));
-            // var_dump(fclose($fp));
-        }
-
-        echo 'after <br>';
-        return;
-
+        $url = "https://api.{$request->serverName}/index.php";
         $client = new Client();
         $promise = $client->getAsync($url);
-        $promise = $client->requestAsync('GET', $url);
+        // $promise = $client->requestAsync('GET', $url);
+        return;
         try {
             $client = new Client();
             // $promise = $client->getAsync($url);
@@ -518,6 +498,31 @@ class SiteController extends Controller
 
         echo 'after <br>';
 
+        return;
+
+
+
+        echo 'before <br>';
+
+        $request = Yii::$app->request;
+        // $url = "https://api.{$request->serverName}/index.php";
+        $url = "api.{$request->serverName}";
+
+        $fp = fsockopen($url, 443, $errno, $errstr, 30);
+        if (!$fp) {
+            // echo "ERROR: $errno - $errstr<br />\n";
+            error_log("ERROR: $errno - $errstr");
+        } else {
+            $out = "GET /index.php HTTP/1.1\r\n";
+            $out .= "Host: " . $url . "\r\n";
+            $out .= "Connection: Close\r\n\r\n";
+            fwrite($fp, "\n");
+            fclose($fp);
+            // var_dump(fwrite($fp, "\n"));
+            // var_dump(fclose($fp));
+        }
+
+        echo 'after <br>';
         return;
 
         $request = Yii::$app->request;

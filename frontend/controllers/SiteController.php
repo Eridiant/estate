@@ -454,7 +454,8 @@ class SiteController extends Controller
 
         $fp = fsockopen($url, 443, $errno, $errstr, 30);
         if (!$fp) {
-            echo "ERROR: $errno - $errstr<br />\n";
+            // echo "ERROR: $errno - $errstr<br />\n";
+            error_log("ERROR: $errno - $errstr");
         } else {
             $out = "GET /index.php HTTP/1.1\r\n";
             $out .= "Host: " . $url . "\r\n";

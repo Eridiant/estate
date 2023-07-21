@@ -452,7 +452,7 @@ class SiteController extends Controller
         // $url = "https://api.{$request->serverName}/index.php";
         $url = "api.{$request->serverName}";
 
-        $fp = fsockopen($url, 80, $errno, $errstr, 30);
+        $fp = fsockopen($url, 443, $errno, $errstr, 30);
         if (!$fp) {
             echo "ERROR: $errno - $errstr<br />\n";
         } else {

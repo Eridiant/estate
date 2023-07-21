@@ -451,6 +451,16 @@ class SiteController extends Controller
         $request = Yii::$app->request;
         $url = "https://api.{$request->serverName}/index.php";
 
+        $fp = fsockopen($url, 80, $errno, $errstr);
+        if (!$fp) {
+            echo "ERROR: $errno - $errstr<br />\n";
+        } else {
+            fwrite($fp, "\n");
+            fclose($fp);
+        }
+
+        return;
+
         $client = new Client();
         $promise = $client->getAsync($url);
         $promise = $client->requestAsync('GET', $url);

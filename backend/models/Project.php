@@ -179,9 +179,9 @@ class Project extends \yii\db\ActiveRecord
             if (is_null($this->content)) {
                 $content = new ProjectContent();
                 $content->project_id = $this->id;
-                $content->language = \backend\modules\language\models\Language::getCurrent()->code;
+                $content->language = \backend\modules\language\models\Language::getCurrent()->key;
             } else {
-                $content = ProjectContent::find()->where(['id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->code])->one();
+                $content = ProjectContent::find()->where(['id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->key])->one();
             }
 
             $content->title = $this->getTitle();

@@ -18,7 +18,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'title')->textarea(['rows' => 2]) ?>
+    <!-- <?//= $form->field($model, 'title')->textarea(['rows' => 2]) ?> -->
 
     <?= $form->field($model, 'img')->textInput(['maxlength' => true]) ?>
 

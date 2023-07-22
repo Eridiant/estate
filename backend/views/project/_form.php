@@ -18,6 +18,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'title')->textarea(['rows' => 2]) ?>
+
     <?= $form->field($model, 'img')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'country')->textInput(['maxlength' => true]) ?>
@@ -30,7 +32,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'excerpt')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
+    <!-- <?//= $form->field($model, 'description')->textarea(['rows' => 6]) ?> -->
+
+<?php if ($model->id && \backend\modules\language\models\Language::getCurrent()->key != 'ru-RU'): ?>
+    <p><?= \backend\models\ProjectContent::find()->where(['project_id' => $model->id, 'language' => 'ru-RU'])->one()?->desc; ?></p>
+<?php endif; ?>
+
+    <?= $form->field($model, 'desc')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'coordinate')->textInput(['maxlength' => true]) ?>
 

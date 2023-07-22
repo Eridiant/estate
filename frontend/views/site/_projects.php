@@ -27,7 +27,7 @@
                         </footer>
                         <div class="card-popup">
                             <p class="popup-desc">
-                                <?= $item?->excerpt; ?>
+                                <p><?= $item->content->desc ?? $item->excerpt ?? ''; ?></p>
                             </p>
                             <div class="popup-connect">
                                 <ul class="popup-phone">

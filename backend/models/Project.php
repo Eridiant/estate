@@ -47,7 +47,7 @@ class Project extends \yii\db\ActiveRecord
             [['lang'], 'string', 'max' => 12],
             [['name', 'img', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray'], 'safe'],
+            [['optionsArray', 'title', 'desc'], 'safe'],
         ];
     }
 
@@ -88,6 +88,16 @@ class Project extends \yii\db\ActiveRecord
     }
 
     /**
+     * Gets query for [[ProjectContents]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getContent()
+    {
+        return $this->hasOne(ProjectContent::class, ['project_id' => 'id'])->onCondition(['language' => \backend\modules\language\models\Language::getCurrent()->key]);
+    }
+
+    /**
      * Gets query for [[Options]].
      *
      * @return \yii\db\ActiveQuery
@@ -114,6 +124,31 @@ class Project extends \yii\db\ActiveRecord
 
 
 
+    private $_title;
+    private $_desc;
+    public function getTitle()
+    {
+        if ($this->_title === null && !is_null($this->getContent()->one())) {
+            $this->_title = $this->getContent()->one()->title;
+        }
+        return $this->_title;
+    }
+    public function setTitle($value)
+    {
+        $this->_title = $value;
+    }
+    public function getDesc()
+    {
+        if ($this->_desc === null && !is_null($this->getContent()->one())) {
+            $this->_desc = $this->getContent()->one()->desc;
+        }
+        return $this->_desc;
+    }
+    public function setDesc($value)
+    {
+        $this->_desc = $value;
+    }
+
     private $_optionsArray;
 
     public function getOptionsArray()
@@ -131,8 +166,34 @@ class Project extends \yii\db\ActiveRecord
 
     public function afterSave($insert, $changedAttributes)
     {
+        $this->updateContents();
         $this->updateOptions();
         parent::afterSave($insert, $changedAttributes);
+    }
+
+
+
+    public function updateContents()
+    {
+        if ($this->title || $this->desc) {
+            if (is_null($this->content)) {
+                $content = new ProjectContent();
+                $content->project_id = $this->id;
+                $content->language = \backend\modules\language\models\Language::getCurrent()->code;
+            } else {
+                $content = ProjectContent::find()->where(['id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->code])->one();
+            }
+
+            $content->title = $this->getTitle();
+            $content->desc = $this->getDesc();
+
+            if (!$content->save()) {
+                var_dump('<pre>');
+                var_dump($content->getErrors());
+                var_dump('</pre>');
+                die;
+            }
+        }
     }
 
     private function updateOptions()

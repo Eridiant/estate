@@ -83,6 +83,16 @@ class Project extends \yii\db\ActiveRecord
     }
 
     /**
+     * Gets query for [[ProjectContents]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getContent()
+    {
+        return $this->hasOne(ProjectContent::class, ['project_id' => 'id'])->onCondition(['language' => Yii::$app->language]);
+    }
+
+    /**
      * Gets query for [[ProjectOptions]].
      *
      * @return \yii\db\ActiveQuery

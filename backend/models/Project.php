@@ -13,6 +13,7 @@ use yii\web\UploadedFile;
  * @property string|null $lang
  * @property string|null $name
  * @property string|null $img
+ * @property string|null $gallery
  * @property string|null $type
  * @property string|null $country
  * @property string|null $date
@@ -28,7 +29,6 @@ use yii\web\UploadedFile;
  */
 class Project extends \yii\db\ActiveRecord
 {
-    public $imageFile;
 
     /**
      * {@inheritdoc}
@@ -45,12 +45,12 @@ class Project extends \yii\db\ActiveRecord
     {
         return [
             [['price'], 'number'],
-            [['variant', 'excerpt', 'description'], 'string'],
+            [['gallery', 'variant', 'excerpt', 'description'], 'string'],
             [['show'], 'integer'],
             [['lang'], 'string', 'max' => 12],
             [['name', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray', 'title', 'desc', 'img'], 'safe'],
+            [['optionsArray', 'galleryFiles' , 'imageFile', 'title', 'desc', 'img'], 'safe'],
             // [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg'],
         ];
     }
@@ -65,6 +65,7 @@ class Project extends \yii\db\ActiveRecord
             'lang' => 'Lang',
             'name' => 'Name',
             'img' => 'Img',
+            'gallery' => 'Gallery',
             'type' => 'Type',
             'country' => 'Country',
             'date' => 'Date',
@@ -76,24 +77,33 @@ class Project extends \yii\db\ActiveRecord
             'coordinate' => 'Coordinate',
         ];
     }
-    public function upload($imageFile)
+
+    public $_imageFile;
+    public function getImageFile()
     {
-        if ($this->validate() || true) {
+        return $this->_imageFile;
+    }
+    public function setImageFile($value)
+    {
+        $this->_imageFile = $value;
+    }
+    public function upload()
+    {
+        if ($this->imageFile) {
             
             $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/';
             if (!is_dir($uploadPath)) {
                 mkdir($uploadPath, 0777, true);
             }
 
-            $fileName = uniqid() . '.' . $imageFile->extension;
+            $fileName = uniqid() . '.' . $this->imageFile->extension;
 
-            $imageFile->saveAs($uploadPath . $fileName);
+            $this->imageFile->saveAs($uploadPath . $fileName);
 
             $this->img = $fileName;
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     public function deleteOldFile($oldImage)
@@ -103,6 +113,36 @@ class Project extends \yii\db\ActiveRecord
         if (file_exists($oldImagePath)) {
             unlink($oldImagePath);
         }
+    }
+
+    public $_galleryFiles;
+    public function getGalleryFiles()
+    {
+        return $this->_galleryFiles;
+    }
+    public function setGalleryFiles($value)
+    {
+        $this->_galleryFiles = $value;
+    }
+
+    public function galleryUpload()
+    {
+        $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $this->id . '/';
+        if (!is_dir($uploadPath)) {
+            mkdir($uploadPath, 0777, true);
+        }
+
+        $gallery = [];
+
+        foreach ($this->galleryFiles as $file) {
+            $fileName = uniqid() . '.' . $file->extension;
+            $file->saveAs($uploadPath . $fileName);
+            $gallery[] = $fileName;
+        }
+
+        $this->gallery = $this->gallery ? $this->gallery . "," . implode(",", $gallery) : implode(",", $gallery);
+        
+        return true;
     }
 
     /**

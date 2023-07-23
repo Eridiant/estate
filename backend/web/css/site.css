@@ -88,3 +88,8 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}

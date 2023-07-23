@@ -84,15 +84,30 @@ class ProjectController extends Controller
         if ($this->request->isPost) {
 
             if ($model->load($this->request->post())) {
-                $imageFile = UploadedFile::getInstance($model, 'img');
-                $model->upload($imageFile);
+                $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+                if ($model->imageFile) {
+                    $model->upload();
+                }
+
+                $model->galleryFiles = UploadedFile::getInstances($model, 'galleryFiles');
+
                 if (!$model->save()) {
                     var_dump('<pre>');
                     var_dump($model->errors);
                     var_dump('</pre>');
                     die;
-                    
                 }
+                if ($model->galleryFiles) {
+                    $model->galleryUpload();
+                }
+
+                if (!$model->save()) {
+                    var_dump('<pre>');
+                    var_dump($model->errors);
+                    var_dump('</pre>');
+                    die;
+                }
+
                 return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {
@@ -100,6 +115,52 @@ class ProjectController extends Controller
         }
 
         return $this->render('create', compact('model'));
+    }
+
+    /**
+     * Updates an existing Project model.
+     * If update is successful, the browser will be redirected to the 'view' page.
+     * @param int $id ID
+     * @return string|\yii\web\Response
+     * @throws NotFoundHttpException if the model cannot be found
+     */
+    public function actionUpdate($id)
+    {
+        $model = $this->findModel($id);
+        $gallery = new Gallery();
+        $oldImage = $model->img;
+
+        if ($this->request->isPost && $model->load($this->request->post())) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+
+            if ($model->imageFile) {
+                $model->upload();
+            }
+
+            $model->galleryFiles = UploadedFile::getInstances($model, 'galleryFiles');
+
+            if ($model->galleryFiles) {
+                $model->galleryUpload();
+            }
+
+            if (!$model->save()) {
+                var_dump('<pre>');
+                var_dump($model->errors);
+                var_dump('</pre>');
+                die;
+                
+            }
+
+            if ($oldImage && $model->img && $oldImage !== $model->img) {
+                $model->deleteOldFile($oldImage);
+            }
+            return $this->redirect(['view', 'id' => $model->id]);
+        }
+
+        return $this->render('update', [
+            'model' => $model,
+            'gallery' => $gallery,
+        ]);
     }
 
     public function actionPrg()
@@ -135,45 +196,6 @@ class ProjectController extends Controller
             
         // }
 
-    }
-
-    /**
-     * Updates an existing Project model.
-     * If update is successful, the browser will be redirected to the 'view' page.
-     * @param int $id ID
-     * @return string|\yii\web\Response
-     * @throws NotFoundHttpException if the model cannot be found
-     */
-    public function actionUpdate($id)
-    {
-        $model = $this->findModel($id);
-        $gallery = new Gallery();
-        $oldImage = $model->img;
-
-        if ($this->request->isPost && $model->load($this->request->post())) {
-            $imageFile = UploadedFile::getInstance($model, 'img');
-
-            if ($imageFile) {
-                $model->upload($imageFile);
-            }
-
-            if (!$model->save()) {
-                var_dump('<pre>');
-                var_dump($model->errors);
-                var_dump('</pre>');
-                die;
-                
-            }
-            if ($oldImage !== null) {
-                $model->deleteOldFile($oldImage);
-            }
-            return $this->redirect(['view', 'id' => $model->id]);
-        }
-
-        return $this->render('update', [
-            'model' => $model,
-            'gallery' => $gallery,
-        ]);
     }
 
     /**

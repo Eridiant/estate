@@ -1,10 +1,18 @@
 <div class="swiper popup-swiper">
     <div class="swiper-wrapper">
-        <?php foreach ($images as $image): ?>
-            <div class="swiper-slide">
-                <img src="<?= $image; ?>" alt="">
-            </div>
-        <?php endforeach; ?>
+        <?php if ($model->gallery): ?>
+            <?php foreach (explode(',', $model->gallery) as $gallery): ?>
+                <div class="swiper-slide">
+                    <img src="/uploads/project/<?= $model->id; ?>/<?= $gallery; ?>" alt="">
+                </div>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <?php foreach ($images as $image): ?>
+                <div class="swiper-slide">
+                    <img src="<?= $image; ?>" alt="">
+                </div>
+            <?php endforeach; ?>
+        <?php endif; ?>
     </div>
     <div class="swiper-button-next popup-swiper-button-next"></div>
     <div class="swiper-button-prev popup-swiper-button-prev"></div>

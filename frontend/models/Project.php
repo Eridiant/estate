@@ -12,6 +12,7 @@ use Yii;
  * @property string|null $lang
  * @property string|null $name
  * @property string|null $img
+ * @property string|null $gallery
  * @property string|null $type
  * @property string|null $country
  * @property string|null $date
@@ -42,7 +43,7 @@ class Project extends \yii\db\ActiveRecord
     {
         return [
             [['price'], 'number'],
-            [['variant', 'excerpt', 'description'], 'string'],
+            [['gallery', 'variant', 'excerpt', 'description'], 'string'],
             [['show'], 'integer'],
             [['lang'], 'string', 'max' => 12],
             [['name', 'img', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
@@ -60,6 +61,7 @@ class Project extends \yii\db\ActiveRecord
             'lang' => 'Lang',
             'name' => 'Name',
             'img' => 'Img',
+            'gallery' => 'Gallery',
             'type' => 'Type',
             'country' => 'Country',
             'date' => 'Date',

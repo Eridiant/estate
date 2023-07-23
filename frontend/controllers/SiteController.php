@@ -152,9 +152,14 @@ class SiteController extends Controller
             return ['data' => ['success' => false]];
         }
 
+        $model = Project::find()
+                ->where(['show' => 1])
+                ->andWhere('id=:id', [':id' => $request->post('num')])
+                ->one();
+
         $images = $this->findGallery($request->post('num'));
         // return $this->render('_slider', compact('images'));
-        return $this->renderPartial('_slider', compact('images'));
+        return $this->renderPartial('_slider', compact('images', 'model'));
 
         // if (!FileHelper::findDirectories($folderPath, ['recursive' => false])){
         // return ['data' => ['success' => is_dir($folderPath)]];

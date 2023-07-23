@@ -1,9 +1,13 @@
 <?php
 
 ?>
-                    <div class="card-image main-border-radius<?= $images ? ' sl' : ''; ?>">
-                        <?php if ($images): ?>
-                            <?= $this->render('_cardsw', compact('images')) ?>
+                    <div class="card-image main-border-radius<?= ($images || $model->gallery) ? ' sl' : ''; ?>">
+                        <?php if ($images || $model->gallery): ?>
+                            <?= $this->render('_cardsw', compact('images', 'model')) ?>
+                        <?php elseif ($model->img): ?>
+                            <picture>
+                                <img src="/uploads/project/<?= $model->img; ?>" alt="">
+                            </picture>
                         <?php else: ?>
                             <picture>
                                 <img src="/images/index/projects/projects-<?= $model->id; ?>.jpg" alt="">

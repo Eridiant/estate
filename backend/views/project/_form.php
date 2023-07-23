@@ -43,9 +43,18 @@ use yii\widgets\ActiveForm;
     <?php else: ?>
         <img style="width: 200px" src="<?= '/frontend/web/images/index/projects/projects-' . $model->id . '.jpg' ?>" alt="">
     <?php endif; ?>
-    <?= $form->field($model, 'img')->fileInput(); ?>
+    <?= $form->field($model, 'imageFile')->fileInput(); ?>
 
     <p>Галлерея</p>
+    <div class="gallery">
+        <?php if ($model->gallery): ?>
+            <?php foreach (explode(',', $model->gallery) as $gallery): ?>
+                <img style="width: 100px" src="<?= '/frontend/web/uploads/project/' . $model->id . '/' . $gallery ?>" alt="">
+            <?php endforeach; ?>
+        <?php endif; ?>
+    </div>
+    <?= $form->field($model, 'galleryFiles[]')->fileInput(['multiple' => true]); ?>
+    <?= $form->field($model, 'gallery')->hiddenInput()->label(false); ?>
 
     <?= $form->field($model, 'coordinate')->textInput(['maxlength' => true]) ?>
 

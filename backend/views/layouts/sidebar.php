@@ -67,6 +67,12 @@ use yii\helpers\Url;
                         ],
                     ],
                     [
+                        'label' => 'Районы',
+                        'icon' => 'file-code-o',
+                        'url' => ['/district/index'],
+                        'permission' => ['canSupper', 'canAdmin']
+                    ],
+                    [
                         'label' => 'Локализация',
                         'icon' => 'file-code-o',
                         'url' => '/admin/language/languages/active',

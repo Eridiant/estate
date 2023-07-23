@@ -18,8 +18,8 @@ class m230723_200810_create_district_table extends Migration
             'polygon' => $this->text(),
             'longitude' => $this->decimal(16, 12),
             'latitude' => $this->decimal(16, 12),
-            'labelColor' => $this->string(24)->notNull(),
-            'color' => $this->string(24)->notNull(),
+            'labelColor' => $this->string(24),
+            'color' => $this->string(24),
             'show' => $this->tinyInteger()->notNull()->defaultValue(1),
         ]);
     }

@@ -148,7 +148,6 @@ class ProjectController extends Controller
                 var_dump($model->errors);
                 var_dump('</pre>');
                 die;
-                
             }
 
             if ($oldImage && $model->img && $oldImage !== $model->img) {

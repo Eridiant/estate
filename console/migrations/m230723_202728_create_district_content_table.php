@@ -21,7 +21,9 @@ class m230723_202728_create_district_content_table extends Migration
             'language' => $this->string(16)->notNull(),
             'title' => $this->text(),
             'excerpt' => $this->text(),
+            'space_excerpt' => $this->tinyInteger()->notNull()->defaultValue(0),
             'description' => $this->text(),
+            'space_description' => $this->tinyInteger()->notNull()->defaultValue(0),
         ]);
 
         // creates index for column `district_id`

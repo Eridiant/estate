@@ -8,6 +8,7 @@ use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * ProjectController implements the CRUD actions for Project model.
@@ -81,7 +82,12 @@ class ProjectController extends Controller
         $model = new Project();
 
         if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
+            if ($model->load($this->request->post())) {
+                $model->img= UploadedFile::getInstance($model, 'imageFile');
+                $model->upload();
+                if (!$model->save()) {
+                    var_dump($model->errors);
+                }
                 return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {

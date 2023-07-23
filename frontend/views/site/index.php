@@ -472,9 +472,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
-                            <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
-                            <p><?=Yii::t('frontend', 'Языки')?>: Английский, Русский</p>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
+                            <p class="caption"><?=Yii::t('frontend', 'Пермяков андрей')?><span class="card-popup">&nbsp;</span></p><br>
+                            <p><?=Yii::t('frontend', 'Языки')?>: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -514,9 +514,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
-                            <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
-                            <p><?=Yii::t('frontend', 'Языки')?>: Английский, Русский</p>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
+                            <p class="caption"><?=Yii::t('frontend', 'ибрагимов егор')?><span class="card-popup">&nbsp;</span></p><br>
+                            <p><?=Yii::t('frontend', 'Языки')?>: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -556,9 +556,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
-                            <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p><br>
-                            <p><?=Yii::t('frontend', 'Языки')?>: Английский, Русский</p>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
+                            <p class="caption"><?=Yii::t('frontend', 'халина александра')?><span class="card-popup">&nbsp;</span></p><br>
+                            <p><?=Yii::t('frontend', 'Языки')?>: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -599,9 +599,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
                             <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p>Языки: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -641,9 +641,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
                             <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p>Языки: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -683,9 +683,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
                             <p class="caption">халина александра<span class="card-popup">&nbsp;</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p>Языки: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -725,9 +725,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
                             <p class="caption">Пермяков андрей<span class="card-popup">&nbsp;Романович</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p>Языки: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -767,9 +767,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
                             <p class="caption">ибрагимов егор<span class="card-popup">&nbsp;</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p>Языки: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">
@@ -809,9 +809,9 @@ $this->registerJs("var districtsData = [
                     </header>
                     <footer class="card-inner">
                         <div>
-                            <p class="subtitle">Брокер по продаже недвижимости</p><br>
+                            <p class="subtitle"><?=Yii::t('frontend', 'Брокер по продаже недвижимости')?></p><br>
                             <p class="caption">халина александра<span class="card-popup">&nbsp;Романович</span></p><br>
-                            <p>Языки: Английский, Русский</p>
+                            <p>Языки: <?=Yii::t('frontend', 'Английский')?>, <?=Yii::t('frontend', 'Русский')?></p>
                         </div>
                         <div class="card-popup">
                             <span class="michroma">

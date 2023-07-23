@@ -3,6 +3,7 @@
 namespace backend\models;
 
 use Yii;
+use yii\web\UploadedFile;
 
 
 /**
@@ -27,6 +28,8 @@ use Yii;
  */
 class Project extends \yii\db\ActiveRecord
 {
+    public $imageFile;
+
     /**
      * {@inheritdoc}
      */
@@ -48,6 +51,7 @@ class Project extends \yii\db\ActiveRecord
             [['name', 'img', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
             [['optionsArray', 'title', 'desc'], 'safe'],
+            [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg'],
         ];
     }
 
@@ -214,6 +218,27 @@ class Project extends \yii\db\ActiveRecord
             if ($option = Option::findOne(['id' => $optionId])) {
                 $this->unlink('options', $option, true);
             }
+        }
+    }
+
+
+
+    public function upload()
+    {
+        if ($this->validate()) {
+            
+            $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/';
+            if (!is_dir($uploadPath)) {
+                mkdir($uploadPath, 0777, true);
+            }
+
+            $fileName = uniqid() . '.' . $this->imageFile->extension;
+            $this->imageFile->saveAs($uploadPath . $fileName);
+
+            $this->name = $fileName;
+            return true;
+        } else {
+            return false;
         }
     }
 }

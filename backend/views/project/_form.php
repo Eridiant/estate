@@ -20,8 +20,6 @@ use yii\widgets\ActiveForm;
 
     <!-- <?//= $form->field($model, 'title')->textarea(['rows' => 2]) ?> -->
 
-    <?= $form->field($model, 'img')->textInput(['maxlength' => true]) ?>
-
     <?= $form->field($model, 'country')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'date')->textInput() ?>
@@ -39,6 +37,8 @@ use yii\widgets\ActiveForm;
 <?php endif; ?>
 
     <?= $form->field($model, 'desc')->textarea(['rows' => 6]) ?>
+
+    <?= $form->field($model, 'img')->fileInput(); ?>
 
     <?= $form->field($model, 'coordinate')->textInput(['maxlength' => true]) ?>
 

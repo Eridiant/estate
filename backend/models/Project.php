@@ -48,10 +48,10 @@ class Project extends \yii\db\ActiveRecord
             [['variant', 'excerpt', 'description'], 'string'],
             [['show'], 'integer'],
             [['lang'], 'string', 'max' => 12],
-            [['name', 'img', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
+            [['name', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray', 'title', 'desc'], 'safe'],
-            [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg'],
+            [['optionsArray', 'title', 'desc', 'img'], 'safe'],
+            // [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg'],
         ];
     }
 
@@ -75,6 +75,25 @@ class Project extends \yii\db\ActiveRecord
             'show' => 'Show',
             'coordinate' => 'Coordinate',
         ];
+    }
+    public function upload($imageFile)
+    {
+        if ($this->validate() || true) {
+            
+            $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/';
+            if (!is_dir($uploadPath)) {
+                mkdir($uploadPath, 0777, true);
+            }
+
+            $fileName = uniqid() . '.' . $imageFile->extension;
+
+            $imageFile->saveAs($uploadPath . $fileName);
+
+            $this->img = $fileName;
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -218,27 +237,6 @@ class Project extends \yii\db\ActiveRecord
             if ($option = Option::findOne(['id' => $optionId])) {
                 $this->unlink('options', $option, true);
             }
-        }
-    }
-
-
-
-    public function upload()
-    {
-        if ($this->validate()) {
-            
-            $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/';
-            if (!is_dir($uploadPath)) {
-                mkdir($uploadPath, 0777, true);
-            }
-
-            $fileName = uniqid() . '.' . $this->imageFile->extension;
-            $this->imageFile->saveAs($uploadPath . $fileName);
-
-            $this->name = $fileName;
-            return true;
-        } else {
-            return false;
         }
     }
 }

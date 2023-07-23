@@ -7,7 +7,11 @@
                 <div class="swiper-slide destination" data-type="flats" data-id="<?= $item->id; ?>">
                     <div class="card-image main-border-radius">
                         <picture>
-                            <img src="/images/index/projects/projects-<?= $item->id; ?>.jpg" alt="">
+                            <?php if ($item->img): ?>
+                                <img src="/uploads/project/<?= $item->img; ?>" alt="">
+                            <?php else: ?>
+                                <img src="/images/index/projects/projects-<?= $item->id; ?>.jpg" alt="">
+                            <?php endif; ?>
                         </picture>
                         <div class="card-sl">
                             <svg width="31" height="31"><use xlink:href="/images/icons.svg#btn"></use></svg>

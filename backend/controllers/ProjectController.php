@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use Yii;
 use backend\models\Project;
 use backend\models\Gallery;
 use yii\data\ActiveDataProvider;
@@ -80,13 +81,17 @@ class ProjectController extends Controller
     public function actionCreate()
     {
         $model = new Project();
-
         if ($this->request->isPost) {
+
             if ($model->load($this->request->post())) {
-                $model->img= UploadedFile::getInstance($model, 'imageFile');
-                $model->upload();
+                $imageFile = UploadedFile::getInstance($model, 'img');
+                $model->upload($imageFile);
                 if (!$model->save()) {
+                    var_dump('<pre>');
                     var_dump($model->errors);
+                    var_dump('</pre>');
+                    die;
+                    
                 }
                 return $this->redirect(['view', 'id' => $model->id]);
             }
@@ -144,7 +149,20 @@ class ProjectController extends Controller
         $model = $this->findModel($id);
         $gallery = new Gallery();
 
-        if ($this->request->isPost && $model->load($this->request->post()) && $model->save()) {
+        if ($this->request->isPost && $model->load($this->request->post())) {
+            $imageFile = UploadedFile::getInstance($model, 'img');
+
+            if ($imageFile) {
+                $model->upload($imageFile);
+            }
+
+            if (!$model->save()) {
+                var_dump('<pre>');
+                var_dump($model->errors);
+                var_dump('</pre>');
+                die;
+                
+            }
             return $this->redirect(['view', 'id' => $model->id]);
         }
 

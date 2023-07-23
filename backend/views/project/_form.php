@@ -38,7 +38,14 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'desc')->textarea(['rows' => 6]) ?>
 
+    <?php if ($model->img): ?>
+        <img style="width: 200px" src="<?= '/frontend/web/uploads/project/' . $model->img ?>" alt="">
+    <?php else: ?>
+        <img style="width: 200px" src="<?= '/frontend/web/images/index/projects/projects-' . $model->id . '.jpg' ?>" alt="">
+    <?php endif; ?>
     <?= $form->field($model, 'img')->fileInput(); ?>
+
+    <p>Галлерея</p>
 
     <?= $form->field($model, 'coordinate')->textInput(['maxlength' => true]) ?>
 

@@ -96,6 +96,15 @@ class Project extends \yii\db\ActiveRecord
         }
     }
 
+    public function deleteOldFile($oldImage)
+    {
+        $oldImagePath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $oldImage;
+        // Check if the file exists and delete it
+        if (file_exists($oldImagePath)) {
+            unlink($oldImagePath);
+        }
+    }
+
     /**
      * Gets query for [[Galleries]].
      *

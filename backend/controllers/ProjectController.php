@@ -148,6 +148,7 @@ class ProjectController extends Controller
     {
         $model = $this->findModel($id);
         $gallery = new Gallery();
+        $oldImage = $model->img;
 
         if ($this->request->isPost && $model->load($this->request->post())) {
             $imageFile = UploadedFile::getInstance($model, 'img');
@@ -162,6 +163,9 @@ class ProjectController extends Controller
                 var_dump('</pre>');
                 die;
                 
+            }
+            if ($oldImage !== null) {
+                $model->deleteOldFile($oldImage);
             }
             return $this->redirect(['view', 'id' => $model->id]);
         }

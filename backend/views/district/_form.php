@@ -16,14 +16,16 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'excerpt')->textarea(['rows' => 6]) ?>
 
+    <?= $form->field($model, 'spaceexcerpt')->checkbox() ?>
+
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
+
+    <?= $form->field($model, 'spacedescription')->checkbox() ?>
 
     <!-- <?//= $form->field($model, 'polygon')->textarea(['rows' => 6]) ?> -->
 
     <?php if ($model->img): ?>
-        <img style="width: 200px" src="<?= '/frontend/web/uploads/project/' . $model->img ?>" alt="">
-    <?php else: ?>
-        <img style="width: 200px" src="<?= '/frontend/web/images/index/projects/projects-' . $model->id . '.jpg' ?>" alt="">
+        <img style="width: 200px" src="<?= '/frontend/web/uploads/district/' . $model->img ?>" alt="">
     <?php endif; ?>
     <?= $form->field($model, 'imageFile')->fileInput(); ?>
 

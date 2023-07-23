@@ -39,7 +39,7 @@ class District extends \yii\db\ActiveRecord
             // [['labelColor', 'color'], 'required'],
             [['show'], 'integer'],
             [['labelColor', 'color'], 'string', 'max' => 24],
-            [['galleryFiles' , 'imageFile', 'title', 'excerpt', 'description', 'img'], 'safe'],
+            [['galleryFiles' , 'imageFile', 'title', 'excerpt', 'spaceexcerpt', 'description', 'spacedescription', 'img'], 'safe'],
         ];
     }
 
@@ -110,6 +110,8 @@ class District extends \yii\db\ActiveRecord
     private $_title;
     private $_excerpt;
     private $_description;
+    private $_spaceexcerpt;
+    private $_spacedescription;
     public function getTitle()
     {
         if ($this->_title === null && !is_null($this->getContent()->one())) {
@@ -141,6 +143,30 @@ class District extends \yii\db\ActiveRecord
         }
         return $this->_description;
     }
+    public function setSpacedescription($value)
+    {
+        $this->_spacedescription = $value;
+    }
+
+    public function getSpacedescription()
+    {
+        if ($this->_spacedescription === null && !is_null($this->getContent()->one())) {
+            $this->_spacedescription = $this->getContent()->one()->space_description;
+        }
+        return $this->_spacedescription;
+    }
+    public function setSpaceexcerpt($value)
+    {
+        $this->_spaceexcerpt = $value;
+    }
+
+    public function getSpaceexcerpt()
+    {
+        if ($this->_spaceexcerpt === null && !is_null($this->getContent()->one())) {
+            $this->_spaceexcerpt = $this->getContent()->one()->space_excerpt;
+        }
+        return $this->_spaceexcerpt;
+    }
     public function setDescription($value)
     {
         $this->_description = $value;
@@ -149,7 +175,6 @@ class District extends \yii\db\ActiveRecord
     public function afterSave($insert, $changedAttributes)
     {
         $this->updateContents();
-        $this->updateOptions();
         parent::afterSave($insert, $changedAttributes);
     }
 
@@ -166,7 +191,9 @@ class District extends \yii\db\ActiveRecord
 
             $content->title = $this->getTitle();
             $content->excerpt = $this->getExcerpt();
+            $content->space_excerpt = $this->getSpaceexcerpt();
             $content->description = $this->getDescription();
+            $content->space_description = $this->getSpacedescription();
 
             if (!$content->save()) {
                 var_dump('<pre>');

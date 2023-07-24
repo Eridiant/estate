@@ -18,6 +18,7 @@ use frontend\models\ContactForm;
 use yii\helpers\FileHelper;
 use yii\helpers\BaseFileHelper;
 use frontend\models\Project;
+use frontend\models\District;
 use frontend\models\Key;
 use frontend\models\Option;
 use frontend\models\Message;
@@ -97,7 +98,12 @@ class SiteController extends Controller
 
         $options = Option::find()->all();
 
-        return $this->render('index', compact('model', 'options'));
+        $districts =  District::find()
+            ->where(['show' => 1])
+            ->with('content')
+            ->all();
+
+        return $this->render('index', compact('model', 'options', 'districts'));
     }
 
     /**

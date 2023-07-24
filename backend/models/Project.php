@@ -50,7 +50,7 @@ class Project extends \yii\db\ActiveRecord
             [['lang'], 'string', 'max' => 12],
             [['name', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray', 'galleryFiles' , 'imageFile', 'title', 'desc', 'img'], 'safe'],
+            [['optionsArray', 'galleryFiles' , 'imageFile', 'title', 'desc', 'img', 'apartment'], 'safe'],
             // [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg'],
         ];
     }
@@ -198,6 +198,7 @@ class Project extends \yii\db\ActiveRecord
 
     private $_title;
     private $_desc;
+    private $_apartment;
     public function getTitle()
     {
         if ($this->_title === null && !is_null($this->getContent()->one())) {
@@ -219,6 +220,17 @@ class Project extends \yii\db\ActiveRecord
     public function setDesc($value)
     {
         $this->_desc = $value;
+    }
+    public function getApartment()
+    {
+        if ($this->_apartment === null && !is_null($this->getContent()->one())) {
+            $this->_apartment = $this->getContent()->one()->apartment;
+        }
+        return $this->_apartment;
+    }
+    public function setApartment($value)
+    {
+        $this->_apartment = $value;
     }
 
     private $_optionsArray;

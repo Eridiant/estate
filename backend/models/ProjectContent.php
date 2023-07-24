@@ -12,6 +12,7 @@ use Yii;
  * @property string $language
  * @property string|null $title
  * @property string|null $desc
+ * @property string|null $apartment
  *
  * @property Project $project
  */
@@ -33,7 +34,7 @@ class ProjectContent extends \yii\db\ActiveRecord
         return [
             [['project_id', 'language'], 'required'],
             [['project_id'], 'integer'],
-            [['title', 'desc'], 'string'],
+            [['title', 'desc', 'apartment'], 'string'],
             [['language'], 'string', 'max' => 16],
             [['project_id'], 'exist', 'skipOnError' => true, 'targetClass' => Project::class, 'targetAttribute' => ['project_id' => 'id']],
         ];
@@ -50,6 +51,7 @@ class ProjectContent extends \yii\db\ActiveRecord
             'language' => 'Language',
             'title' => 'Title',
             'desc' => 'Desc',
+            'apartment' => 'Apartment',
         ];
     }
 

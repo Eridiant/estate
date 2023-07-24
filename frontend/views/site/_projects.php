@@ -25,7 +25,7 @@
                         </header>
                         <footer>
                             <p class="dn"><span><?=Yii::t('frontend', 'Страна')?>:</span> <span><?= $item?->country; ?></span></p>
-                            <p><span><?=Yii::t('frontend', 'Сдача объекта')?>:</span> <span><?= $item?->date; ?></span></p><br>
+                            <p><span><?=Yii::t('frontend', 'Сдача объекта')?>:</span> <span><?=Yii::t('frontend', $item?->date)?></span></p><br>
                             <p><span><?=Yii::t('frontend', 'Варианты юнитов')?>:</span> <span><?= $item?->variant; ?></span></p>
                             <p class="dn"><span><?=Yii::t('frontend', 'Начальная цена')?> ($):</span> <span><?= $item?->price; ?></span></p>
                         </footer>

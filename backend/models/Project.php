@@ -273,6 +273,7 @@ class Project extends \yii\db\ActiveRecord
 
             $content->title = $this->getTitle();
             $content->desc = $this->getDesc();
+            $content->apartment = $this->getApartment();
 
             if (!$content->save()) {
                 var_dump('<pre>');

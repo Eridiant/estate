@@ -57,14 +57,26 @@ use yii\helpers\Url;
                         'url' => '/admin/message/index',
                         'permission' => ['canSupper', 'canAdmin']
                     ],
+                    // [
+                    //     'label' => 'Проекты',
+                    //     'icon' => 'share',
+                    //     'url' => '#',
+                    //     'items' => [
+                    //         ['label' => 'Options', 'icon' => 'home', 'url' => ['/option/index']],
+                    //         ['label' => 'Проекты', 'icon' => 'home', 'url' => ['/project/index']],
+                    //     ],
+                    // ],
+                    [
+                        'label' => 'Options',
+                        'icon' => 'file-code-o',
+                        'url' => ['/option/index'],
+                        'permission' => ['canSupper', 'canAdmin']
+                    ],
                     [
                         'label' => 'Проекты',
-                        'icon' => 'share',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'Options', 'icon' => 'home', 'url' => ['/option/index']],
-                            ['label' => 'Проекты', 'icon' => 'home', 'url' => ['/project/index']],
-                        ],
+                        'icon' => 'file-code-o',
+                        'url' => ['/project/index'],
+                        'permission' => ['canSupper', 'canAdmin']
                     ],
                     [
                         'label' => 'Районы',

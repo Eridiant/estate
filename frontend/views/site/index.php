@@ -273,7 +273,7 @@ $this->registerJs("var districtsData = [
                             <?=Yii::t('frontend', 'Сэкономьте время и деньги на изучение и анализ')?>
                         </p><br>
                         <p class="lead">
-                            <?=Yii::t('frontend', 'отправить вложение в')?> <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
+                            <!-- <?//=Yii::t('frontend', 'отправить вложение в')?> <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a> -->
                         </p>
                     </div>
                     <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>

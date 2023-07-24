@@ -260,7 +260,7 @@ class Project extends \yii\db\ActiveRecord
     public function updateContents()
     {
 
-        if ($this->title || $this->desc) {
+        if ($this->title || $this->desc || $this->apartment) {
 
             if (is_null($this->content)) {
                 $content = new ProjectContent();

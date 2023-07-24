@@ -180,7 +180,7 @@ class District extends \yii\db\ActiveRecord
 
     public function updateContents()
     {
-        if ($this->title || $this->desc) {
+        if ($this->title || $this->excerpt || $this->space_excerpt || $this->description || $this->space_description) {
             if (is_null($this->content)) {
                 $content = new DistrictContent();
                 $content->district_id = $this->id;

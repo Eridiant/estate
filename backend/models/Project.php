@@ -247,15 +247,23 @@ class Project extends \yii\db\ActiveRecord
 
     public function updateContents()
     {
+
         if ($this->title || $this->desc) {
+
             if (is_null($this->content)) {
                 $content = new ProjectContent();
                 $content->project_id = $this->id;
                 $content->language = \backend\modules\language\models\Language::getCurrent()->key;
             } else {
-                $content = ProjectContent::find()->where(['id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->key])->one();
+                $content = ProjectContent::find()->where(['project_id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->key])->one();
+                // $content = $this->content;
             }
 
+            var_dump('<pre>');
+            var_dump($content, $this->id, \backend\modules\language\models\Language::getCurrent()->key);
+            var_dump('</pre>');
+            die;
+            
             $content->title = $this->getTitle();
             $content->desc = $this->getDesc();
 

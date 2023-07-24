@@ -186,7 +186,7 @@ class District extends \yii\db\ActiveRecord
                 $content->district_id = $this->id;
                 $content->language = \backend\modules\language\models\Language::getCurrent()->key;
             } else {
-                $content = DistrictContent::find()->where(['id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->key])->one();
+                $content = DistrictContent::find()->where(['district_id' => $this->id, 'language' => \backend\modules\language\models\Language::getCurrent()->key])->one();
             }
 
             $content->title = $this->getTitle();

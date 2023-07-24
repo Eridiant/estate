@@ -52,6 +52,12 @@ use yii\helpers\Url;
                         </span>
                     </li>
                 </ul>
+                <div class="footer-inner-block">
+                    <a href="httdivs://syndicate.ge/">
+                        Made by&nbsp;&nbsp;&nbsp;
+                        <img src="/images/syndicate.png" alt="">
+                    </a>
+    v>          </div>
             </div>
             <div class="footer-inner">
                 <?=Yii::t('frontend', 'Соцсети')?>:

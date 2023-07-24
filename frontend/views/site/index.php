@@ -326,7 +326,7 @@ $this->registerJs("var districtsData = [
     <p class="title"><?=Yii::t('frontend', 'Наши специалисты')?></p>
     <div class="swiper experts-swiper card">
         <div class="swiper-wrapper text-white shadow-black">
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination fz" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-1.jpg" alt="">
@@ -368,7 +368,7 @@ $this->registerJs("var districtsData = [
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination fz" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-2.jpg" alt="">
@@ -410,7 +410,7 @@ $this->registerJs("var districtsData = [
                     </footer>
                 </div>
             </div>
-            <div class="swiper-slide destination" data-class="expert">
+            <div class="swiper-slide destination fz" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
                         <img src="/images/index/experts/experts-3.jpg" alt="">

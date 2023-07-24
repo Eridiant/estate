@@ -4,7 +4,7 @@
     <div class="swiper districts-swiper card">
         <div class="swiper-wrapper text-white shadow-black">
             <?php foreach ($districts as $district): ?>
-                <div class="swiper-slide destination" data-target="<?= $district->id; ?>">
+                <div class="swiper-slide destination fz" data-target="<?= $district->id; ?>">
                     <?= $this->render('_district', compact('district')) ?>
                 </div>
             <?php endforeach; ?>

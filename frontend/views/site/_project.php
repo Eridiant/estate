@@ -27,7 +27,7 @@
                         <footer>
                             <p class="dn"><span><?=Yii::t('frontend', 'Страна')?>:</span> <span><?= $model?->country; ?></span></p>
                             <p><span><?=Yii::t('frontend', 'Сдача объекта')?>:</span> <span><?= $model?->date; ?></span></p><br>
-                            <p><span><?=Yii::t('frontend', 'Варианты юнитов')?>:</span> <span><?= $model?->content?->apartment; ?></span></p>
+                            <p><span><?=Yii::t('frontend', 'Варианты юнитов')?>:</span> <span><?= $model?->variant; ?></span></p>
                             <p class="dn"><span><?=Yii::t('frontend', 'Начальная цена')?> ($):</span> <span><?= $model?->price; ?></span></p>
                         </footer>
                         <div class="card-popup">

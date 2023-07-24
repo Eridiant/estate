@@ -4,7 +4,8 @@
 
 use yii\helpers\Html;
 
-$this->title = Yii::t('frontend', 'О нас');
+// $this->title = Yii::t('frontend', 'О нас');
+$this->title = Yii::t('frontend', 'Подбор и продажа инвестиционных предложений в Грузии.');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <main>

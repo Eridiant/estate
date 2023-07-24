@@ -8,7 +8,8 @@ use yii\bootstrap5\Html;
 use yii\bootstrap5\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = Yii::t('frontend', 'Контакты');
+// $this->title = Yii::t('frontend', 'Контакты');
+$this->title = Yii::t('frontend', 'Подбор и продажа инвестиционных предложений в Грузии.');
 $this->params['breadcrumbs'][] = $this->title;
 
 $this->registerJsFile(
@@ -63,7 +64,7 @@ $this->registerJsFile(
 </section>
 
 <section class="photo container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
-    <div class="title"><?=Yii::t('frontend', 'фото офиса')?></div>
+    <div class="title"><?=Yii::t('frontend', 'Наш офис и команда')?></div>
     <div class="swiper photo-swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">

@@ -2,7 +2,8 @@
 
 /** @var yii\web\View $this */
 
-$this->title = 'Real Estate';
+// $this->title = 'Real Estate';
+$this->title = Yii::t('frontend', 'Подбор и продажа инвестиционных предложений в Грузии.');
 $this->registerJsFile(
     "//maps.googleapis.com/maps/api/js?key=AIzaSyD2FYsdSyKCF85BXwjTabp2lj0hk5YPWsc&region=EN&language=en",
     ['position' => $this::POS_END, 'async'=>true]
@@ -312,9 +313,11 @@ $this->registerJs("var districtsData = [
         <p>
             <?=Yii::t('frontend', 'Самый заметный рост на рынке жилья Грузии начался с начала 2022 года +38%, с развитием сегмента новостроек можно отметить рост цен и быстрое развитие рынка за последние 5 лет. Вторичный рынок столкнулся с дефицитом эксклюзивных предложений от 80 кв.')?>
         </p>
+        <p class="right"><?=Yii::t('frontend', 'Эксперт по недвижимости - Халина Александра')?></p>
         <!-- <p><?//=Yii::t('frontend', 'средняя стоимость недвижимость в Грузии новостройки за 1 кв.м')?></p> -->
     </div>
     <div class="opinion-chart">
+        <p class="center"><?=Yii::t('frontend', 'средняя стоимость за 1 кв.м в Грузии')?></p>
         <canvas class="opinion-chart" id="chart"></canvas>
     </div>
 </section>

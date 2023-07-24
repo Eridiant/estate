@@ -14,8 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="option-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-
     <p>
         <?= Html::a('Create Option', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
@@ -29,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'name',
             [
-                'class' => ActionColumn::className(),
+                'class' => ActionColumn::class,
                 'urlCreator' => function ($action, Option $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
                  }

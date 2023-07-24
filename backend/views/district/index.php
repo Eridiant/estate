@@ -14,8 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="district-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-
     <p>
         <?= Html::a('Create District', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
@@ -24,21 +22,25 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+            // ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+            // 'id',
             'img',
-            'polygon:ntext',
-            'longitude',
-            'latitude',
+            'content.title',
+            'content.excerpt',
+            'content.description',
+            // 'img',
+            // 'polygon:ntext',
+            // 'longitude',
+            // 'latitude',
             //'labelColor',
             //'color',
             //'show',
             [
-                'class' => ActionColumn::className(),
+                'class' => ActionColumn::class,
                 'urlCreator' => function ($action, District $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
-                 }
+                }
             ],
         ],
     ]); ?>

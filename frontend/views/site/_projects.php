@@ -4,7 +4,7 @@
     <div class="swiper projects-swiper card">
         <div class="swiper-wrapper text-white shadow-black">
             <?php foreach ($model as $item): ?>
-                <div class="swiper-slide destination" data-type="flats" data-id="<?= $item->id; ?>">
+                <div class="swiper-slide destination fz" data-type="flats" data-id="<?= $item->id; ?>">
                     <div class="card-image main-border-radius">
                         <picture>
                             <?php if ($item->img): ?>

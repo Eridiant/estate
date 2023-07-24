@@ -259,11 +259,6 @@ class Project extends \yii\db\ActiveRecord
                 // $content = $this->content;
             }
 
-            var_dump('<pre>');
-            var_dump($content, $this->id, \backend\modules\language\models\Language::getCurrent()->key);
-            var_dump('</pre>');
-            die;
-            
             $content->title = $this->getTitle();
             $content->desc = $this->getDesc();
 

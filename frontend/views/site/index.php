@@ -274,8 +274,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Своя недвижимость у моря в премиальном проекте')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -286,8 +285,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Владейте частью бренда.<br> Апартаменты в международном отеле<br> Wyndham Hotels & Resorts')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -298,8 +296,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Предложения на 1-й линии моря с доходом 15% годовых')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -310,8 +307,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Лучшее место для жизни и отдыха 1-я береговая линия при отеле Radisson Blu')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -322,8 +318,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Премиальная недвижимость с брендовым отелем Novotel')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -334,8 +329,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Центральный проект города!<br> С самой большой инфраструктурой')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -346,8 +340,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Готовые загородные апартаменты с повышенным комфортом')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>
@@ -358,8 +351,7 @@ $this->registerJs("var districtsData = [
                                 <div class="first-inner">
                                     <p class="title">
                                         <?=Yii::t('frontend', 'Новый проект 2023 года. Узнайте о стоимости и проекте online!')?>
-                                    </p><br>
-                                    <p class="lead"></p>
+                                    </p>
                                 </div>
                                 <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
                             </div>

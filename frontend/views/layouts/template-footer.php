@@ -38,8 +38,8 @@ use yii\helpers\Url;
                             <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                         </span>
                         <span>
-                            <a href="https://telegram.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                            <a href="https://wa.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                            <a href="https://telegram.me/+79646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://wa.me/+79646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                         </span>
                     </li>
                     <li>
@@ -140,8 +140,8 @@ use yii\helpers\Url;
                                 <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                             </span>
                             <span>
-                                <a href="https://telegram.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
-                                <a href="https://wa.me/+89646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
+                                <a href="https://telegram.me/+79646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="https://wa.me/+79646353313"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                             </span>
                         </li>
                         <li>

@@ -266,17 +266,105 @@ $this->registerJs("var districtsData = [
         <div class="swiper-button-prev first-button-prev"></div>
         <div class="container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
             <div class="first-wrapper shadow-black">
-                <div class="first-content">
-                    <p class="first-num michroma">01</p>
-                    <div class="first-inner">
-                        <p class="title">
-                            <?=Yii::t('frontend', 'Сэкономьте время и деньги на изучение и анализ')?>
-                        </p><br>
-                        <p class="lead">
-                            <!-- <?//=Yii::t('frontend', 'отправить вложение в')?> <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a> -->
-                        </p>
+                <div thumbsSlider="" class="swiper thumbs-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="first-content">
+                                <p class="first-num michroma">01</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Своя недвижимость у моря в премиальном проекте')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content large">
+                                <p class="first-num michroma">02</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Владейте частью бренда.<br> Апартаменты в международном отеле<br> Wyndham Hotels & Resorts')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content left">
+                                <p class="first-num michroma">03</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Предложения на 1-й линии моря с доходом 15% годовых')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content left small small-text">
+                                <p class="first-num michroma">04</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Лучшее место для жизни и отдыха 1-я береговая линия при отеле Radisson Blu')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content left">
+                                <p class="first-num michroma">05</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Премиальная недвижимость с брендовым отелем Novotel')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content">
+                                <p class="first-num michroma">06</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Центральный проект города!<br> С самой большой инфраструктурой')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content">
+                                <p class="first-num michroma">07</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Готовые загородные апартаменты с повышенным комфортом')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="first-content left dark">
+                                <p class="first-num michroma">08</p>
+                                <div class="first-inner">
+                                    <p class="title">
+                                        <?=Yii::t('frontend', 'Новый проект 2023 года. Узнайте о стоимости и проекте online!')?>
+                                    </p><br>
+                                    <p class="lead"></p>
+                                </div>
+                                <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg></a>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#" class="first-consultation border border-white form-target"><?=Yii::t('frontend', 'Консультация')?>&#8195;<svg width="16" height="16"><use xlink:href="/images/icons.svg#arrow"></use></svg></a>
                 </div>
                 <div class="first-switch">
                     <div class="first-item" data-item="03">

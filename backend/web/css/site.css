@@ -92,4 +92,91 @@ a.desc:after {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    user-select: none;
+}
+.gallery-buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.gallery-wrapper {
+    position: relative;
+}
+.gallery-buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.gallery-check {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.gallery-delete {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.gallery-check label, .gallery-delete label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.gallery-delete input {
+    margin-left: 65%;
+}
+
+.gallery-delete input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    background: white;
+    position: relative;
+}
+.gallery-delete input[type="checkbox"]:checked {
+    background: red;
+}
+.gallery-delete input[type="checkbox"]:checked:after {
+    content: "✘";
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+/* 
+.gallery-wrapper:has(.gallery-delete input[type="checkbox"]:checked) {
+    background-color: red;
+    border: 2px solid black;
+} */
+
+.gallery-wrapper:has(.gallery-delete input[type="checkbox"]:checked)::after,
+.gallery-wrapper:has(.gallery-delete input[type="checkbox"]:checked)::before {
+    position: absolute;
+    content: ' ';
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: red;  
+}
+
+.gallery-wrapper:has(.gallery-delete input[type="checkbox"]:checked)::after {
+    transform: rotate(-45deg) translateY(-50%);
+    left: 0px;
+}
+
+.gallery-wrapper:has(.gallery-delete input[type="checkbox"]:checked)::before {
+    transform: rotate(45deg) translateY(-50%);
+    right: 0px;
 }

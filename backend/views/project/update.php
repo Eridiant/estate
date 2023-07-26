@@ -12,6 +12,6 @@ $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="project-update">
 
-    <?= $this->render('_form', compact('model')) ?>
+    <?= $this->render('_form', compact('model', 'gallery')) ?>
 
 </div>

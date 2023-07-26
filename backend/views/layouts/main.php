@@ -13,6 +13,10 @@ $this->registerCssFile('https://fonts.googleapis.com/css?family=Source+Sans+Pro:
 $assetDir = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
 $languages = Language::find()->where('id != :current_id', [':current_id' => Language::getCurrent()->id, ])->andWhere(['IS', 'deleted_at', null])->all();
 
+if (class_exists('backend\assets\AppAsset')) {
+    backend\assets\AppAsset::register($this);
+}
+
 $publishedRes = Yii::$app->assetManager->publish('@vendor/hail812/yii2-adminlte3/src/web/js');
 $this->registerJsFile($publishedRes[1].'/control_sidebar.js', ['depends' => '\hail812\adminlte3\assets\AdminLteAsset']);
 ?>

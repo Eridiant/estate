@@ -50,7 +50,7 @@ class Project extends \yii\db\ActiveRecord
             [['lang'], 'string', 'max' => 12],
             [['name', 'country', 'date', 'coordinate'], 'string', 'max' => 255],
             [['type'], 'string', 'max' => 64],
-            [['optionsArray', 'galleryFiles' , 'imageFile', 'title', 'desc', 'img', 'apartment'], 'safe'],
+            [['optionsArray', 'galleryFiles', 'deleteFiles' , 'imageFile', 'title', 'desc', 'img', 'apartment'], 'safe'],
             // [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg'],
         ];
     }
@@ -115,7 +115,20 @@ class Project extends \yii\db\ActiveRecord
         }
     }
 
+    public function deleteOldGalleryFile()
+    {
+        $oldPath = Yii::getAlias( '@frontend' ) . "/web/uploads/project/{$this->id}";
+        foreach (explode(",", $this->deleteFiles) as $oldImage) {
+            $oldImagePath = "{$oldPath}/{$oldImage}";
+            // Check if the file exists and delete it
+            if (file_exists($oldImagePath)) {
+                unlink($oldImagePath);
+            }
+        }
+    }
+
     public $_galleryFiles;
+    public $_deleteFiles;
     public function getGalleryFiles()
     {
         return $this->_galleryFiles;
@@ -123,6 +136,14 @@ class Project extends \yii\db\ActiveRecord
     public function setGalleryFiles($value)
     {
         $this->_galleryFiles = $value;
+    }
+    public function getDeleteFiles()
+    {
+        return $this->_deleteFiles;
+    }
+    public function setDeleteFiles($value)
+    {
+        $this->_deleteFiles = $value;
     }
 
     public function galleryUpload()
@@ -140,7 +161,13 @@ class Project extends \yii\db\ActiveRecord
             $gallery[] = $fileName;
         }
 
-        $this->gallery = $this->gallery ? $this->gallery . "," . implode(",", $gallery) : implode(",", $gallery);
+        $db_gallery = explode(",", $this->gallery);
+
+        $result_gallery = array_diff(array_merge($db_gallery, $gallery), explode(",", $this->deleteFiles));
+
+        $this->gallery = implode(",", $result_gallery);
+
+        $this->deleteOldGalleryFile();
         
         return true;
     }

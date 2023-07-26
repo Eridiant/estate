@@ -10,6 +10,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
+use yii\helpers\FileHelper;
 
 /**
  * ProjectController implements the CRUD actions for Project model.
@@ -127,7 +128,6 @@ class ProjectController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-        $gallery = new Gallery();
         $oldImage = $model->img;
 
         if ($this->request->isPost && $model->load($this->request->post())) {
@@ -141,6 +141,8 @@ class ProjectController extends Controller
 
             if ($model->galleryFiles) {
                 $model->galleryUpload();
+            } elseif ($model->deleteFiles) {
+                $model->deleteOldGalleryFile();
             }
 
             if (!$model->save()) {
@@ -155,11 +157,25 @@ class ProjectController extends Controller
             }
             return $this->redirect(['view', 'id' => $model->id]);
         }
+        $gallery = [];
 
-        return $this->render('update', [
-            'model' => $model,
-            'gallery' => $gallery,
-        ]);
+        try {
+            $num = $model->id;
+            $folderPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $num . '/';
+            // $folderPath = Yii::getAlias( '@frontend' ) . "/web/images/upload/{$num}/";
+            // $folderPath = 'home';
+            // $folderPath = '/images/upload/1';
+            $pattern = '/.*\/images/';
+            foreach (FileHelper::findFiles($folderPath,['only'=>['*.jpg','*.png','*.jpeg'], 'filter' => function($path){return basename($path);}]) as $string) {
+                $gallery[] = $string;
+                // $gallery[] = preg_replace($pattern, '/images', $string);
+            }
+            $gallery = array_map(function($path){return basename($path);},$gallery);
+        } catch (\Throwable $th) {
+            // return false;
+        }
+
+        return $this->render('update', compact('model', 'gallery'));
     }
 
     public function actionPrg()

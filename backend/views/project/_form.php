@@ -47,16 +47,30 @@ use yii\widgets\ActiveForm;
     <?php endif; ?>
     <?= $form->field($model, 'imageFile')->fileInput(); ?>
 
-    <p>Галлерея</p>
+    <p>Галлерея (галочка - отобразить в Галлерее, крестик - удалить с диска)</p>
     <div class="gallery">
         <?php if ($model->gallery): ?>
-            <?php foreach (explode(',', $model->gallery) as $gallery): ?>
-                <img style="width: 100px" src="<?= '/frontend/web/uploads/project/' . $model->id . '/' . $gallery ?>" alt="">
+            <?php foreach ($gallery as $gallery): ?>
+                <div class="gallery-wrapper">
+                    <img style="width: 100px" src="<?= '/frontend/web/uploads/project/' . $model->id . '/' . $gallery ?>" alt="">
+                    <div class="gallery-buttons">
+                        <div class="gallery-check">
+                            <input id="check-<?= $gallery; ?>" data-img="<?= $gallery; ?>" type="checkbox" name="gallery[]" value="<?= $gallery ?>" <?= str_contains($model->gallery, $gallery) ? 'checked' : '' ?> >
+                            <label for="check-<?= $gallery; ?>"></label>
+                        </div>
+                        <div class="gallery-delete">
+                            <input id="delete-<?= $gallery; ?>" data-img="<?= $gallery; ?>" type="checkbox" name="gallery[]" value="<?= $gallery ?>">
+                            <label for="delete-<?= $gallery; ?>"></label>
+                        </div>
+                    </div>
+                </div>
             <?php endforeach; ?>
         <?php endif; ?>
     </div>
     <?= $form->field($model, 'galleryFiles[]')->fileInput(['multiple' => true]); ?>
     <?= $form->field($model, 'gallery')->hiddenInput()->label(false); ?>
+    <?= $form->field($model, 'deleteFiles')->hiddenInput()->label(false); ?>
+    <!-- <?//= $form->field($model, 'gallery')->textInput(); ?> -->
 
     <?= $form->field($model, 'coordinate')->textInput(['maxlength' => true]) ?>
 

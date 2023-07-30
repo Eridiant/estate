@@ -8,7 +8,14 @@
                     <div class="card-image main-border-radius">
                         <picture>
                             <?php if ($item->img): ?>
-                                <img src="/uploads/project/<?= $item->img; ?>" alt="">
+                                <!-- <source srcset="logo-768.png, logo-768-1.5x.png 1.5x"> -->
+                                
+                                <?php if ((array)json_decode($item->img)): ?>
+                                    <source srcset="<?= Yii::$app->ImageComponent->image((array)json_decode($item->img), ['path' => '/uploads/project/']); ?>">
+                                    <img src="/uploads/project/<?= ((array)json_decode($item->img))['1x']; ?>" width="378" height="567" alt="">
+                                <?php else: ?>
+                                    <img src="/uploads/project/<?= $item->img; ?>" width="378" height="567" alt="">
+                                <?php endif; ?>
                             <?php else: ?>
                                 <img src="/images/index/projects/projects-<?= $item->id; ?>.jpg" alt="">
                             <?php endif; ?>

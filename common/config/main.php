@@ -16,6 +16,9 @@ return [
         'languageSelector' => [
             'class' => 'common\components\LanguageSelector',
         ],
+        'ImageComponent' => [
+            'class' => 'common\components\ImageComponent'
+        ],
         'i18n' => [
             'translations' => [
                 '*' => [

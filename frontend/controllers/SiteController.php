@@ -453,9 +453,25 @@ class SiteController extends Controller
     }
 
     // public function actionAmoDda()
-    // private function Amo()
-    public function actionAmo()
+    private function Amo()
+    // public function actionAmo()
     {
+
+
+        $key = Key::find()->where(['id' => 1])->one();
+        // Создание клиента
+        $subdomain = $key->key;            // Поддомен в амо срм
+        $login     = $key->value;            // Логин в амо срм
+        $apikey    = $key->content;            // api ключ
+
+        $amo = new AmoClient($subdomain, $login, $apikey);
+
+        // var_dump('<pre>');
+        // var_dump($amo->lead->apiList(['id' => ]));
+        // var_dump($link->apiLink());
+        // var_dump($amo->contact->apiList(['id' => ]));
+        // var_dump('</pre>');
+        die;
 
         $request = Yii::$app->request;
         $url = "https://api.{$request->serverName}/index.php";

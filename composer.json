@@ -23,7 +23,8 @@
         "kartik-v/yii2-widget-fileinput": "@dev",
         "dotzero/amocrm": "^0.3.29",
         "yiisoft/yii2-httpclient": "^2.0",
-        "guzzlehttp/guzzle": "^7.7"
+        "guzzlehttp/guzzle": "^7.7",
+        "yiisoft/yii2-imagine": "^2.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

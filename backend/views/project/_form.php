@@ -41,7 +41,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'desc')->textarea(['rows' => 6]) ?>
 
     <?php if ($model->img): ?>
-        <img style="width: 200px" src="<?= '/frontend/web/uploads/project/' . $model->img ?>" alt="">
+        <img style="width: 200px" src="<?= '/frontend/web/uploads/project/' . (((array)json_decode($model->img))["1x"] ??  $model->img); ?>" alt="">
     <?php else: ?>
         <img style="width: 200px" src="<?= '/frontend/web/images/index/projects/projects-' . $model->id . '.jpg' ?>" alt="">
     <?php endif; ?>

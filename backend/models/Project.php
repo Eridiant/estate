@@ -4,6 +4,7 @@ namespace backend\models;
 
 use Yii;
 use yii\web\UploadedFile;
+use common\components\ImageResizer;
 
 
 /**
@@ -90,17 +91,29 @@ class Project extends \yii\db\ActiveRecord
     public function upload()
     {
         if ($this->imageFile) {
+
             
             $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/';
             if (!is_dir($uploadPath)) {
                 mkdir($uploadPath, 0777, true);
             }
+            // var_dump('<pre>');
+            // var_dump($this->imageFile);
+            // var_dump('</pre>');
+            // die;
+            
 
-            $fileName = uniqid() . '.' . $this->imageFile->extension;
+            // $sourceImagePath = 'path/to/source/image.jpg';
 
-            $this->imageFile->saveAs($uploadPath . $fileName);
+            $parameters = (['width' => 378, 'height' => 567, 'crop' => 1]);
+            $imageResizer = new ImageResizer();
+            $resizedFilename = $imageResizer->resizeImage($this->imageFile, $uploadPath, $parameters);
 
-            $this->img = $fileName;
+            // $fileName = uniqid() . '.' . $this->imageFile->extension;
+
+            // $this->imageFile->saveAs($uploadPath . $fileName);
+
+            $this->img = json_encode($resizedFilename);
             return true;
         }
         return false;
@@ -108,10 +121,20 @@ class Project extends \yii\db\ActiveRecord
 
     public function deleteOldFile($oldImage)
     {
-        $oldImagePath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $oldImage;
-        // Check if the file exists and delete it
-        if (file_exists($oldImagePath)) {
-            unlink($oldImagePath);
+        if (is_array(unserialize($oldImage))) {
+            foreach (unserialize($oldImage) as $oldImage) {
+                $oldImagePath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $oldImage;
+                // Check if the file exists and delete it
+                if (file_exists($oldImagePath)) {
+                    unlink($oldImagePath);
+                }
+            }
+        } else {
+            $oldImagePath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $oldImage;
+            // Check if the file exists and delete it
+            if (file_exists($oldImagePath)) {
+                unlink($oldImagePath);
+            }
         }
     }
 

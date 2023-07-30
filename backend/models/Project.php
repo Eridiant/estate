@@ -121,8 +121,8 @@ class Project extends \yii\db\ActiveRecord
 
     public function deleteOldFile($oldImage)
     {
-        if (is_array(unserialize($oldImage))) {
-            foreach (unserialize($oldImage) as $oldImage) {
+        if ((array)json_decode($oldImage)) {
+            foreach ((array)json_decode($oldImage) as $oldImage) {
                 $oldImagePath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $oldImage;
                 // Check if the file exists and delete it
                 if (file_exists($oldImagePath)) {

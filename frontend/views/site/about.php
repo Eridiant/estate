@@ -30,49 +30,49 @@ $this->params['breadcrumbs'][] = $this->title;
     <p class="title"><?=Yii::t('frontend', 'Партнеры')?></p>
     <div class="partners-icons">
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/next_group.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/wyndham_grand.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/mardi_holding.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/european_village.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/lagoon_resort.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/alliance_centropolis.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/black_sea_line.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/jb.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
         <div class="partners-icon">
-            <pucture>
+            <picture>
                 <img src="/images/about/partners/rr.jpg" alt="">
-            </pucture>
+            </picture>
         </div>
     </div>
 </section>

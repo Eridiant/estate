@@ -38,7 +38,7 @@
                         </footer>
                         <div class="card-popup">
                             <p class="popup-desc">
-                                <p><?= $item->content->desc ?? $item->excerpt ?? ''; ?></p>
+                                <?= $item->content->desc ?? $item->excerpt ?? ''; ?>
                             </p>
                             <div class="popup-connect">
                                 <ul class="popup-phone">

@@ -32,7 +32,7 @@
                         </footer>
                         <div class="card-popup">
                             <p class="popup-desc">
-                                <p><?= $model->content->desc ?? $model->excerpt ?? ''; ?></p>
+                                <?= $model->content->desc ?? $model->excerpt ?? ''; ?>
                             </p>
                             <div class="popup-connect">
                                 <ul class="popup-phone">

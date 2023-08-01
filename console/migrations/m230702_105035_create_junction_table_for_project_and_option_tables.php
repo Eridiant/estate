@@ -36,7 +36,7 @@ class m230702_105035_create_junction_table_for_project_and_option_tables extends
             'project_id',
             '{{%project}}',
             'id',
-            'NO ACTION'
+            'CASCADE'
         );
 
         // creates index for column `option_id`

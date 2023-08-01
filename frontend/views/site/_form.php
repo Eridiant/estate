@@ -43,17 +43,17 @@
             <div class="form-inner">
                 <div class="form-inner-fl">
                     <div class="form-inner-container">
-                        <input type="text" id="name" name="name" placeholder="<?=Yii::t('frontend', 'Имя')?>" required>
+                        <input type="text" id="name-1" name="name" placeholder="<?=Yii::t('frontend', 'Имя')?>" required>
                         <label for="name"><?=Yii::t('frontend', 'Имя')?>:</label>
                     </div>
 
                     <div class="form-inner-container">
-                        <input type="tel" id="phone" name="phone" placeholder="<?=Yii::t('frontend', 'Телефон')?>"  pattern="\+?[0-9\s\-\(\)]+" title="<?=Yii::t('frontend', 'только цифры')?>" required>
+                        <input type="tel" id="phone-1" name="phone" placeholder="<?=Yii::t('frontend', 'Телефон')?>"  pattern="\+?[0-9\s\-\(\)]+" title="<?=Yii::t('frontend', 'только цифры')?>" required>
                         <label for="phone"><?=Yii::t('frontend', 'Телефон')?>:</label>
                     </div>
                 </div>
                 <div class="form-inner-container">
-                    <textarea id="message" name="message" placeholder="<?=Yii::t('frontend', 'Сообщение')?>" required></textarea>
+                    <textarea id="message-1" name="message" placeholder="<?=Yii::t('frontend', 'Сообщение')?>" required></textarea>
                     <label for="message"><?=Yii::t('frontend', 'Сообщение')?>:</label>
                 </div>
             </div>

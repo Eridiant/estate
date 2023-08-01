@@ -68,34 +68,34 @@ $this->registerJsFile(
     <div class="swiper photo-swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-1.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-1.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-2.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-3.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-3.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-4.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-4.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-5.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-5.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-6.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-6.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-7.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-7.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-8.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-8.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-9.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-9.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="main-border-radius" src="/images/contacts/photo/photo-10.jpg">
+                <img class="main-border-radius" src="/images/contacts/photo/photo-10.jpg" alt="">
             </div>
         </div>
         <div class="swiper-pagination pagination"></div>

@@ -27,7 +27,7 @@ $this->registerJsFile(
                     <span>GR:</span><a href="tel:+995706070141">+995 706 070 141</a>
                 </span>
                 <span>
-                    <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                    <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                     <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                 </span>
             </li>
@@ -36,7 +36,7 @@ $this->registerJsFile(
                     <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
                 </span>
                 <span>
-                    <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                    <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                     <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                 </span>
             </li>

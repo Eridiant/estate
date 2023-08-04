@@ -29,7 +29,7 @@ use yii\helpers\Url;
                             <span>GR:</span><a href="tel:+995706070141">+995 706 070 141</a>
                         </span>
                         <span>
-                            <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                             <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                         </span>
                     </li>
@@ -63,7 +63,7 @@ use yii\helpers\Url;
                 <?=Yii::t('frontend', 'Соцсети')?>:
                 <!-- <a href="https://facebook.com" target="_blank"><svg width="13" height="25"><use xlink:href="/images/icons.svg#fb"></use></svg></a> -->
                 <a href="#" target="_blank"><svg width="26" height="26"><use xlink:href="/images/icons.svg#youtube"></use></svg></a>
-                <a href="https://telegram.me/+995706070141" target="_blank"><svg width="26" height="25"><use xlink:href="/images/icons.svg#telega"></use></svg></a>
+                <a href="https://telegram.me/+995555932307" target="_blank"><svg width="26" height="25"><use xlink:href="/images/icons.svg#telega"></use></svg></a>
                 <a href="https://wa.me/995555932307" target="_blank"><svg width="24" height="25"><use xlink:href="/images/icons.svg#whatsapp"></use></svg></a>
             </div>
             <div class="footer-inner">
@@ -131,7 +131,7 @@ use yii\helpers\Url;
                                 <span>GR:</span><a href="tel:+995706070141">+995 706 070 141</a>
                             </span>
                             <span>
-                                <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                                 <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                             </span>
                         </li>
@@ -205,7 +205,7 @@ use yii\helpers\Url;
 <div class="cont-container" style="max-width: 1600px; margin-left: auto; margin-right: auto">
     <div class="cont-wrapper cont-wa">
         <div class="cont-inner">
-            <a href="https://telegram.me/+995706070141" class="cont-wa-link" target="_blank">
+            <a href="https://telegram.me/+995555932307" class="cont-wa-link" target="_blank">
                 <svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg>
             </a>
         </div>

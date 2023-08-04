@@ -26,10 +26,10 @@ use yii\helpers\Url;
                 <ul>
                     <li>
                         <span>
-                            <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                            <span>GR:</span><a href="tel:+995706070141">+995 706 070 141</a>
                         </span>
                         <span>
-                            <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                            <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                             <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                         </span>
                     </li>
@@ -63,7 +63,7 @@ use yii\helpers\Url;
                 <?=Yii::t('frontend', 'Соцсети')?>:
                 <!-- <a href="https://facebook.com" target="_blank"><svg width="13" height="25"><use xlink:href="/images/icons.svg#fb"></use></svg></a> -->
                 <a href="#" target="_blank"><svg width="26" height="26"><use xlink:href="/images/icons.svg#youtube"></use></svg></a>
-                <a href="https://telegram.me/+995555932307" target="_blank"><svg width="26" height="25"><use xlink:href="/images/icons.svg#telega"></use></svg></a>
+                <a href="https://telegram.me/+995706070141" target="_blank"><svg width="26" height="25"><use xlink:href="/images/icons.svg#telega"></use></svg></a>
                 <a href="https://wa.me/995555932307" target="_blank"><svg width="24" height="25"><use xlink:href="/images/icons.svg#whatsapp"></use></svg></a>
             </div>
             <div class="footer-inner">
@@ -85,7 +85,7 @@ use yii\helpers\Url;
             </a>
             <div class="menu-header-phone">
                 <!-- <p class="header-localization-inf"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg> <svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></p> -->
-                <p class="header-localization-phone michroma"><a href="tel:+995555932307">+995 555 932 307</a> <span>:GR</span></p>
+                <p class="header-localization-phone michroma"><a href="tel:+995706070141">+995 706 070 141</a> <span>:GR</span></p>
                 <p class="header-localization-phone michroma"><a href="tel:89646353313">+7 964 635 33 13</a> <span>:RU</span></p>
                 <p class="header-localization-phone michroma"><a href="tel:+77002100685">+7 700 210 06 85</a> <span>:KZ</span></p>
             </div>
@@ -128,10 +128,10 @@ use yii\helpers\Url;
                     <ul>
                         <li>
                             <span>
-                                <span>GR:</span><a href="tel:+995555932307">+995 555 932 307</a>
+                                <span>GR:</span><a href="tel:+995706070141">+995 706 070 141</a>
                             </span>
                             <span>
-                                <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
+                                <a href="https://telegram.me/+995706070141"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                                 <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                             </span>
                         </li>
@@ -205,7 +205,7 @@ use yii\helpers\Url;
 <div class="cont-container" style="max-width: 1600px; margin-left: auto; margin-right: auto">
     <div class="cont-wrapper cont-wa">
         <div class="cont-inner">
-            <a href="https://telegram.me/+995555932307" class="cont-wa-link" target="_blank">
+            <a href="https://telegram.me/+995706070141" class="cont-wa-link" target="_blank">
                 <svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg>
             </a>
         </div>

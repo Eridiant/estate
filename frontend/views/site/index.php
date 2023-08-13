@@ -8,6 +8,7 @@ $this->registerJsFile(
     "//maps.googleapis.com/maps/api/js?key=AIzaSyD2FYsdSyKCF85BXwjTabp2lj0hk5YPWsc&region=EN&language=en",
     ['position' => $this::POS_END, 'async'=>true]
 );
+$this->registerJs("var graph = " . json_encode($graph), $this::POS_HEAD);
 $this->registerJs("var districtsData = [
     {
         id: 1,

@@ -41,8 +41,16 @@ class GraphController extends Controller
     {
         if (Yii::$app->request->isPost) {
             $postData = Yii::$app->request->post();
+            // var_dump('<pre>');
+            // var_dump($postData);
+            // var_dump('</pre>');
+            // die;
 
             foreach ($postData["Graph"] as $data) {
+                // var_dump('<pre>');
+                // var_dump($data['id']);
+                // var_dump('</pre>');
+                // continue;
                 $graph = Graph::findOne($data['id']);
                 if ($graph) {
                     $graph->data = $data['data'];

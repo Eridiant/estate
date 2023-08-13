@@ -21,6 +21,7 @@ use frontend\models\Project;
 use frontend\models\District;
 use frontend\models\Key;
 use frontend\models\Option;
+use frontend\models\Graph;
 use frontend\models\Message;
 // use \dotzero\amocrm\AmoCRM\Client;
 // use \dotzero\amocrm\AmoCRM\Client as AmoCRM;
@@ -98,12 +99,21 @@ class SiteController extends Controller
 
         $options = Option::find()->all();
 
+        $graph = Graph::find()
+            ->select('data, cost')
+            ->where(['NOT', ['data' => null]])
+            ->andWhere(['<>', 'data', ''])
+            ->andWhere(['NOT', ['cost' => null]])
+            ->andWhere(['<>', 'cost', ''])
+            ->asArray()
+            ->all();
+
         $districts =  District::find()
             ->where(['show' => 1])
             ->with('content')
             ->all();
 
-        return $this->render('index', compact('model', 'options', 'districts'));
+        return $this->render('index', compact('model', 'options', 'districts', 'graph'));
     }
 
     /**

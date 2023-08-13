@@ -180,3 +180,8 @@ a.desc:after {
     transform: rotate(45deg) translateY(-50%);
     right: 0px;
 }
+
+.form-groups {
+    display: flex;
+    gap: 10px;
+}

@@ -52,6 +52,12 @@ use yii\helpers\Url;
                         ]
                     ],
                     [
+                        'label' => 'График',
+                        'icon' => 'file-code-o',
+                        'url' => '/admin/graph/index',
+                        'permission' => ['canSupper', 'canAdmin']
+                    ],
+                    [
                         'label' => 'Сообщения',
                         'icon' => 'file-code-o',
                         'url' => '/admin/message/index',

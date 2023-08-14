@@ -24,6 +24,43 @@ document.addEventListener("DOMContentLoaded", () => {
             
         })
     }
+
+    if (document.querySelector('.field-district-polygon')) {
+        let dp = document.querySelector('#district-polygon');
+        dp.addEventListener('input', (e) => {
+            let input = dp.value;
+
+            if (input.indexOf('<coordinates>') !== -1) {
+                const startTag = '<coordinates>';
+                const endTag = '</coordinates>';
+
+                const startIndex = input.indexOf(startTag) + startTag.length;
+                const endIndex = input.indexOf(endTag, startIndex);
+
+                input = input.substring(startIndex, endIndex).trim();
+            }
+
+            const lines = input.split('\n');
+            const output = [];
+
+            if (input.indexOf('lng') !== -1 || input.trim() == '') {
+                return;
+            }
+
+            lines.forEach(line => {
+                const parts = line.split(',');
+
+                if (parts.length >= 2 && parseInt(parts[2]) !== 1) {
+                    const lng = parseFloat(parts[0]);
+                    const lat = parseFloat(parts[1]);
+                    output.push({ lng, lat });
+                }
+            });
+
+            // console.log(output);
+            dp.value = JSON.stringify(output, null, 4);
+        })
+    }
 })
 
 

@@ -29,6 +29,8 @@ use yii\widgets\ActiveForm;
     <?php endif; ?>
     <?= $form->field($model, 'imageFile')->fileInput(); ?>
 
+    <?= $form->field($model, 'polygon')->textarea(['rows' => 6]) ?>
+
     <?= $form->field($model, 'longitude')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'latitude')->textInput(['maxlength' => true]) ?>

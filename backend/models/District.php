@@ -57,6 +57,8 @@ class District extends \yii\db\ActiveRecord
             'labelColor' => 'Label Color',
             'color' => 'Color',
             'show' => 'Show',
+            'spaceexcerpt' => 'Сохранять форматирование строк',
+            'spacedescription' => 'Сохранять форматирование строк',
         ];
     }
 

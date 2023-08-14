@@ -41,9 +41,14 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             const lines = input.split('\n');
-            const output = [];
+            let output = [];
 
             if (input.indexOf('lng') !== -1 || input.trim() == '') {
+                if (input.includes(' ') || input.includes('\n')) {
+                    input = input.replace(/[\s-\n]/g, '');
+
+                    dp.value = input;
+                }
                 return;
             }
 
@@ -58,7 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             // console.log(output);
-            dp.value = JSON.stringify(output, null, 4);
+            output = JSON.stringify(output, null);
+
+            dp.value = output;
         })
     }
 })

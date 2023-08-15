@@ -107,13 +107,34 @@ class SiteController extends Controller
             ->andWhere(['<>', 'cost', ''])
             ->asArray()
             ->all();
+        $graph = json_encode($graph);
 
         $districts =  District::find()
             ->where(['show' => 1])
             ->with('content')
             ->all();
 
-        return $this->render('index', compact('model', 'options', 'districts', 'graph'));
+        $data = [];
+        foreach ($districts as $district) {
+            $data[] = [
+                'id' => $district->id,
+                'name' => $district->content->title ?? '',
+                'polygon' => $district->polygon,
+                'position' => ['lng' => floatval($district->longitude), 'lat' => floatval($district->latitude)],
+                'labelColor' => "#" . $district->labelColor,
+                'color' => "#" . $district->color
+            ];
+        }
+        $data = json_encode($data, JSON_PRETTY_PRINT);
+        // $data = json_encode((object)$data, JSON_PRETTY_PRINT);
+        // $data = (object)$data;
+        // var_dump('<pre>');
+        // var_dump($data);
+        // var_dump('</pre>');
+        // die;
+        
+
+        return $this->render('index', compact('model', 'options', 'districts', 'graph', 'data'));
     }
 
     /**

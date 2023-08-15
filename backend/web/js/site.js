@@ -44,6 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
             let output = [];
 
             if (input.indexOf('lng') !== -1 || input.trim() == '') {
+                if (input.indexOf('"lng"') === -1) {
+                    input = input.replaceAll('lat', '"lat"');
+                    input = input.replaceAll('lng', '"lng"');
+                }
                 if (input.includes(' ') || input.includes('\n')) {
                     input = input.replace(/[\s-\n]/g, '');
 

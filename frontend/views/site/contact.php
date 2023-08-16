@@ -58,7 +58,7 @@ $c = \backend\modules\language\models\Language::find()->where(['deleted_at' => n
         </address>
     </article>
     <div id="map" class="contacts-map map">
-        <!-- <div id="maps" class="maps"></div> ?hl=<?//= $c; ?>-->
+        <!-- <div id="maps" class="maps"></div> -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.26852268452!2d41.63132067581549!3d41.649939979668865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067864016121913%3A0xceec0f057ebeb4f3!2zMTUgTHVrYSBBc2F0aWFuaSBTdCwgQmF0dW1pLCDQk9GA0YPQt9C40Y8!5e0!3m2!1s<?= $c; ?>!2s!4v1690188463962!5m2!1s<?= $c; ?>!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" {$c}referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>

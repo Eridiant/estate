@@ -4,8 +4,9 @@
 
 // $this->title = 'Real Estate';
 $this->title = Yii::t('frontend', 'Подбор и продажа инвестиционных предложений в Грузии.');
+$c = \backend\modules\language\models\Language::find()->where(['deleted_at' => null, 'key' => Yii::$app->language])->one()->code;
 $this->registerJsFile(
-    "//maps.googleapis.com/maps/api/js?key=AIzaSyD2FYsdSyKCF85BXwjTabp2lj0hk5YPWsc&region=EN&language=en",
+    "//maps.googleapis.com/maps/api/js?key=AIzaSyD2FYsdSyKCF85BXwjTabp2lj0hk5YPWsc&region={$c}&language={$c}",
     ['position' => $this::POS_END, 'async'=>true]
 );
 $this->registerJs("var graph = $graph", $this::POS_END);

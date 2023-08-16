@@ -1,11 +1,11 @@
                 <div class="card-image main-border-radius">
                     <?php if ($district?->img): ?>
                         <picture>
-                            <img src="/uploads/district/<?= $district?->img; ?>" alt="">
+                            <img src="/uploads/district/<?= $district?->img; ?>" loading="lazy" width="378" height="567" alt="">
                         </picture>
                     <?php else: ?>
                         <picture>
-                            <img src="/images/index/districts/districts-1.jpg" alt="">
+                            <img src="/images/index/districts/districts-1.jpg" loading="lazy" width="378" height="567" alt="">
                         </picture>
                     <?php endif; ?>
                 </div>

@@ -2,7 +2,7 @@
 <section class="form container text-white shadow-blue" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="form-background background main-border-radius">
         <picture>
-            <img src="/images/contacts/form.jpg" alt="">
+            <img src="/images/contacts/form.jpg" loading="lazy" width="1204" height="597" alt="">
         </picture>
     </div>
     <div class="form-wrapper">

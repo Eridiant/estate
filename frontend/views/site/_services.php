@@ -6,7 +6,7 @@
                 <?=Yii::t('frontend', 'Подбор недвижимости')?>
             </a>
             <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-1.jpg" alt="">
+                <img src="/images/about/services/services-1.jpg" loading="lazy" width="370" height="220" alt="">
                 <a href="javascript:void(0);" class="caption over-img shadow-black">
                     <?=Yii::t('frontend', 'Подбор недвижимости')?>
                 </a>
@@ -17,7 +17,7 @@
                 <?=Yii::t('frontend', 'Инвестирование в недвижимость')?>
             </a>
             <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-2.jpg" alt="">
+                <img src="/images/about/services/services-2.jpg" loading="lazy" width="370" height="220" alt="">
                 <a href="javascript:void(0);" class="caption over-img shadow-black">
                     <?=Yii::t('frontend', 'Инвестирование в недвижимость')?>
                 </a>
@@ -28,7 +28,7 @@
                 <?=Yii::t('frontend', 'Продажа недвижимости')?>
             </a>
             <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-3.jpg" alt="">
+                <img src="/images/about/services/services-3.jpg" loading="lazy" width="370" height="220" alt="">
                 <a href="javascript:void(0);" class="caption over-img shadow-black">
                     <?=Yii::t('frontend', 'Продажа недвижимости')?>
                 </a>
@@ -39,7 +39,7 @@
                 <?=Yii::t('frontend', 'Оценка стоимости объектов')?>
             </a>
             <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-4.jpg" alt="">
+                <img src="/images/about/services/services-4.jpg" loading="lazy" width="370" height="220" alt="">
                 <a href="javascript:void(0);" class="caption over-img shadow-black">
                     <?=Yii::t('frontend', 'Оценка стоимости объектов')?>
                 </a>
@@ -50,7 +50,7 @@
                 <?=Yii::t('frontend', 'Продажа коммерческой недвижимости')?>
             </a>
             <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-5.jpg" alt="">
+                <img src="/images/about/services/services-5.jpg" loading="lazy" width="370" height="220" alt="">
                 <a href="javascript:void(0);" class="caption over-img shadow-black">
                     <?=Yii::t('frontend', 'Продажа коммерческой недвижимости')?>
                 </a>
@@ -61,7 +61,7 @@
                 <?=Yii::t('frontend', 'Консалтинг и юридические услуги')?>
             </a>
             <div class="services-item-inner big-border-radius">
-                <img src="/images/about/services/services-6.jpg" alt="">
+                <img src="/images/about/services/services-6.jpg" loading="lazy" width="370" height="220" alt="">
                 <a href="javascript:void(0);" class="caption over-img shadow-black">
                     <?=Yii::t('frontend', 'Консалтинг и юридические услуги')?>
                 </a>

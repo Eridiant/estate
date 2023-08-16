@@ -204,7 +204,7 @@ $this->registerJs("var districtsData = $data", $this::POS_END);
 <section class="opinion container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="opinion-img main-border-radius">
         <picture>
-            <img src="/images/index/opinion/opinion.jpg" alt="">
+            <img src="/images/index/opinion/opinion.jpg" loading="lazy" width="361" height="719" alt="">
         </picture>
     </div>
     <div class="opinion-desc">
@@ -228,7 +228,7 @@ $this->registerJs("var districtsData = $data", $this::POS_END);
             <div class="swiper-slide destination fz" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="/images/index/experts/experts-1.jpg" alt="">
+                        <img src="/images/index/experts/experts-1.jpg" loading="lazy" width="378" height="567" alt="">
                     </picture>
                 </div>
                 <div class="card-content">
@@ -270,7 +270,7 @@ $this->registerJs("var districtsData = $data", $this::POS_END);
             <div class="swiper-slide destination fz" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="/images/index/experts/experts-2.jpg" alt="">
+                        <img src="/images/index/experts/experts-2.jpg" loading="lazy" width="378" height="567" alt="">
                     </picture>
                 </div>
                 <div class="card-content">
@@ -312,7 +312,7 @@ $this->registerJs("var districtsData = $data", $this::POS_END);
             <div class="swiper-slide destination fz" data-class="expert">
                 <div class="card-image main-border-radius">
                     <picture>
-                        <img src="/images/index/experts/experts-3.jpg" alt="">
+                        <img src="/images/index/experts/experts-3.jpg" loading="lazy" width="378" height="567" alt="">
                     </picture>
                 </div>
                 <div class="card-content">
@@ -627,7 +627,7 @@ $this->registerJs("var districtsData = $data", $this::POS_END);
     </div>
     <div class="company-img">
         <picture>
-            <img src="images/about/about.jpg" alt="">
+            <img src="images/about/about.jpg" loading="lazy" width="1204" height="626" alt="">
         </picture>
     </div>
     <a href="<?= \yii\helpers\Url::toRoute('/about'); ?>" class="company-btn btn">

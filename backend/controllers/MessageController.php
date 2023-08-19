@@ -22,7 +22,7 @@ class MessageController extends Controller
             parent::behaviors(),
             [
                 'verbs' => [
-                    'class' => VerbFilter::className(),
+                    'class' => VerbFilter::class,
                     'actions' => [
                         'delete' => ['POST'],
                     ],
@@ -40,14 +40,14 @@ class MessageController extends Controller
     {
         $dataProvider = new ActiveDataProvider([
             'query' => Message::find(),
+            'sort' => [
+                'defaultOrder' => [
+                    'id' => SORT_ASC,
+                ]
+            ],
             /*
             'pagination' => [
                 'pageSize' => 50
-            ],
-            'sort' => [
-                'defaultOrder' => [
-                    'id' => SORT_DESC,
-                ]
             ],
             */
         ]);

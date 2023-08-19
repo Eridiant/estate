@@ -72,6 +72,51 @@ class District extends \yii\db\ActiveRecord
         return $this->hasOne(DistrictContent::class, ['district_id' => 'id'])->onCondition(['language' => \backend\modules\language\models\Language::getCurrent()->key]);
     }
 
+    public $_galleryFiles;
+    public $_deleteFiles;
+    public function getGalleryFiles()
+    {
+        return $this->_galleryFiles;
+    }
+    public function setGalleryFiles($value)
+    {
+        $this->_galleryFiles = $value;
+    }
+    public function getDeleteFiles()
+    {
+        return $this->_deleteFiles;
+    }
+    public function setDeleteFiles($value)
+    {
+        $this->_deleteFiles = $value;
+    }
+
+    public function galleryUpload()
+    {
+        $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $this->id . '/';
+        if (!is_dir($uploadPath)) {
+            mkdir($uploadPath, 0777, true);
+        }
+
+        $gallery = [];
+
+        foreach ($this->galleryFiles as $file) {
+            $fileName = uniqid() . '.' . $file->extension;
+            $file->saveAs($uploadPath . $fileName);
+            $gallery[] = $fileName;
+        }
+
+        $db_gallery = explode(",", $this->gallery);
+
+        $result_gallery = array_diff(array_merge($db_gallery, $gallery), explode(",", $this->deleteFiles));
+
+        $this->gallery = implode(",", $result_gallery);
+
+        $this->deleteOldGalleryFile();
+        
+        return true;
+    }
+
     public $_imageFile;
     public function getImageFile()
     {
@@ -84,7 +129,7 @@ class District extends \yii\db\ActiveRecord
     public function upload()
     {
         if ($this->imageFile) {
-            
+
             $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/district/';
             if (!is_dir($uploadPath)) {
                 mkdir($uploadPath, 0777, true);
@@ -177,6 +222,7 @@ class District extends \yii\db\ActiveRecord
     public function afterSave($insert, $changedAttributes)
     {
         $this->updateContents();
+        $this->galleryUpload();
         parent::afterSave($insert, $changedAttributes);
     }
 

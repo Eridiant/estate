@@ -12,8 +12,6 @@ $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="district-update">
 
-    <?= $this->render('_form', [
-        'model' => $model,
-    ]) ?>
+    <?= $this->render('_form', compact('model', 'gallery')) ?>
 
 </div>

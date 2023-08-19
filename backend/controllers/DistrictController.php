@@ -2,12 +2,14 @@
 
 namespace backend\controllers;
 
+use Yii;
 use backend\models\District;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
+use yii\helpers\FileHelper;
 
 /**
  * DistrictController implements the CRUD actions for District model.
@@ -85,9 +87,28 @@ class DistrictController extends Controller
             if ($model->imageFile) {
                 $model->upload();
             }
-            if ($model->save()) {
-                return $this->redirect(['view', 'id' => $model->id]);
+
+            $model->galleryFiles = UploadedFile::getInstances($model, 'galleryFiles');
+
+            if (!$model->save()) {
+                var_dump('<pre>');
+                var_dump($model->errors);
+                var_dump('</pre>');
+                die;
             }
+
+            if ($model->galleryFiles) {
+                $model->galleryUpload();
+            }
+
+            if (!$model->save()) {
+                var_dump('<pre>');
+                var_dump($model->errors);
+                var_dump('</pre>');
+                die;
+            }
+
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             $model->loadDefaultValues();
         }
@@ -114,6 +135,14 @@ class DistrictController extends Controller
                 $model->upload();
             }
 
+            $model->galleryFiles = UploadedFile::getInstances($model, 'galleryFiles');
+
+            if ($model->galleryFiles) {
+                $model->galleryUpload();
+            } elseif ($model->deleteFiles) {
+                $model->deleteOldGalleryFile();
+            }
+
             if (!$model->save()) {
                 var_dump('<pre>');
                 var_dump($model->errors);
@@ -123,9 +152,25 @@ class DistrictController extends Controller
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
-        return $this->render('update', [
-            'model' => $model,
-        ]);
+        $gallery = [];
+
+        try {
+            $num = $model->id;
+            $folderPath = Yii::getAlias( '@frontend' ) . '/web/uploads/district/' . $num . '/';
+            // $folderPath = Yii::getAlias( '@frontend' ) . "/web/images/upload/{$num}/";
+            // $folderPath = 'home';
+            // $folderPath = '/images/upload/1';
+            $pattern = '/.*\/images/';
+            foreach (FileHelper::findFiles($folderPath,['only'=>['*.jpg','*.png','*.jpeg'], 'filter' => function($path){return basename($path);}]) as $string) {
+                $gallery[] = $string;
+                // $gallery[] = preg_replace($pattern, '/images', $string);
+            }
+            $gallery = array_map(function($path){return basename($path);},$gallery);
+        } catch (\Throwable $th) {
+            // return false;
+        }
+
+        return $this->render('update', compact('model', 'gallery'));
     }
 
     /**

@@ -3,6 +3,8 @@
 namespace backend\models;
 
 use Yii;
+use yii\web\UploadedFile;
+use common\components\ImageResizer;
 
 /**
  * This is the model class for table "{{%district}}".
@@ -39,7 +41,7 @@ class District extends \yii\db\ActiveRecord
             // [['labelColor', 'color'], 'required'],
             [['show'], 'integer'],
             [['labelColor', 'color'], 'string', 'max' => 24],
-            [['galleryFiles' , 'imageFile', 'title', 'excerpt', 'spaceexcerpt', 'description', 'spacedescription', 'img'], 'safe'],
+            [['galleryFiles' , 'imageFile', 'deleteFiles', 'title', 'excerpt', 'spaceexcerpt', 'description', 'spacedescription', 'img'], 'safe'],
         ];
     }
 
@@ -93,7 +95,7 @@ class District extends \yii\db\ActiveRecord
 
     public function galleryUpload()
     {
-        $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/project/' . $this->id . '/';
+        $uploadPath = Yii::getAlias( '@frontend' ) . '/web/uploads/district/' . $this->id . '/';
         if (!is_dir($uploadPath)) {
             mkdir($uploadPath, 0777, true);
         }
@@ -151,6 +153,23 @@ class District extends \yii\db\ActiveRecord
         // Check if the file exists and delete it
         if (file_exists($oldImagePath)) {
             unlink($oldImagePath);
+        }
+    }
+
+    public function deleteOldGalleryFile()
+    {
+        $oldPath = Yii::getAlias( '@frontend' ) . "/web/uploads/district/{$this->id}";
+        // var_dump('<pre>');
+        // var_dump($this->deleteFiles);
+        // var_dump('</pre>');
+        // die;
+        
+        foreach (explode(",", $this->deleteFiles) as $oldImage) {
+            $oldImagePath = "{$oldPath}/{$oldImage}";
+            // Check if the file exists and delete it
+            if (file_exists($oldImagePath)) {
+                unlink($oldImagePath);
+            }
         }
     }
 

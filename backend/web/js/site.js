@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     // alert("Hello World!");
     if (document.querySelector('.gallery')) {
-        let gallery = document.querySelector('.gallery');
-        let pjGallery = document.querySelector('#project-gallery');
-        let deletefiles = document.querySelector('#project-deletefiles');
+        let gallery = document?.querySelector('.gallery');
+        let pjGallery = document.querySelector('#project-gallery') ?? document.querySelector('#district-gallery');
+        let deletefiles = document.querySelector('#project-deletefiles') ?? document.querySelector('#district-deletefiles');
 
         gallery.addEventListener('click', (e) => {
             // console.log('e.target');

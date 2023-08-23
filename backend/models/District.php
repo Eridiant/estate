@@ -158,17 +158,19 @@ class District extends \yii\db\ActiveRecord
 
     public function deleteOldGalleryFile()
     {
-        $oldPath = Yii::getAlias( '@frontend' ) . "/web/uploads/district/{$this->id}";
-        // var_dump('<pre>');
-        // var_dump($this->deleteFiles);
-        // var_dump('</pre>');
-        // die;
-        
-        foreach (explode(",", $this->deleteFiles) as $oldImage) {
-            $oldImagePath = "{$oldPath}/{$oldImage}";
-            // Check if the file exists and delete it
-            if (file_exists($oldImagePath)) {
-                unlink($oldImagePath);
+        if ($this->deleteFiles) {
+            $oldPath = Yii::getAlias( '@frontend' ) . "/web/uploads/district/{$this->id}";
+            // var_dump('<pre>');
+            // var_dump($this->deleteFiles);
+            // var_dump('</pre>');
+            // die;
+            
+            foreach (explode(",", $this->deleteFiles) as $oldImage) {
+                $oldImagePath = "{$oldPath}/{$oldImage}";
+                // Check if the file exists and delete it
+                if (file_exists($oldImagePath)) {
+                    unlink($oldImagePath);
+                }
             }
         }
     }

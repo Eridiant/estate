@@ -3,7 +3,7 @@
         <?php if ($model->gallery): ?>
             <?php foreach (explode(',', $model->gallery) as $gallery): ?>
                 <div class="swiper-slide">
-                    <img src="/uploads/project/<?= $model->id; ?>/<?= $gallery; ?>" alt="">
+                    <img src="/uploads/<?= $path; ?>/<?= $model->id; ?>/<?= $gallery; ?>" alt="">
                 </div>
             <?php endforeach; ?>
         <?php else: ?>

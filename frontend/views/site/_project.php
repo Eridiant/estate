@@ -3,7 +3,11 @@
 ?>
                     <div class="card-image main-border-radius<?= ($images || $model->gallery) ? ' sl' : ''; ?>">
                         <?php if ($images || $model->gallery): ?>
-                            <?= $this->render('_cardsw', compact('images', 'model')) ?>
+                            <?= $this->render('_cardsw', [
+                                'model' => $model,
+                                'images' => $images,
+                                'path' => 'project',
+                            ]) ?>
                         <?php elseif ($model->img): ?>
                             <picture>
                                 <img src="/uploads/project/<?= $model->img; ?>" alt="">

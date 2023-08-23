@@ -34,7 +34,7 @@ class District extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['polygon'], 'string'],
+            [['gallery', 'polygon'], 'string'],
             [['longitude', 'latitude'], 'number'],
             [['show'], 'integer'],
             [['img'], 'string', 'max' => 255],
@@ -50,6 +50,7 @@ class District extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'img' => 'Img',
+            'gallery' => 'Gallery',
             'polygon' => 'Polygon',
             'longitude' => 'Longitude',
             'latitude' => 'Latitude',

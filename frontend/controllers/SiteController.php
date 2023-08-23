@@ -132,6 +132,10 @@ class SiteController extends Controller
         // var_dump($data);
         // var_dump('</pre>');
         // die;
+        // var_dump('<pre>');
+        // var_dump($districts);
+        // var_dump('</pre>');
+        // die;
         
 
         return $this->render('index', compact('model', 'options', 'districts', 'graph', 'data'));
@@ -259,6 +263,24 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    public function actionDistrict()
+    {
+        $request = Yii::$app->request;
+
+        if ($request->post()) {
+            $id = (int)$request->post('district_id');
+            $district = District::find()
+                // ->where(['show' => 1])
+                ->andWhere('id=:id', [':id' => $id])
+                ->one();
+
+            // $images = $this->findGallery($id);
+
+            Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+            return $this->renderPartial('_dist', compact('district'));
+        }
     }
 
     public function actionProject()

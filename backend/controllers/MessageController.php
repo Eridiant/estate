@@ -42,7 +42,7 @@ class MessageController extends Controller
             'query' => Message::find(),
             'sort' => [
                 'defaultOrder' => [
-                    'id' => SORT_ASC,
+                    'id' => SORT_DESC,
                 ]
             ],
             /*

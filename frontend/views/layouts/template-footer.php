@@ -62,7 +62,7 @@ use yii\helpers\Url;
             <div class="footer-inner">
                 <?=Yii::t('frontend', 'Соцсети')?>:
                 <!-- <a href="https://facebook.com" target="_blank"><svg width="13" height="25"><use xlink:href="/images/icons.svg#fb"></use></svg></a> -->
-                <a href="#" target="_blank"><svg width="26" height="26"><use xlink:href="/images/icons.svg#youtube"></use></svg></a>
+                <a href="https://youtube.com/@dda_georgia_invest" target="_blank"><svg width="26" height="26"><use xlink:href="/images/icons.svg#youtube"></use></svg></a>
                 <a href="https://telegram.me/+995555932307" target="_blank"><svg width="26" height="25"><use xlink:href="/images/icons.svg#telega"></use></svg></a>
                 <a href="https://wa.me/995555932307" target="_blank"><svg width="24" height="25"><use xlink:href="/images/icons.svg#whatsapp"></use></svg></a>
             </div>

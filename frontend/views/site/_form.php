@@ -10,15 +10,15 @@
         <p class="form-desc"><?=Yii::t('frontend', 'Оставьте заявку на сайте или  позвоните по телефону')?></p>
         <div class="header-localization-links">
             <ul>
-                <li>
+                <!-- <li>
                     <span>
-                        <span>GR:</span><a href="tel:+995706070141">+995 706 070 141</a>
+                        <span>GR:</span><a href="tel:+9">+9</a>
                     </span>
                     <span>
                         <a href="https://telegram.me/+995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#telegram"></use></svg></a>
                         <a href="https://wa.me/995555932307"><svg width="20" height="20"><use xlink:href="/images/icons.svg#viber"></use></svg></a>
                     </span>
-                </li>
+                </li> -->
                 <li>
                     <span>
                         <span>RU:</span><a href="tel:89646353313">+7 964 635 33 13</a>
